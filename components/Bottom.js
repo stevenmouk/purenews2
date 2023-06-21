@@ -28,6 +28,7 @@ export default function Bottom({ articles }) {
                         fill
                         className="object-cover"
                         alt="Main content Image"
+                        priority
                         sizes="100vw"
                       />
                     ) : null}
