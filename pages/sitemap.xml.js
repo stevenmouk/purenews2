@@ -49,7 +49,7 @@ function SiteMap() {
 
 export async function getServerSideProps({ res }) {
   // We make an API call to gather the URLs for our site
-  const result = await fetch("process.env.LOCAL/api/articles");
+  const result = await fetch(`${process.env.LOCAL}/api/articles`);
   const articles = await result.json();
 
   // We generate the XML sitemap with the posts data
