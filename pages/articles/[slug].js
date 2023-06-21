@@ -1,10 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Bodoni_Moda } from "next/font/google";
+// import { Bodoni_Moda } from "next/font/google";
 import Bottom from "@/components/Bottom";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-const bodi = Bodoni_Moda({ subsets: ["latin"], weight: "600" });
+// const bodi = Bodoni_Moda({ subsets: ["latin"], weight: "600" });
 
 export default function Article({ article, slugart }) {
   const [articles2, setArticles2] = useState([]);
@@ -39,9 +39,7 @@ export default function Article({ article, slugart }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header
-        className={`${bodi.className} text-[#e7131a] w-full flex items-center justify-center p-3 text-3xl`}
-      >
+      <header className={`text-[#e7131a] w-full flex items-center justify-center p-3 text-3xl`}>
         Wealthy Explorer
       </header>
 
