@@ -18,7 +18,7 @@ export default function Bottom({ articles }) {
       <div className="Latest_ol__DrsDK">
         {articles?.map((article) => {
           return (
-            <Link href={`/articles/${article?.path}`} className="cursor-pointer">
+            <Link href={`/articles/${article?.path}`} className="cursor-pointer" key={article?._id}>
               <div className="Latest_li__5pluN" key={article?.title}>
                 <article className="Latest_article__j7aws">
                   <div className="relative w-[150px]  sm:w-[200px] h-[100px] sm:h-[130px] mr-3">
