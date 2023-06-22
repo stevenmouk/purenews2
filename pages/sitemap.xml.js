@@ -10,7 +10,7 @@ function generateSiteMap(articles) {
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
   xmlns:meta="http://www.google.com/schemas/sitemap/0.9">
-       <!--We manually set the two URLs we know already-->
+       
        <url>
          <loc>https://wealthyexplorer.com</loc>
          <lastmod>${formatDate(Date.now() / 1000)}</lastmod>
@@ -23,9 +23,9 @@ function generateSiteMap(articles) {
            return `
          <url>
              <loc>${`${process.env.LOCAL}/articles/${article.path}`}</loc>
-             <lastmod>${formatDate(article.timestamp)}</lastmod>
+          
        
-             <priority>0.5</priority>
+             
              <news:news>
                <news:publication>
                  <news:name>Wealthy Explorer</news:name>
@@ -33,8 +33,7 @@ function generateSiteMap(articles) {
                </news:publication>
                <news:publication_date>${formatDate(article.timestamp)}</news:publication_date>
                <news:title>${article.title}</news:title>
-               <news:keywords>${article.meta}</news:keywords>
-               <news:description>${article.meta}</news:description>
+              
              </news:news>
             
            </url>
