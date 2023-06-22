@@ -231,10 +231,9 @@ export default function Main({ articles }) {
           <ul className="UpperBelt_list__X8kO1">
             <li className="UpperBelt_listItem__345jY" data-event-position="1">
               <Link href={`/articles/${articles[7]?.path}`} className="cursor-pointer">
-                {" "}
                 <article className="UpperBelt_article__8Ry3B">
                   <figure className="UpperBelt_figure__wEpSU" data-event-element="image">
-                    <div className="relative w-full  aspect-[70/45] min-w-[86px]">
+                    <div className="relative sm:w-full  min-h-[86px] min-w-[86px]  sm:aspect-[70/45] sm:min-w-[86px] ">
                       {articles[7]?.img_url ? (
                         <Image
                           src={articles[7].img_url}
@@ -273,7 +272,7 @@ export default function Main({ articles }) {
               <Link href={`/articles/${articles[8]?.path}`} className="cursor-pointer">
                 <article className="UpperBelt_article__8Ry3B">
                   <figure className="UpperBelt_figure__wEpSU" data-event-element="image">
-                    <div className="relative w-full  aspect-[70/45] min-w-[86px]">
+                    <div className="relative sm:w-full  min-h-[86px] min-w-[86px]  sm:aspect-[70/45] sm:min-w-[86px] ">
                       {articles[8]?.img_url ? (
                         <Image
                           src={articles[8].img_url}
@@ -291,7 +290,7 @@ export default function Main({ articles }) {
                     </div>
                   </figure>
                   <div className="UpperBelt_info__t1lEW">
-                    <h1 className="UpperBelt_title__lanRh" data-event-element="title">
+                    <h1 className="UpperBelt_title__lanRh " data-event-element="title">
                       {articles[8]?.title}
                     </h1>
                     {/* <p className="UpperBelt_dek__TllR3">
@@ -310,7 +309,7 @@ export default function Main({ articles }) {
               <Link href={`/articles/${articles[9]?.path}`} className="cursor-pointer">
                 <article className="UpperBelt_article__8Ry3B">
                   <figure className="UpperBelt_figure__wEpSU" data-event-element="image">
-                    <div className="relative w-full  aspect-[70/45] min-w-[86px]">
+                    <div className="relative sm:w-full  min-h-[86px] min-w-[86px]  sm:aspect-[70/45] sm:min-w-[86px] ">
                       {articles[9]?.img_url ? (
                         <Image
                           src={articles[9].img_url}
@@ -345,7 +344,7 @@ export default function Main({ articles }) {
               <Link href={`/articles/${articles[10]?.path}`} className="cursor-pointer">
                 <article className="UpperBelt_article__8Ry3B">
                   <figure className="UpperBelt_figure__wEpSU" data-event-element="image">
-                    <div className="relative w-full  aspect-[70/45] min-w-[86px]">
+                    <div className="relative sm:w-full  min-h-[86px] min-w-[86px]  sm:aspect-[70/45] sm:min-w-[86px] ">
                       {articles[10]?.img_url ? (
                         <Image
                           src={articles[10].img_url}
@@ -363,7 +362,7 @@ export default function Main({ articles }) {
                     </div>
                   </figure>
                   <div className="UpperBelt_info__t1lEW">
-                    <h1 className="UpperBelt_title__lanRh" data-event-element="title">
+                    <h1 className="UpperBelt_title__lanRh " data-event-element="title">
                       {articles[10]?.title}
                     </h1>
                     {/* <p className="UpperBelt_dek__TllR3">

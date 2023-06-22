@@ -8,10 +8,13 @@ const bodi = Bodoni_Moda({ subsets: ["latin"], weight: "600" });
 export default function Navbar() {
   return (
     <div
-      className={`${bodi.className} text-6xl w-full flex items-center justify-center pb-6  pt-8`}
+      className={`${bodi.className} text-6xl w-full flex items-center sm:justify-center justify-staart pb-6  pt-8`}
     >
       {/* <Image className=" ml-8" src="/images/logo.svg" height="50" width="75"></Image> */}
-      <div className="text-[#e7131a]">Wealthy Explorer</div>
+
+      <div className="text-[#e7131a] hidden sm:inline ">Wealthy Explorer</div>
+
+      <div className="text-[#e7131a] sm:hidden ml-3">WE</div>
       {/* <hr className="text-black" /> */}
     </div>
   );
