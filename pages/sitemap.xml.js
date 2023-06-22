@@ -35,7 +35,7 @@ function generateSiteMap(articles) {
                <news:title>${article.title}</news:title>
                <news:keywords>${article.meta}</news:keywords>
              </news:news>
-             <meta:description>${article.meta}</meta:description>
+             <description>${article.meta}</description>
            </url>
          `;
          })
