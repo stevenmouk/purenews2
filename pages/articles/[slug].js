@@ -4,6 +4,7 @@ import { Bodoni_Moda } from "next/font/google";
 import Bottom from "@/components/Bottom";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
 const bodi = Bodoni_Moda({ subsets: ["latin"], weight: "600" });
 
 export default function Article({ article, slugart }) {
@@ -45,11 +46,12 @@ export default function Article({ article, slugart }) {
         <meta name="description" content={article?.metaDescription} />
       </Head>
 
-      <header
+      <Link
+        href="/"
         className={`${bodi.className} text-[#e7131a] w-full flex items-center justify-center p-3 text-3xl`}
       >
         Wealthy Explorer
-      </header>
+      </Link>
 
       <main>
         <div className="snipcss-KyDIr mt-10">
