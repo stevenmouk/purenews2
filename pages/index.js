@@ -41,12 +41,19 @@ export default function Home({ articles }) {
   return (
     <div>
       <Head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/fave_pac/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/fave_pac/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/fave_pac/favicon-16x16.png" />
+        <link rel="manifest" href="/fave_pac/site.webmanifest" />
+        <link rel="mask-icon" href="/fave_pac/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+
         <title>Wealthy Explorer</title>
         <meta
           name="description"
           content="Stay informed with Wealthy Explorer, your trusted source for the latest in finance news. Explore a diverse range of articles covering stocks, markets, cryptocurrencies, personal finance, and more. Our expert analysis and in-depth reporting will keep you up-to-date with the ever-changing world of finance. From market trends to economic insights, Wealthy Explorer is your go-to destination for staying ahead in the financial realm. Visit us now to access the latest finance news and make informed decisions for a brighter financial future."
         />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navbar />
