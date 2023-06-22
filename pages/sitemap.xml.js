@@ -34,8 +34,9 @@ function generateSiteMap(articles) {
                <news:publication_date>${formatDate(article.timestamp)}</news:publication_date>
                <news:title>${article.title}</news:title>
                <news:keywords>${article.meta}</news:keywords>
+               <news:description>${article.meta}</news:description>
              </news:news>
-             <description>${article.meta}</description>
+            
            </url>
          `;
          })
