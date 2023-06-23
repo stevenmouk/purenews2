@@ -24,8 +24,6 @@ function generateSiteMap(articles) {
          <url>
              <loc>${`${process.env.LOCAL}/articles/${article.path}`}</loc>
           
-       
-             
              <news:news>
                <news:publication>
                  <news:name>Wealthy Explorer</news:name>

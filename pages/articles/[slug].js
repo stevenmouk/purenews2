@@ -9,8 +9,28 @@ const bodi = Bodoni_Moda({ subsets: ["latin"], weight: "600" });
 
 export default function Article({ article, slugart }) {
   const [articles2, setArticles2] = useState([]);
+  const [articles1, setArticles1] = useState([]);
 
   useEffect(() => {
+    const { img_url, title, timestamp, path, text } = article;
+    const date = new Date(timestamp * 1000);
+    const formattedDate1 = date.toLocaleString("en-US", {
+      month: "short",
+      day: "numeric",
+      hour: "numeric",
+      minute: "numeric",
+      timeZoneName: "short",
+    });
+
+    const formattedArticle1 = {
+      img_url,
+      title,
+      timestamp: formattedDate1,
+      path,
+      text,
+    };
+    setArticles1(formattedArticle1);
+
     const formattedArticles = slugart?.map((article) => {
       const { img_url, title, timestamp, path } = article;
       const date = new Date(timestamp * 1000);
@@ -76,7 +96,7 @@ export default function Article({ article, slugart }) {
         </div>
         <div className="w-full flex items-center justify-center flex-col">
           <time className="ArticleTimestamp_root__KjSeU snipcss-BLihP  w-[400px] md:w-[600px]">
-            {article?.timestamp}
+            {articles1?.timestamp}
           </time>
           <div className="text_content w-[300px] xs:w-[400px]  md:w-[600px]  ">
             <div dangerouslySetInnerHTML={{ __html: article?.text }} />
@@ -98,24 +118,6 @@ export async function getServerSideProps({ params }) {
     const res = await fetch(`${process.env.LOCAL}/api/${params.slug}`);
     const article = await res.json();
 
-    const { img_url, title, timestamp, path, text } = article;
-    const date = new Date(timestamp * 1000);
-    const formattedDate = date.toLocaleString("en-US", {
-      month: "short",
-      day: "numeric",
-      hour: "numeric",
-      minute: "numeric",
-      timeZoneName: "short",
-    });
-
-    const formattedArticle = {
-      img_url,
-      title,
-      timestamp: formattedDate,
-      path,
-      text,
-    };
-
     const res2 = await fetch(`${process.env.LOCAL}/api/slugarticles`, {
       method: "POST",
       headers: {
@@ -135,7 +137,7 @@ export async function getServerSideProps({ params }) {
     // Return the formatted article data as props
     return {
       props: {
-        article: formattedArticle,
+        article: article,
         slugart: articles2,
       },
     };
