@@ -15,7 +15,7 @@ export default function Home({ articles }) {
   const [articles2, setArticles2] = useState([]);
 
   useEffect(() => {
-    const formattedArticles = articles.map((article) => {
+    const formattedArticles = articles?.map((article) => {
       const { img_url, title, timestamp, path } = article;
       const date = new Date(timestamp * 1000);
       const formattedDate = date.toLocaleString("en-US", {

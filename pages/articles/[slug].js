@@ -82,7 +82,7 @@ export default function Article({ article, slugart }) {
 
             <div className="ArticleHero_byline__vNW7C ">
               <div className="ArticleBylines_root__CFgKs">
-                By <span className="ml-1">Maxwell Evergreen</span>
+                {/* By <span className="ml-1">Maxwell Evergreen</span> */}
               </div>
             </div>
           </div>

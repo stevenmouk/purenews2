@@ -1929,6 +1929,15 @@ img {
   line-height: 33px;
   margin: 0 387 30px;
 }
+.text_content > div > h2 {
+  padding-top: 40px;
+  color: #000;
+  font-family: AGaramondPro, Adobe Garamond Pro, garamond, Times, serif;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 33px;
+  margin: 0 387 30px;
+}
 
 @font-face {
   font-display: swap;

@@ -5,6 +5,7 @@ export default async function handler(req, res) {
     const { db } = await connectToDatabase();
     const articles = await db.collection("articles").find({}).sort({ timestamp: -1 }).toArray();
 
+    console.log(articles);
     return res.status(200).json(articles);
   } catch (error) {
     console.error(error);

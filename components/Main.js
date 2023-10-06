@@ -16,7 +16,7 @@ export default function Main({ articles }) {
               <div className="relative w-full  aspect-[70/45] ">
                 {articles[0]?.img_url ? (
                   <Image
-                    src={articles[0].img_url}
+                    src={articles[0]?.img_url}
                     fill
                     className="object-cover"
                     priority

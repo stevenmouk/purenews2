@@ -3,7 +3,6 @@ import { Playfair_Display, Bodoni_Moda } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 
-const playfair = Playfair_Display({ subsets: ["latin"], weight: "600" });
 const bodi = Bodoni_Moda({ subsets: ["latin"], weight: "600" });
 
 export default function Navbar() {
