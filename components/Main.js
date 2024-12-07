@@ -3,8 +3,6 @@ import Link from "next/link";
 import React from "react";
 
 export default function Main({ articles }) {
-  console.log(articles);
-  //   console.log(articles);
   return (
     <section className="HomepageTop_root__zMzHh snipcss-dzBkb ">
       <div className="HomepageTop_top__O223p ">

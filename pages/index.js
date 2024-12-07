@@ -17,35 +17,6 @@ export const sortByDate = (a, b) => {
 };
 
 export default function Home({ posts }) {
-  // console.log(posts);
-  // const [articles1, setArticles1] = useState([]);
-
-  // const [articles2, setArticles2] = useState([]);
-
-  // useEffect(() => {
-  //   const formattedArticles = articles?.map((article) => {
-  //     const { img_url, title, timestamp, path } = article;
-  //     const date = new Date(timestamp * 1000);
-  //     const formattedDate = date.toLocaleString("en-US", {
-  //       month: "short",
-  //       day: "numeric",
-  //       hour: "numeric",
-  //       minute: "numeric",
-  //       timeZoneName: "short",
-  //     });
-
-  //     return {
-  //       img_url,
-  //       title,
-  //       timestamp: formattedDate,
-  //       path,
-  //     };
-  //   });
-
-  //   const slicedArticles = formattedArticles.slice(0, 15);
-  //   setArticles1(slicedArticles);
-  //   setArticles2(formattedArticles.slice(15));
-  // }, [articles]);
   return (
     <div>
       <Head>

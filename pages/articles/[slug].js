@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Bodoni_Moda, Public_Sans } from "next/font/google";
+
 import Bottom from "@/components/Bottom";
 import Link from "next/link";
 import fs from "fs";
@@ -9,9 +9,6 @@ import matter from "gray-matter";
 import { marked } from "marked";
 import Navbar from "@/components/Navbar";
 import Seohead from "@/components/seoHead";
-
-const bodi = Bodoni_Moda({ subsets: ["latin"], weight: "600" });
-const publicSans = Public_Sans({ subsets: ["latin"], weight: "800" });
 
 export default function Article({
   frontmatter: {

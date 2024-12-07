@@ -1,10 +1,6 @@
 import React from "react";
-import { Playfair_Display, Bodoni_Moda, Public_Sans } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-
-const bodi = Bodoni_Moda({ subsets: ["latin"], weight: "600" });
-const publicSans = Public_Sans({ subsets: ["latin"], weight: "800" });
 
 export default function Navbar({ inArticle }) {
   return (
