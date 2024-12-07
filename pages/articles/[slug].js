@@ -60,7 +60,13 @@ export default function Article({
           <div className="ArticleLeadArt_root__3PEn8">
             <figure className="ArticleLeadFigure_root__P_6yW ArticleLeadFigure_standard__y9U3a">
               <div className="relative w-full  aspect-[70/45] ">
-                <Image src={page_image_src_rel} fill className="object-cover" priority />
+                <Image
+                  src={page_image_src_rel}
+                  alt={img_alt}
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
 
               <figcaption className="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">
