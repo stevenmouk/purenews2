@@ -95,7 +95,7 @@ export default function Article({
         </div>
         <div className="w-full flex items-center justify-center flex-col">
           <time className="ArticleTimestamp_root__KjSeU snipcss-BLihP  w-[400px] md:w-[600px]">
-            {page_date}
+            {new Date(page_date)?.toDateString()}
           </time>
           <div className="text_content w-[300px] xs:w-[400px]  md:w-[600px]  ">
             <div dangerouslySetInnerHTML={{ __html: marked(content) }} />

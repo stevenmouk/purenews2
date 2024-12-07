@@ -13,7 +13,7 @@ import matter from "gray-matter";
 const archivo = Archivo({ subsets: ["latin"], weight: "800" });
 
 export const sortByDate = (a, b) => {
-  return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
+  return new Date(b.frontmatter.page_date) - new Date(a.frontmatter.page_date);
 };
 
 export default function Home({ posts }) {

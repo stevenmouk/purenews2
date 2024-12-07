@@ -29,7 +29,10 @@ export default function Main({ articles }) {
               {articles[0]?.frontmatter?.title}
             </h1>
 
-            <div className="Lede_byline__XMTjm">{articles[0]?.frontmatter?.page_date}</div>
+            <div className="Lede_byline__XMTjm">
+              {articles[0]?.frontmatter?.page_date &&
+                new Date(articles[0]?.frontmatter?.page_date)?.toDateString()}
+            </div>
           </article>
         </Link>
         {/* <gpt-ad
@@ -51,7 +54,8 @@ export default function Main({ articles }) {
                     </h2>
                     <div className="HomepageMetadata_root__C72j7">
                       <div className="HomepageMetadata_byline__fkVeU">
-                        {articles[1]?.frontmatter?.page_date}
+                        {articles[1]?.frontmatter?.page_date &&
+                          new Date(articles[1]?.frontmatter?.page_date)?.toDateString()}
                       </div>
                     </div>
                   </div>
@@ -79,7 +83,8 @@ export default function Main({ articles }) {
                     </h2>
                     <div className="HomepageMetadata_root__C72j7">
                       <div className="HomepageMetadata_byline__fkVeU">
-                        {articles[2]?.frontmatter?.page_date}
+                        {articles[2]?.frontmatter?.page_date &&
+                          new Date(articles[2]?.frontmatter?.page_date)?.toDateString()}
                       </div>
                     </div>
                   </div>
@@ -106,7 +111,8 @@ export default function Main({ articles }) {
                     </h2>
                     <div className="HomepageMetadata_root__C72j7">
                       <div className="HomepageMetadata_byline__fkVeU">
-                        {articles[3]?.frontmatter?.page_date}
+                        {articles[3]?.frontmatter?.page_date &&
+                          new Date(articles[3]?.frontmatter?.page_date)?.toDateString()}
                       </div>
                     </div>
                   </div>
@@ -133,7 +139,8 @@ export default function Main({ articles }) {
                     </h2>
                     <div className="HomepageMetadata_root__C72j7">
                       <div className="HomepageMetadata_byline__fkVeU">
-                        {articles[4]?.frontmatter?.page_date}
+                        {articles[4]?.frontmatter?.page_date &&
+                          new Date(articles[4]?.frontmatter?.page_date)?.toDateString()}
                       </div>
                     </div>
                   </div>
@@ -188,7 +195,8 @@ export default function Main({ articles }) {
                     <h1 className="Offlede_title__lyFW2">{articles[5]?.frontmatter?.title}</h1>
                     <div className="HomepageMetadata_root__C72j7">
                       <div className="HomepageMetadata_byline__fkVeU">
-                        {articles[5]?.frontmatter?.page_date}
+                        {articles[5]?.frontmatter?.page_date &&
+                          new Date(articles[5]?.frontmatter?.page_date)?.toDateString()}
                       </div>
                     </div>
                   </div>
@@ -220,7 +228,8 @@ export default function Main({ articles }) {
                     <h1 className="Offlede_title__lyFW2">{articles[6]?.frontmatter?.title}</h1>
                     <div className="HomepageMetadata_root__C72j7">
                       <div className="HomepageMetadata_byline__fkVeU">
-                        {articles[6]?.frontmatter?.page_date}
+                        {articles[6]?.frontmatter?.page_date &&
+                          new Date(articles[6]?.frontmatter?.page_date)?.toDateString()}
                       </div>
                     </div>
                   </div>
@@ -267,7 +276,8 @@ export default function Main({ articles }) {
                   </p> */}
                     <div className="HomepageMetadata_root__C72j7">
                       <div className="HomepageMetadata_byline__fkVeU">
-                        {articles[7]?.frontmatter?.page_date}
+                        {articles[7]?.frontmatter?.page_date &&
+                          new Date(articles[7]?.frontmatter?.page_date)?.toDateString()}
                       </div>
                     </div>
                   </div>
@@ -305,7 +315,8 @@ export default function Main({ articles }) {
                   </p> */}
                     <div className="HomepageMetadata_root__C72j7">
                       <div className="HomepageMetadata_byline__fkVeU">
-                        {articles[8]?.frontmatter?.page_date}
+                        {articles[8]?.frontmatter?.page_date &&
+                          new Date(articles[8]?.frontmatter?.page_date)?.toDateString()}
                       </div>
                     </div>
                   </div>
@@ -341,7 +352,8 @@ export default function Main({ articles }) {
                   </p> */}
                     <div className="HomepageMetadata_root__C72j7">
                       <div className="HomepageMetadata_byline__fkVeU">
-                        {articles[9]?.frontmatter?.page_date}
+                        {articles[9]?.frontmatter?.page_date &&
+                          new Date(articles[9]?.frontmatter?.page_date)?.toDateString()}
                       </div>
                     </div>
                   </div>
@@ -378,7 +390,8 @@ export default function Main({ articles }) {
                   </p> */}
                     <div className="HomepageMetadata_root__C72j7">
                       <div className="HomepageMetadata_byline__fkVeU">
-                        {articles[10]?.frontmatter?.page_date}
+                        {articles[10]?.frontmatter?.page_date &&
+                          new Date(articles[10]?.frontmatter?.page_date)?.toDateString()}
                       </div>
                     </div>
                   </div>
@@ -409,7 +422,8 @@ export default function Main({ articles }) {
               </p> */}
                 <div className="HomepageMetadata_root__C72j7">
                   <div className="HomepageMetadata_byline__fkVeU">
-                    {articles[11]?.frontmatter?.page_date}
+                    {articles[11]?.frontmatter?.page_date &&
+                      new Date(articles[11]?.frontmatter?.page_date)?.toDateString()}
                   </div>
                 </div>
               </div>
@@ -445,7 +459,8 @@ export default function Main({ articles }) {
                     </h2>
                     <div className="HomepageMetadata_root__C72j7">
                       <div className="HomepageMetadata_byline__fkVeU">
-                        {articles[12]?.frontmatter?.page_date}
+                        {articles[12]?.frontmatter?.page_date &&
+                          new Date(articles[12]?.frontmatter?.page_date)?.toDateString()}
                       </div>
                     </div>
                   </div>
@@ -471,7 +486,8 @@ export default function Main({ articles }) {
                     </h2>
                     <div className="HomepageMetadata_root__C72j7">
                       <div className="HomepageMetadata_byline__fkVeU">
-                        {articles[13]?.frontmatter?.page_date}
+                        {articles[13]?.frontmatter?.page_date &&
+                          new Date(articles[13]?.frontmatter?.page_date)?.toDateString()}
                       </div>
                     </div>
                   </div>
@@ -498,7 +514,8 @@ export default function Main({ articles }) {
                     </h2>
                     <div className="HomepageMetadata_root__C72j7">
                       <div className="HomepageMetadata_byline__fkVeU">
-                        {articles[14]?.frontmatter?.page_date}
+                        {articles[14]?.frontmatter?.page_date &&
+                          new Date(articles[14]?.frontmatter?.page_date)?.toDateString()}
                       </div>
                     </div>
                   </div>
