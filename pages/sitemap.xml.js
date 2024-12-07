@@ -19,7 +19,7 @@ function generateSiteMap(articles) {
        </url>
        ${articles
          .map((article) => {
-           const publicationDate = new Date(article.frontmatter.date).toISOString(); // Ensure ISO format
+           const publicationDate = new Date(article.frontmatter.page_date).toISOString(); // Ensure ISO format
            return `
          <url>
              <loc>${`https://wealthyexplorer.com/articles/${article.slug}`}</loc>
