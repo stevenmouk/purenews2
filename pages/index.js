@@ -25,6 +25,7 @@ export default function Home({ posts }) {
         <link rel="shortcut icon" href="/fave_pac/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/fave_pac/apple-touch-icon.png" />
         <link rel="manifest" href="/fave_pac/site.webmanifest" />
+        <meta name="google-adsense-account" content="ca-pub-5014630772635761" />
 
         <title>The Manhattan Times</title>
         <meta

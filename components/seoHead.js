@@ -37,6 +37,7 @@ export default function Seohead({
       <meta name="twitter:image:height" content="720" />
       <meta name="twitter:image:alt" content={imgAlt} />
       <meta name="twitter:image" content={imgURL} />
+      <meta name="google-adsense-account" content="ca-pub-5014630772635761"></meta>
     </Head>
   );
 }
