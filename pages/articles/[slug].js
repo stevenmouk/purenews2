@@ -1,83 +1,57 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Bodoni_Moda } from "next/font/google";
+import { Bodoni_Moda, Public_Sans } from "next/font/google";
 import Bottom from "@/components/Bottom";
-import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
 import Link from "next/link";
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import { marked } from "marked";
+import Navbar from "@/components/Navbar";
+import Seohead from "@/components/seoHead";
+
 const bodi = Bodoni_Moda({ subsets: ["latin"], weight: "600" });
+const publicSans = Public_Sans({ subsets: ["latin"], weight: "800" });
 
-export default function Article({ article, slugart }) {
-  const [articles2, setArticles2] = useState([]);
-  const [articles1, setArticles1] = useState([]);
-
-  useEffect(() => {
-    const { img_url, title, timestamp, path, text } = article;
-    const date = new Date(timestamp * 1000);
-    const formattedDate1 = date.toLocaleString("en-US", {
-      month: "short",
-      day: "numeric",
-      hour: "numeric",
-      minute: "numeric",
-      timeZoneName: "short",
-    });
-
-    const formattedArticle1 = {
-      img_url,
-      title,
-      timestamp: formattedDate1,
-      path,
-      text,
-    };
-    setArticles1(formattedArticle1);
-
-    const formattedArticles = slugart?.map((article) => {
-      const { img_url, title, timestamp, path } = article;
-      const date = new Date(timestamp * 1000);
-      const formattedDate = date.toLocaleString("en-US", {
-        month: "short",
-        day: "numeric",
-        hour: "numeric",
-        minute: "numeric",
-        timeZoneName: "short",
-      });
-
-      return {
-        img_url,
-        title,
-        timestamp: formattedDate,
-        path,
-      };
-    });
-
-    setArticles2(formattedArticles);
-  }, [slugart]);
+export default function Article({
+  frontmatter: {
+    title,
+    des,
+    page_date,
+    blog_url,
+    img_alt,
+    twitter_tittle,
+    twitter_des,
+    figure_author,
+    figure_author_url,
+    figure_license,
+    figure_license_url,
+    page_image_src_rel,
+    img_url_full,
+    figure_p,
+  },
+  slug,
+  content,
+}) {
   return (
     <div>
-      <Head>
-        <link rel="apple-touch-icon" sizes="180x180" href="/fave_pac/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/fave_pac/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/fave_pac/favicon-16x16.png" />
-        <link rel="manifest" href="/fave_pac/site.webmanifest" />
-        <link rel="mask-icon" href="/fave_pac/safari-pinned-tab.svg" color="#5bbad5" />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
-        <title>{article?.title}</title>
-        <meta name="description" content={article?.metaDescription} />
-      </Head>
+      <Seohead
+        title={title}
+        des={des}
+        blogURL={blog_url}
+        imgURL={img_url_full}
+        imgAlt={img_alt}
+        twitterTittle={twitter_tittle}
+        twitterDes={twitter_des}
+      />
 
-      <Link
-        href="/"
-        className={`${bodi.className} text-[#e7131a] w-full flex items-center justify-center p-3 text-3xl`}
-      >
-        Wealthy Explorer
-      </Link>
+      <Navbar inArticle={true}></Navbar>
 
       <main>
         <div className="snipcss-KyDIr mt-10">
           <div className="ArticleHero_defaultArticleLockup__O_XXn">
             <div className="ArticleHero_title__altPg ">
-              <h1 className="ArticleTitle_root__Nb9Xh text-center">{article?.title}</h1>
+              <h1 className="ArticleTitle_root__Nb9Xh text-center">{title}</h1>
             </div>
 
             <div className="ArticleHero_byline__vNW7C ">
@@ -89,62 +63,112 @@ export default function Article({ article, slugart }) {
           <div className="ArticleLeadArt_root__3PEn8">
             <figure className="ArticleLeadFigure_root__P_6yW ArticleLeadFigure_standard__y9U3a">
               <div className="relative w-full  aspect-[70/45] ">
-                <Image src={article?.img_url} fill className="object-cover" priority />
+                <Image src={page_image_src_rel} fill className="object-cover" priority />
               </div>
+
+              <figcaption className="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">
+                {figure_p} Photo by{" "}
+                <a
+                  className="underline"
+                  href={figure_author_url}
+                  rel="noopener noreferrer nofollow"
+                  target="_blank"
+                >
+                  {figure_author}
+                </a>{" "}
+                licensed under{" "}
+                <a
+                  className="underline"
+                  href={figure_license_url}
+                  rel="noopener noreferrer nofollow"
+                  target="_blank"
+                >
+                  {figure_license}
+                </a>
+                .
+              </figcaption>
             </figure>
           </div>
         </div>
         <div className="w-full flex items-center justify-center flex-col">
           <time className="ArticleTimestamp_root__KjSeU snipcss-BLihP  w-[400px] md:w-[600px]">
-            {articles1?.timestamp}
+            {page_date}
           </time>
           <div className="text_content w-[300px] xs:w-[400px]  md:w-[600px]  ">
-            <div dangerouslySetInnerHTML={{ __html: article?.text }} />
+            <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
           </div>
         </div>
       </main>
       <div className=" flex items-center justify-center pt-20">
         <div className="xs:max-w-[700px] max-w-[300px]">
-          <Bottom articles={articles2} />
+          {/* <Bottom articles={articles2} /> */}
         </div>
       </div>
     </div>
   );
 }
 
-export async function getServerSideProps({ params }) {
-  try {
-    // Make the API call to fetch the article data
-    const res = await fetch(`${process.env.LOCAL}/api/${params.slug}`);
-    const article = await res.json();
+export async function getStaticPaths() {
+  const files = fs.readdirSync(path.join("post"));
 
-    const res2 = await fetch(`${process.env.LOCAL}/api/slugarticles`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ excludedId: article._id }),
-    });
-    const articles2 = await res2.json();
+  const paths = files.map((filename) => ({
+    params: {
+      slug: filename.replace(".md", ""),
+    },
+  }));
 
-    const filteredArticles = articles2.map(({ img_url, title, timestamp, path }) => ({
-      img_url,
-      title,
-      timestamp,
-      path,
-    }));
-
-    // Return the formatted article data as props
-    return {
-      props: {
-        article: article,
-        slugart: articles2,
-      },
-    };
-  } catch (error) {
-    console.error(error);
-    return {
-      props: {},
-    };
-  }
+  return {
+    paths,
+    fallback: false,
+  };
 }
+export async function getStaticProps({ params: { slug } }) {
+  const markdownWithMeta = fs.readFileSync(path.join("post", slug + ".md"), "utf-8");
+
+  const { data: frontmatter, content } = matter(markdownWithMeta);
+
+  return {
+    props: {
+      frontmatter,
+      slug,
+      content,
+    },
+  };
+}
+
+// export async function getServerSideProps({ params }) {
+//   try {
+//     // Make the API call to fetch the article data
+//     const res = await fetch(`${process.env.LOCAL}/api/${params.slug}`);
+//     const article = await res.json();
+
+//     const res2 = await fetch(`${process.env.LOCAL}/api/slugarticles`, {
+//       method: "POST",
+//       headers: {
+//         "Content-Type": "application/json",
+//       },
+//       body: JSON.stringify({ excludedId: article._id }),
+//     });
+//     const articles2 = await res2.json();
+
+//     const filteredArticles = articles2.map(({ img_url, title, timestamp, path }) => ({
+//       img_url,
+//       title,
+//       timestamp,
+//       path,
+//     }));
+
+//     // Return the formatted article data as props
+//     return {
+//       props: {
+//         article: article,
+//         slugart: articles2,
+//       },
+//     };
+//   } catch (error) {
+//     console.error(error);
+//     return {
+//       props: {},
+//     };
+//   }
+// }
