@@ -12,7 +12,7 @@ function generateSiteMap(articles) {
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
        <url>
-         <loc>https://wealthyexplorer.com</loc>
+         <loc>https://mhtntimes.com</loc>
          <lastmod>${formatDate(Date.now() / 1000)}</lastmod>
          <changefreq>daily</changefreq>
          <priority>1.0</priority>
@@ -22,7 +22,7 @@ function generateSiteMap(articles) {
            const publicationDate = new Date(article.frontmatter.page_date).toISOString(); // Ensure ISO format
            return `
          <url>
-             <loc>${`https://wealthyexplorer.com/articles/${article.slug}`}</loc>
+             <loc>${`https://mhtntimes.com/articles/${article.slug}`}</loc>
              <news:news>
                <news:publication>
                  <news:name>The Manhattan Times</news:name>
