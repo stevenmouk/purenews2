@@ -18,7 +18,7 @@
   figure_p: "Syrian opposition fighter with a rocket launcher guards the provincial office, where president Bashar Assad’s image is riddled with bullets in Hama"
 ---
 
-The United States has engaged directly with the Islamist movement that led the campaign to overthrow Bashar al-Assad, despite the group’s classification as a terrorist organization. This move comes as Western and regional powers strive for a peaceful political transition in Syria.
+The United States has engaged directly with the Islamist movement that led the campaign to  overthrow Bashar al-Assad, despite the group’s classification as a terrorist organization. This move comes as Western and regional powers strive for a peaceful political transition in Syria.
 
 On Saturday, U.S. Secretary of State Antony Blinken became the first American official to confirm Washington’s contact with Hayat Tahrir al-Sham (HTS), which has taken control of the Syrian capital, Damascus.
 
