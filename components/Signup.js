@@ -20,8 +20,6 @@ export function Signup() {
     });
     const result = await response.json();
     if (result.success) {
-      console.log(result);
-
       e.target.email.value = "";
       setSignedUp(true);
     }
