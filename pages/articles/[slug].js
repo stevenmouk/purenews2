@@ -9,6 +9,7 @@ import matter from "gray-matter";
 import { marked } from "marked";
 import Navbar from "@/components/Navbar";
 import Seohead from "@/components/seoHead";
+import { Signup } from "@/components/Signup";
 
 export default function Article({
   frontmatter: {
@@ -97,6 +98,8 @@ export default function Article({
           <time className="ArticleTimestamp_root__KjSeU snipcss-BLihP  w-[400px] md:w-[600px]">
             {new Date(page_date)?.toDateString()}
           </time>
+
+          <Signup />
           <div className="text_content w-[300px] xs:w-[400px]  md:w-[600px]  ">
             <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
           </div>
