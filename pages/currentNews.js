@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import Head from "next/head";
 import { useRouter } from "next/navigation";
 import Seohead from "@/components/seoHead";
+import { connectToDatabase } from "@/lib/mongodb";
 
 const inter = Nunito({ subsets: ["latin"] });
 
@@ -14,6 +15,7 @@ export default function Home({ context }) {
   const [article, setArticle] = useState(null);
 
   const router = useRouter();
+  console.log(context);
   useEffect(() => {
     // const newInput = context.id.reduce((acc, part, index) => {
     //   // Add double slash after the first part, otherwise add a single slash
@@ -21,8 +23,8 @@ export default function Home({ context }) {
 
     //   return acc + separator + part;
     // }, "");
-    setInput(context.article);
-    setArticle(`https://archive.is/newest/${context.article?.trim()?.split("?")[0]}`);
+    setInput(context.query.article);
+    setArticle(`https://archive.is/newest/${context.query.article?.trim()?.split("?")[0]}`);
   }, [context]);
 
   function handleSubmit(e) {
@@ -230,10 +232,45 @@ export async function getServerSideProps(context) {
   // console.log(context);
   const query = context.query;
 
+  console.log(query);
+  let seoData = {
+    title: "Default Title",
+    des: "Default description",
+    blogURL: "Default URL",
+    imgURL: "https://mhtntimes.com/images/posts_img/amazon.webp",
+    imgAlt: "Default Image",
+    twitterTittle: "Default Twitter Title",
+    twitterDes: "Default Twitter Description",
+  };
+  try {
+    const { db } = await connectToDatabase();
+    const seo = await db.collection("articles").findOne({ blogUrl: query.article });
+
+    if (seo) {
+      seoData = {
+        title: seo.title,
+        des: seo.des,
+        blogURL: seo.blogURL,
+        imgURL: seo.imgURL,
+        imgAlt: seo.imgAlt,
+        twitterTittle: seo.twitterTittle,
+        twitterDes: seo.twitterDes,
+      };
+    }
+  } catch (e) {
+    console.error("Failed to fetch SEO data from MongoDB:", e);
+  }
+
   //console.log(res);
+
+  console.log(seoData);
+
   return {
     props: {
-      context: query,
+      context: {
+        query,
+        seoData,
+      },
     },
   };
 }
