@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { useState } from "react";
 
 export function Signup() {
@@ -36,7 +35,7 @@ export function Signup() {
         <button type="submit">Submit Form</button>
       </form> */}
 
-      <section className="bg-gray-900 rounded-xl flex flex-row mt-10">
+      <section className="bg-gray-900 sm:rounded-xl flex flex-row mt-10">
         <Image
           src="/images/test4.png"
           width={200}
@@ -47,12 +46,12 @@ export function Signup() {
           <div className=" px-4 mx-auto max-w-screen-xl lg:px-6">
             <div className="mx-auto max-w-screen-md sm:text-center">
               <h2 className="mb-4 text-3xl mt-3 tracking-tight font-extrabold  sm:text-4xl text-white">
-                Sign up for our Finance Newsletter
+                Sign up for our Newsletter
               </h2>
               <p className="mx-auto  max-w-2xl font-light  text-center sm:text-xl text-gray-400">
                 {signedUp
                   ? "You're all set. Enjoy!"
-                  : "Stay up to date with the latest finance news and market peformance without the clutter."}
+                  : "Stay up to date with the latest news right when it comes out."}
               </p>
             </div>
           </div>
@@ -96,8 +95,9 @@ export function Signup() {
                   </button>
                 </div>
               </div>
-              <div className="mx-auto sm:mb-0 mb-3 max-w-screen-sm text-sm text-left text-gray-500 newsletter-form-footer dark:text-gray-300">
-                Join our growing community and stay up to date on the markets.
+              <div className="mx-auto text-center sm:mb-0 mb-3 max-w-screen-sm text-sm text-left text-gray-500 newsletter-form-footer dark:text-gray-300">
+                Join our growing community and stay up to date on the latest
+                news.
               </div>
             </form>
           </div>
