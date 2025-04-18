@@ -1,14 +1,15 @@
 // indexnow.js
 
-const DOMAIN = "https://yourdomain.com"; // Replace with your domain
-const API_KEY = "your-api-key"; // Replace with your actual IndexNow key
+const API_KEY = "d9a070b07c20466082f3abcfc457de38"; // Replace with your actual IndexNow key
 
-const urlsToIndex = [`${DOMAIN}/example-page-1`, `${DOMAIN}/example-page-2`];
+const urlsToIndex = [
+  "https://mhtntimes.com/articles/trump-no-longer-expected-to-visit-scotland-to-meet-king",
+];
 
 const payload = {
-  host: new URL(DOMAIN).hostname,
+  host: "mhtntimes.com",
   key: API_KEY,
-  keyLocation: `${DOMAIN}/key.txt`,
+  keyLocation: `https://mhtntimes.com/d9a070b07c20466082f3abcfc457de38.txt`,
   urlList: urlsToIndex,
 };
 
@@ -26,6 +27,7 @@ async function submitToIndexNow() {
     }
 
     const result = await response.text();
+    console.log(response.status);
     console.log("✅ Successfully submitted to IndexNow:", result);
   } catch (error) {
     console.error("❌ Error submitting to IndexNow:", error.message);
