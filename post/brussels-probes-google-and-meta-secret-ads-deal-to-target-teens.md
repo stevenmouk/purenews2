@@ -1,6 +1,6 @@
 ---
   title: "Brussels probes Google and Meta secret ads deal to target teens"
-  blog_url: "https:/mhtntimes.com/articles/brussels-probes-google-and-meta-secret-ads-deal-to-target-teens"
+  blog_url: "https://mhtntimes.com/articles/brussels-probes-google-and-meta-secret-ads-deal-to-target-teens"
   img_alt: "Google and Meta Logo"
   des: "European regulators scrutinize Google and Meta over a secret ad deal targeting minors, raising privacy concerns and prompting policy changes amid increasing antitrust pressures."
   twitter_des:

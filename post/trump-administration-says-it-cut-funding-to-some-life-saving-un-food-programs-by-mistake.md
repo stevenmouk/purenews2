@@ -1,6 +1,6 @@
 ---
   title: "Trump administration says it cut funding to some life-saving UN food programs by mistake"
-  blog_url: "https:/mhtntimes.com/articles/trump-administration-says-it-cut-funding-to-some-life-saving-un-food-programs-by-mistake"
+  blog_url: "https://mhtntimes.com/articles/trump-administration-says-it-cut-funding-to-some-life-saving-un-food-programs-by-mistake"
   img_alt: "Department of State"
   des: "The State Department announced Tuesday that it had reversed a number of major funding cuts to emergency projects run by the U.N. World Food Program in 14 of the world’s poorest countries."
   twitter_des:

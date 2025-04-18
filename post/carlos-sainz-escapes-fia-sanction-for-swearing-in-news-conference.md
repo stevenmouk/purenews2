@@ -1,6 +1,6 @@
 ---
   title: "Carlos Sainz escapes FIA sanction for swearing in news conference"
-  blog_url: "https:/mhtntimes.com/articles/carlos-sainz-escapes-fia-sanction-for-swearing-in-news-conference"
+  blog_url: "https://mhtntimes.com/articles/carlos-sainz-escapes-fia-sanction-for-swearing-in-news-conference"
   img_alt: "Carlos Sainz"
   des: "Carlos Sainz avoids FIA penalty for swearing in Bahrain press conference after issuing apology and showing remorse."
   twitter_des:

@@ -1,6 +1,6 @@
 ---
   title: "From juice to jewellery: which U.S. goods will EU hit with tariffs?"
-  blog_url: "https:/mhtntimes.com/articles/post/from-juice-to-jewellery-which-us-goods-will-eu-hit-with-tariffs"
+  blog_url: "https://mhtntimes.com/articles/post/from-juice-to-jewellery-which-us-goods-will-eu-hit-with-tariffs"
   img_alt: "Harley-Davidson motobikes are seen at an Harley-Davidson dealership"
   des: "The European Union is set to introduce retaliatory tariffs starting next Tuesday in response to U.S. President Donald Trump’s duties on steel and aluminium, targeting $23 billion (21 billion euros) worth of American products."
   twitter_des:

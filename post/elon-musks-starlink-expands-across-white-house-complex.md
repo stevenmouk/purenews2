@@ -1,6 +1,6 @@
 ---
   title: "Elon Musk’s Starlink Expands Across White House Complex"
-  blog_url: "https:/mhtntimes.com/articles/elon-musks-starlink-expands-across-white-house-complex"
+  blog_url: "https://mhtntimes.com/articles/elon-musks-starlink-expands-across-white-house-complex"
   img_alt: "Elon Musk"
   des: "Starlink, the satellite internet service operated by Elon Musk’s SpaceX, is now available across the White House campus. "
   twitter_des:

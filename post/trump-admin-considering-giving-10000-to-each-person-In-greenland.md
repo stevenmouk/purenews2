@@ -1,6 +1,6 @@
 ---
   title: "Trump Admin Considering Giving $10,000 To Each Person In Greenland To Annex The Island"
-  blog_url: "https:/mhtntimes.com/articles/amazon-is-the-latest-big-tech-company-to-donate-$1mn-to-trump-fund"
+  blog_url: "https://mhtntimes.com/articles/amazon-is-the-latest-big-tech-company-to-donate-$1mn-to-trump-fund"
   img_alt: "Donald Trump"
   des: "Trump administration explores offering $10K per Greenlander in bid to annex the island, focusing on persuasion."
   twitter_des:

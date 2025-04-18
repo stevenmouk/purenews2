@@ -1,6 +1,6 @@
 ---
   title: "Meta rolls out internal AI tool as it pushes into business market"
-  blog_url: "https:/mhtntimes.com/articles/meta-rolls-out-internal-ai-tool-as-it-pushes-into-business-market"
+  blog_url: "https://mhtntimes.com/articles/meta-rolls-out-internal-ai-tool-as-it-pushes-into-business-market"
   img_alt: "Meta Sign"
   des: "Discover how Meta is advancing its AI capabilities with Metamate, an internal productivity tool powered by its Llama language model, as it explores opportunities in the growing enterprise AI market."
   twitter_des:

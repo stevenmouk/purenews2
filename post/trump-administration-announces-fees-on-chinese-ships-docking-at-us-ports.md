@@ -1,6 +1,6 @@
 ---
   title: "Trump administration announces fees on Chinese ships docking at U.S. ports"
-  blog_url: "https:/mhtntimes.com/articles/trump-administration-announces-fees-on-chinese-ships-docking-at-us-ports"
+  blog_url: "https://mhtntimes.com/articles/trump-administration-announces-fees-on-chinese-ships-docking-at-us-ports"
   img_alt: "Shipping port"
   des: "The U.S. imposes new fees on Chinese-built ships to counter unfair trade practices and boost American shipbuilding."
   twitter_des:

@@ -1,6 +1,6 @@
 ---
   title: "Israeli strikes on southern Lebanese villages kill six, Lebanese health ministry says"
-  blog_url: "https:/mhtntimes.com/articles/Israeli-strikes-on-southern-lebanese-villages-kill-six"
+  blog_url: "https://mhtntimes.com/articles/Israeli-strikes-on-southern-lebanese-villages-kill-six"
   img_alt: "Israeli military air strike in Lebanon"
   des: "Israeli strikes on southern Lebanon kill six and injure five, raising tensions and challenging a fragile ceasefire with Hezbollah in place for under two weeks."
   twitter_des:

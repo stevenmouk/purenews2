@@ -1,6 +1,6 @@
 ---
   title: "South Korea's acting President orders emergency measures over US tariffs"
-  blog_url: "https:/mhtntimes.com/articles/south-koreas-acting-president-orders-emergency-measures-over-us-tariffs"
+  blog_url: "https://mhtntimes.com/articles/south-koreas-acting-president-orders-emergency-measures-over-us-tariffs"
   img_alt: "South Korean acting President Han Duck-soo"
   des: "South Korea's acting President Han Duck-soo ordered emergency support measures for businesses that will be impacted by the imposition of U.S. tariffs, including automobiles, the industry ministry said on Thursday."
   twitter_des:

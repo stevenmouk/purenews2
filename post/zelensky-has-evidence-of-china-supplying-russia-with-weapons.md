@@ -1,6 +1,6 @@
 ---
   title: "Zelensky has evidence of China supplying Russia with weapons"
-  blog_url: "https:/mhtntimes.com/articles/zelensky-has-evidence-of-china-supplying-russia-with-weapons"
+  blog_url: "https://mhtntimes.com/articles/zelensky-has-evidence-of-china-supplying-russia-with-weapons"
   img_alt: "Zelensky speaking"
   des: "Zelensky says Ukraine has intel showing China is supplying weapons to Russia, escalating tensions between Kyiv and Beijing."
   twitter_des:

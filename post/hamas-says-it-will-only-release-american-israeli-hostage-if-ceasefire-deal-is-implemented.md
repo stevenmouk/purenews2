@@ -1,6 +1,6 @@
 ---
   title: "Hamas says it will only release American-Israeli hostage if ceasefire deal is implemented"
-  blog_url: "https:/mhtntimes.com/articles/hamas-says-it-will-only-release-american-israeli-hostage-if-ceasefire-deal-is-implemented"
+  blog_url: "https://mhtntimes.com/articles/hamas-says-it-will-only-release-american-israeli-hostage-if-ceasefire-deal-is-implemented"
   img_alt: "Hamas Militants"
   des: "Hamas said it will only release the American-Israeli hostage and the bodies of four other hostages if Israel implements their ceasefire agreement, calling it an “exceptional deal” aimed at getting the truce back on track. Alongside, Israeli airstrikes killed nine people in Gaza. These included local journalists, medics and a watchdog."
   twitter_des:

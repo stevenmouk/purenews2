@@ -1,6 +1,6 @@
 ---
   title: "Poland and UK discuss defence spending as Europe moves to re-arm"
-  blog_url: "https:/mhtntimes.com/articles/Poland-and-UK-discuss-defence-spending-as-Europe-moves-to-re-arm"
+  blog_url: "https://mhtntimes.com/articles/Poland-and-UK-discuss-defence-spending-as-Europe-moves-to-re-arm"
   img_alt: "Polish and British and U.S. soldiers working together"
   des: "Poland is exploring ways to collaborate with the UK and other European nations to enhance defense production while optimizing costs for taxpayers, its finance minister has said. The move comes as European countries respond to U.S. pressure to strengthen their military capabilities."
   twitter_des:

@@ -1,6 +1,6 @@
 ---
   title: "TikTok fails to halt law that could lead to US ban"
-  blog_url: "https:/mhtntimes.com/articles/tiktok-fails-to-halt-law-that-could-lead-to-us-ban"
+  blog_url: "https://mhtntimes.com/articles/tiktok-fails-to-halt-law-that-could-lead-to-us-ban"
   img_alt: "Tiktok Image Logo"
   des: "U.S. court upholds law requiring TikTok's parent, ByteDance, to divest or face a ban by 2025, citing national security concerns. The decision intensifies the debate over free speech and data privacy."
   twitter_des:

@@ -1,6 +1,6 @@
 ---
   title: "Federal Judge Blocks Trump Ban on Transgender People Serving in Military"
-  blog_url: "https:/mhtntimes.com/articles/federal-judge-blocks-trump-ban-on-transgender-people-serving-in-military"
+  blog_url: "https://mhtntimes.com/articles/federal-judge-blocks-trump-ban-on-transgender-people-serving-in-military"
   img_alt: "Trump on Airforce one"
   des: "A federal judge blocked Trump's ban on transgender military service, ruling it unconstitutional. The decision halts restrictions on transgender troops, citing equal protection rights."
   twitter_des:

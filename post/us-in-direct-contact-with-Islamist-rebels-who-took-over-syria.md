@@ -1,6 +1,6 @@
 ---
   title: "US in direct contact with Islamist rebels who took over Syria"
-  blog_url: "https:/mhtntimes.com/articles/us-in-direct-contact-with-Islamist-rebels-who-took-over-syria.md"
+  blog_url: "https://mhtntimes.com/articles/us-in-direct-contact-with-Islamist-rebels-who-took-over-syria.md"
   img_alt: "Syria Rebel"
   des: "Explore the latest on Syria's political transition as the U.S. engages with Hayat Tahrir al-Sham following the fall of Bashar al-Assad. Learn about challenges, sanctions, and efforts for an inclusive future."
   twitter_des:
@@ -18,7 +18,7 @@
   figure_p: "Syrian opposition fighter with a rocket launcher guards the provincial office, where president Bashar Assad’s image is riddled with bullets in Hama"
 ---
 
-The United States has engaged directly with the Islamist movement that led the campaign to  overthrow Bashar al-Assad, despite the group’s classification as a terrorist organization. This move comes as Western and regional powers strive for a peaceful political transition in Syria.
+The United States has engaged directly with the Islamist movement that led the campaign to overthrow Bashar al-Assad, despite the group’s classification as a terrorist organization. This move comes as Western and regional powers strive for a peaceful political transition in Syria.
 
 On Saturday, U.S. Secretary of State Antony Blinken became the first American official to confirm Washington’s contact with Hayat Tahrir al-Sham (HTS), which has taken control of the Syrian capital, Damascus.
 

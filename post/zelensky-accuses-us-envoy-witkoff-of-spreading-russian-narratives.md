@@ -1,6 +1,6 @@
 ---
   title: "Zelensky accuses US envoy Witkoff of spreading 'Russian narratives'"
-  blog_url: "https:/mhtntimes.com/articles/zelensky-accuses-us-envoy-witkoff-of-spreading-russian-narratives"
+  blog_url: "https://mhtntimes.com/articles/zelensky-accuses-us-envoy-witkoff-of-spreading-russian-narratives"
   img_alt: "Witkoff met European and Ukrainian officials on Thursday in Paris"
   des: "Zelensky accuses US envoy Steve Witkoff of spreading Russian narratives over Ukraine’s territorial sovereignty."
   twitter_des:

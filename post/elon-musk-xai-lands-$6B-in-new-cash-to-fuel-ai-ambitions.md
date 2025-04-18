@@ -1,6 +1,6 @@
 ---
   title: "Elon Musk’s xAI lands $6B in new cash to fuel AI ambitions"
-  blog_url: "https:/mhtntimes.com/articles/elon-musk-xai-lands-$6B-in-new-cash-to-fuel-ai-ambitions"
+  blog_url: "https://mhtntimes.com/articles/elon-musk-xai-lands-$6B-in-new-cash-to-fuel-ai-ambitions"
   img_alt: "Elon Musk"
   des: "xAI, Elon Musk's AI company, raises $6 billion in Series C funding, doubling its valuation to $45 billion. Learn about its AI advancements, legal battles, and ambitious growth plans"
   twitter_des:

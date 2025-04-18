@@ -1,6 +1,6 @@
 ---
   title: "Democrats’ win in Wisconsin court race also is a big loss for Elon Musk"
-  blog_url: "https:/mhtntimes.com/articles/democrats-win-in-wisconsin-court-race-also-is-a-big-loss-for-elon-musk"
+  blog_url: "https://mhtntimes.com/articles/democrats-win-in-wisconsin-court-race-also-is-a-big-loss-for-elon-musk"
   img_alt: "Wisconsin Supreme Court candidate Susan Crawford"
   des: "Billionaire Elon Musk has helped President Donald Trump abruptly change the federal government in the opening weeks of the year, but he’s learned he can’t change the laws of political gravity."
   twitter_des:

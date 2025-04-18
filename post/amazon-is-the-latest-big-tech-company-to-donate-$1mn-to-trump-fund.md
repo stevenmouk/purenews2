@@ -1,6 +1,6 @@
 ---
   title: "Amazon is the latest Big Tech company to donate $1mn to Trump fund"
-  blog_url: "https:/mhtntimes.com/articles/amazon-is-the-latest-big-tech-company-to-donate-$1mn-to-trump-fund"
+  blog_url: "https://mhtntimes.com/articles/amazon-is-the-latest-big-tech-company-to-donate-$1mn-to-trump-fund"
   img_alt: "Amazon Logo"
   des: "Amazon donates $1M to Trump's inaugural fund, joining Big Tech in mending ties with the president-elect amid scrutiny over antitrust and AI issues. Read more on their evolving relationship."
   twitter_des:

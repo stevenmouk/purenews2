@@ -1,6 +1,6 @@
 ---
   title: "Fidelity plans to launch stablecoin in digital assets push"
-  blog_url: "https:/mhtntimes.com/articles/fidelity-plans-to-launch-stablecoin-in-digital-assets-push"
+  blog_url: "https://mhtntimes.com/articles/fidelity-plans-to-launch-stablecoin-in-digital-assets-push"
   img_alt: "Fidelity"
   des: "Fidelity Investments is set to launch its own stablecoin, expanding its digital asset footprint as the U.S. moves toward crypto regulation. Learn how this move aligns with Trump’s pro-crypto policies and the rise of tokenized money market funds."
   twitter_des:

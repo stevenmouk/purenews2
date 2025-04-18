@@ -1,6 +1,6 @@
 ---
   title: "TikTok-owner ByteDance takes lead in race to capitalise on AI in China"
-  blog_url: "https:/mhtntimes.com/articles/tiktok-owner-bytedance-takes-lead-in-race-to-capitalise-on-ai-in-china"
+  blog_url: "https://mhtntimes.com/articles/tiktok-owner-bytedance-takes-lead-in-race-to-capitalise-on-ai-in-china"
   img_alt: "ByteDance founder Zhang Yiming is China’s richest man"
   des: "Discover how ByteDance, the parent company of TikTok, is leading China's AI revolution with massive investments, top talent acquisitions, and cutting-edge developments like the Doubao chatbot, rivaling global AI giants."
   twitter_des:
