@@ -38,6 +38,7 @@ export function Signup() {
       <section className="bg-gray-900 sm:rounded-xl flex flex-row mt-10">
         <Image
           src="/images/test4.png"
+          alt="finance image"
           width={200}
           height={100}
           className="object-fit w-[250px] h-[250px] rounded-xl p-3 hidden sm:inline"
@@ -96,8 +97,7 @@ export function Signup() {
                 </div>
               </div>
               <div className="mx-auto text-center sm:mb-0 mb-3 max-w-screen-sm text-sm text-left text-gray-500 newsletter-form-footer dark:text-gray-300">
-                Join our growing community and stay up to date on the latest
-                news.
+                Join our growing community and stay up to date on the latest news.
               </div>
             </form>
           </div>
