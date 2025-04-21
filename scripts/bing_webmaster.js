@@ -3,7 +3,7 @@
 const API_KEY = "d9a070b07c20466082f3abcfc457de38"; // Replace with your actual IndexNow key
 
 const urlsToIndex = [
-  "https://mhtntimes.com/articles/trump-no-longer-expected-to-visit-scotland-to-meet-king",
+  "https://mhtntimes.com/articles/altman-please-thanks-chatgpt",
 ];
 
 const payload = {
