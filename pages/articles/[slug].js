@@ -1,15 +1,11 @@
-import Head from "next/head";
 import Image from "next/image";
 
-import Bottom from "@/components/Bottom";
-import Link from "next/link";
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
-import { marked } from "marked";
 import Navbar from "@/components/Navbar";
 import Seohead from "@/components/seoHead";
-import { Signup } from "@/components/Signup";
+import fs from "fs";
+import matter from "gray-matter";
+import { marked } from "marked";
+import path from "path";
 
 export default function Article({
   frontmatter: {
@@ -99,7 +95,7 @@ export default function Article({
             {new Date(page_date)?.toDateString()}
           </time>
 
-          <Signup />
+          {/* <Signup /> */}
           <div className="text_content w-[300px] xs:w-[400px]  md:w-[600px]  ">
             <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
           </div>
@@ -129,7 +125,10 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps({ params: { slug } }) {
-  const markdownWithMeta = fs.readFileSync(path.join("post", slug + ".md"), "utf-8");
+  const markdownWithMeta = fs.readFileSync(
+    path.join("post", slug + ".md"),
+    "utf-8"
+  );
 
   const { data: frontmatter, content } = matter(markdownWithMeta);
 
