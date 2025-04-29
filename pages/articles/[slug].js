@@ -6,6 +6,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
 import path from "path";
+import Head from "next/head";
 
 export default function Article({
   frontmatter: {
@@ -27,6 +28,33 @@ export default function Article({
   slug,
   content,
 }) {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: title,
+    description: des,
+    image: [img_url_full], // Needs to be full URL
+    datePublished: new Date(page_date).toISOString(),
+    dateModified: new Date(page_date).toISOString(), // If you have updates, set actual modified date
+    author: {
+      "@type": "Organization",
+      name: "The Manhattan Times", // <-- your site's name
+      url: "https://mhtntimes.com", // <-- your site's homepage
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "The Manhattan Times",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://mhtntimes.com/fave_pac/favicon.ico", // Replace with your real logo URL
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": blog_url || `https://mhtntimes.com/${slug}`,
+    },
+  };
+
   return (
     <div>
       <Seohead
@@ -38,6 +66,13 @@ export default function Article({
         twitterTittle={twitter_tittle}
         twitterDes={twitter_des}
       />
+
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </Head>
 
       <Navbar inArticle={true}></Navbar>
 
@@ -125,10 +160,7 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps({ params: { slug } }) {
-  const markdownWithMeta = fs.readFileSync(
-    path.join("post", slug + ".md"),
-    "utf-8"
-  );
+  const markdownWithMeta = fs.readFileSync(path.join("post", slug + ".md"), "utf-8");
 
   const { data: frontmatter, content } = matter(markdownWithMeta);
 
