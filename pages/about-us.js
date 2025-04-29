@@ -30,7 +30,7 @@ export default function Aboutus() {
           <section class="flex  flex-col  min-[700px]:flex-row items-center justify-center">
             <div class="">
               <img
-                alt="About Motley Times"
+                alt="About Manhattan Times"
                 loading="lazy"
                 width="400"
                 height="800"
@@ -58,7 +58,7 @@ export default function Aboutus() {
                 <p class="font-lora ">
                   What sets us apart is our commitment to fairness. We have no sponsors or political
                   affiliation, which allows us to approach each story with complete independence. At
-                  The Motley Times, our goal is to deliver news with the utmost honesty and
+                  The Manhattan Times, our goal is to deliver news with the utmost honesty and
                   impartiality.
                 </p>
               </div>
