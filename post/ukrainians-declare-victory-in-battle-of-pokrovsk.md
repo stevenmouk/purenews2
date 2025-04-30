@@ -8,13 +8,13 @@
   header_title: "Ukrainians Declare Victory in Battle of Pokrovsk"
   page_date: "Apr 30, 2025 14:00"
   page_first_p: "Russia’s assault on Pokrovsk has failed, according to Ukrainian officials, as fierce resistance, heavy Russian losses, and stalled advances disrupt Moscow’s plans for a major summer offensive."
-  figure_author: "FMT"
-  figure_author_url: "https://www.freemalaysiatoday.com/category/business/2024/12/05/openai-chief-believes-musk-will-not-abuse-government-power/"
-  figure_license: "CC BY 4.0"
-  figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
-  page_image_src_rel: "/images/posts_img/pokrovsk.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/pokrovsk.webp"
-  figure_p: "A Ukrainian soldier walks past damaged buildings in central Pokrovsk"
+  figure_author: "Raw Pixel"
+  figure_author_url: "https://rawpixel.com"
+  figure_license: "CC BY 1.0"
+  figure_license_url: "https://creativecommons.org/licenses/by/1.0//"
+  page_image_src_rel: "/images/posts_img/ukraine_2.webp"
+  img_url_full: "https://mhtntimes.com/images/posts_img/ukraine_2.webp"
+  figure_p: "War in Ukraine"
 ---
 
 Russia’s months-long push to seize the eastern Ukrainian town of Pokrovsk has amounted to a “failure,” according to the head of a Ukrainian think tank, after brutal fighting and only minimal gains by Russian forces around the area.

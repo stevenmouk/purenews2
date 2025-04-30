@@ -1,11 +1,11 @@
 ---
-  title: "Apple’s Second-Biggest Supplier Says to Expect Empty Shelves Due to Trump Tariffs"
+  title: "One of Apples Largest suppliers says to expect 'empty shelves' as tariffs take effect"
   blog_url: "https://mhtntimes.com/articles/apples-second-biggest-supplier-says-to-expect-empty-shelves-due-to-trump-tariffs"
   img_alt: "Apple phones"
   des: "Pegatron warns of looming electronics shortages in the U.S. as Trump’s unpredictable China tariffs disrupt global supply chains, leaving companies like Apple scrambling to adapt."
   twitter_des: "Pegatron warns of looming electronics shortages in the U.S. as Trump’s unpredictable China tariffs disrupt global supply chains, leaving companies like Apple scrambling to adapt."
-  twitter_tittle: "Apple’s Second-Biggest Supplier Says to Expect Empty Shelves Due to Trump Tariffs"
-  header_title: "Apple’s Second-Biggest Supplier Says to Expect Empty Shelves Due to Trump Tariffs"
+  twitter_tittle: "One of Apples Largest suppliers says to expect 'empty shelves' as tariffs take effect"
+  header_title: "One of Apples Largest suppliers says to expect 'empty shelves' as tariffs take effect"
   page_date: "Apr 30, 2025 12:00"
   page_first_p: "Pegatron warns of looming electronics shortages in the U.S. as Trump’s unpredictable China tariffs disrupt global supply chains, leaving companies like Apple scrambling to adapt."
   figure_author: "FMT"
@@ -17,14 +17,20 @@
   figure_p: "Apple iphones"
 ---
 
-Up until now, Donald Trump’s trade war with China has mostly been a headache for the markets. But consumers are about to start feeling the real pain, according to Pegatron—a Taiwanese electronics manufacturer that’s a major supplier for Apple, Dell, and others. A company executive told Reuters that Trump’s unpredictable, back-and-forth tariff tactics are likely to trigger shortages as summer approaches.
+Pegatron, one of apples main suppliers, has stated that the US will soon see 'empty shelves' due to Trumps tariffs. Pegatron produces MacBooks, iPads, and Apple Watches for Apple. The company is just behind Foxconn as the second largest supplier for Apple.
 
-“Within two months, store shelves in the U.S. could start to look like those in developing countries,” Pegatron chairman T.H. Tung warned Reuters. “People will walk into stores and see empty shelves, simply because everyone’s in a holding pattern.”
+This remark of 'empty shelves' comes about as a result of Trumps tariff plans. Trump has imposed a 145% tariff on products coming out of China. This started as a 10% tariff, but a tariff war led to both sides raising their tariffs until where it currently landed with a 145% tariff on goods from China.
 
-One major factor behind the looming scarcity is the sky-high 145% tariff the U.S. slapped on Chinese imports—a cost that companies will likely pass along to consumers. But even more disruptive than the tariffs themselves is the overall uncertainty. No one knows what the Trump administration will do next, making long-term planning nearly impossible. “We can’t just overhaul our long-term strategy based on a few months of tariff changes. Manufacturing investments take years to plan,” Tung said.
+There was an exception announced by the Trump Administration that allows consumer electronics to enter into the United States without a tariff. However, this exception is only temporary and the Trump Administration has stated they will be back in place soon. With the vast majority of Apple’s products being produced and shipped from China, a return of tariffs will likely sky rocket the price of Apple products.
 
-Apple’s response is a clear example. When Trump unveiled his new “reciprocal” tariff plan earlier this month—including a 34% duty on Chinese imports—Apple rushed to shift stock and adjust its supply chain to dodge the worst effects. The company moved $2 billion worth of iPhones from India to the U.S. before the new tariffs kicked in. Then, as Trump escalated to a staggering 145% tax, Apple began the complex process of moving some of its production from China to India, where the current tariff is a more manageable 10%. Still, even India might see a 26% hike by July if a deal isn’t reached.
+Pegatron told Reuters that the uncertainty around tariffs is making it far too difficult to plan and find the best course of action. They cannot plan for high tariffs if the tariffs can be cut or paused at any moment. The same way they cannot plan for low or no tariffs when, at a moment’s notice, the Trump Administration can sky rocket tariffs into the hundreds of percents.
 
-Roughly two weeks into the standoff, Trump said he’d exempt products like smartphones and laptops from the tariffs—a brief moment of relief for companies like Apple and its partners. That relief lasted a whole day. Then Trump’s Commerce Secretary Howard Lutnick clarified that the exemption is only temporary and that new product-specific tariffs could kick in within a couple of months. What will those tariffs be? Will they stick? Who knows. Everyone’s just guessing at this point.
+A quote Pegatron chairman, T.H. Tung gave to Reuters: ‘’ Within two months, shelves in the United States … might resemble those in third-world countries, where people visit department stores and markets only to find empty shelves, all because everyone is waiting and seeing”
 
-That kind of uncertainty doesn’t work well for global companies with massive supply chains. So rather than gamble, many are waiting it out. In the meantime, expect supplies to dwindle. If you walk into an Apple Store this June, don’t be surprised if the only iPhones you see are bolted to the display tables.
+Tung was not attempted to be rude when he claimed that the United States will seem like a third world country, but rather that suppliers like Pegatron cannot operate in a market that is so unstable in policy. Thus, forcing out a large majority of the suppliers and companies.
+
+The company has also said they will not change any of their production plans due to the landscape being too unclear and unpredictable. This is fair as there is no course of action they can take without it all needing to be redone at a moment’s notice with new tariff changes.
+
+Tung stated: “We won’t immediately adjust our long-term plans just because of two or three months of tariff changes. Manufacturing bases require long-term planning,”
+
+Tariffs by the Trump Administration has put suppliers in a very difficult spot where they cannot plan a course of action if they have no guarantee of whether tariffs will be added or not. The pause of tariffs may be the light at the end of the tunnel as it shows the Trump Administration is reconsidering their actions. We may even see them reverse course and permanently remove the tariffs.
