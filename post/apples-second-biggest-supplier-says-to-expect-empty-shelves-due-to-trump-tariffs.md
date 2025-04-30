@@ -25,12 +25,12 @@ There was an exception announced by the Trump Administration that allows consume
 
 Pegatron told Reuters that the uncertainty around tariffs is making it far too difficult to plan and find the best course of action. They cannot plan for high tariffs if the tariffs can be cut or paused at any moment. The same way they cannot plan for low or no tariffs when, at a moment’s notice, the Trump Administration can sky rocket tariffs into the hundreds of percents.
 
-A quote Pegatron chairman, T.H. Tung gave to Reuters: ‘’ Within two months, shelves in the United States … might resemble those in third-world countries, where people visit department stores and markets only to find empty shelves, all because everyone is waiting and seeing”
+A quote Pegatron chairman, T.H. Tung gave to Reuters: "Within two months, shelves in the United States … might resemble those in third-world countries, where people visit department stores and markets only to find empty shelves, all because everyone is waiting and seeing"
 
 Tung was not attempted to be rude when he claimed that the United States will seem like a third world country, but rather that suppliers like Pegatron cannot operate in a market that is so unstable in policy. Thus, forcing out a large majority of the suppliers and companies.
 
 The company has also said they will not change any of their production plans due to the landscape being too unclear and unpredictable. This is fair as there is no course of action they can take without it all needing to be redone at a moment’s notice with new tariff changes.
 
-Tung stated: “We won’t immediately adjust our long-term plans just because of two or three months of tariff changes. Manufacturing bases require long-term planning,”
+Tung stated: "We won’t immediately adjust our long-term plans just because of two or three months of tariff changes. Manufacturing bases require long-term planning,"
 
 Tariffs by the Trump Administration has put suppliers in a very difficult spot where they cannot plan a course of action if they have no guarantee of whether tariffs will be added or not. The pause of tariffs may be the light at the end of the tunnel as it shows the Trump Administration is reconsidering their actions. We may even see them reverse course and permanently remove the tariffs.
