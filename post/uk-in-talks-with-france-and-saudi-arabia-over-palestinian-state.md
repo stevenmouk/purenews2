@@ -6,7 +6,7 @@
   twitter_des: "UK in talks with France and Saudi Arabia over recognising a Palestinian state"
   twitter_tittle: "UK in talks with France and Saudi Arabia over recognising a Palestinian state"
   header_title: "UK in talks with France and Saudi Arabia over recognising a Palestinian state"
-  page_date: "May 31, 2025"
+  page_date: "May 1, 2025"
   page_first_p: "UK in talks with France and Saudi Arabia over recognising a Palestinian state"
   figure_author: "Flicker"
   figure_author_url: "https://www.flickr.com/photos/foreignoffice/54120731555"
