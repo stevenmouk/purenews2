@@ -17,32 +17,18 @@
   figure_p: "Elon Musk"
 ---
 
-A 90-year-old woman from England has reportedly saved around 10,000 animals from neglect and mistreatment through her rescue work.
+X, the social media platform formerly known as Twitter, has seen its monthly user base in the European Union drop below pre-Elon Musk levels, according to the company's latest transparency report.
 
-Barby Keel has spent the past 54 years running the Barby Keel Animal Sanctuary in Sussex, UK—a mission she has no plans of ending as long as she’s physically able.
+The platform now has 94.8 million monthly active users in the EU — a decrease of about 11 million users since the last report, as first noted by Social Media Today. That’s a sharp decline from the more than 100 million users it had in Europe back in 2022 before Musk bought the company.
 
-Her journey began in the 1970s when a soldier stationed in Northern Ireland asked her to care for his dog while he was away. The bond formed so deeply that the dog never left.
+This data comes from X’s April 2025 transparency report, part of its legal obligation under the EU’s Digital Services Act (DSA), which requires large platforms to regularly disclose information like content moderation efforts and user statistics. This latest report covers the six-month period from October 2024 to March 2025.
 
-Soon, she took in another dog. Then, a local group called the Bexhill Cats Club asked her to care for a few cats. Fast forward five decades, and today Keel is responsible for more than 600 animals, including 160 cats, 8 dogs, 16 pigs, 6 horses, 80 rabbits, and 100 chickens.
+Compared to the previous reporting period, X’s European user base dropped by over 10.5%. France saw the biggest hit, losing more than 2.7 million users. Poland dropped by nearly 2 million, Germany by 1.5 million, and Spain by over 1 million. Even smaller nations like Luxembourg and Lithuania saw steep declines, with around 25% of users leaving the platform.
 
-“In the beginning, I had about 40 cats,” she told SWNS. “Then I started taking in sheep, goats, pigs, and cows.”
+X’s struggles to retain users aren’t new. Despite Elon Musk’s AI firm xAI purchasing the platform earlier this year for roughly the same amount Musk paid in 2022, X has continued to face falling revenue and user numbers amid ongoing controversies.
 
-While some of the animals—mostly cats, dogs, and certain rabbits—are rehomed, most remain on the 12-acre sanctuary to live out their lives in peace.
+There was a brief surge in activity after Donald Trump’s election victory in late 2024, which brought some advertisers — including Apple — back to the platform. But that momentum didn’t last, and experts warned that user attrition would likely continue in 2025.
 
-Keel single-handedly managed the sanctuary for 20 years, and now relies on a loyal, diverse group of volunteers to help care for animals rescued from abusive homes, farms, kennels, or abandoned by private owners.
+Though X isn't required to publish user data for regions outside the EU, third-party analysis reported by the Financial Times last year showed steep losses elsewhere too — including a 20% drop in daily active users in the U.S. and a 33% decline in the U.K.
 
-Despite her age, she still tends to the animals every day, leaving the sanctuary only occasionally for groceries or to play darts with a local men’s team. She insists she “never” takes a day off.
-
-Even after surviving cancer three times, she says she has no intention of retiring.
-
-“It’s exhausting sometimes,” she said. “But then a little face pops up or I get a nose nudge, and I remember exactly why I do this. The animals will always come first.”
-
-Her dedication has even led to difficult personal choices, including ending a long-term relationship when her partner gave her an ultimatum: him or the animals.
-
-The Barby Keel Sanctuary runs as a nonprofit, relying entirely on public donations. It recently reopened to visitors and will stay open for free every Sunday through October 2025. Guests can meet the animals, grab a bite at the café, browse the gift shop, or check out the vivarium.
-
-“We’ve got a shop on-site too,” she added. “I use my pension to buy bulk pet food and sell it cheaply so people can afford to feed their pets. The turnout at reopening was incredible.”
-
-“I’m so thankful for my brilliant team of volunteers and all the kind people who support us,” she said. “I’m getting older, and I know I can’t do everything anymore.”
-
-“I’ve stepped back from caring for the big animals, but I still wake up early to feed the cats and check on them all. It’s a lovely life.”
+Adding to the challenges, global backlash against Musk’s other major company, Tesla, has also taken a toll. The electric vehicle maker recently reported a 71% drop in profits, driven in part by international protests.
