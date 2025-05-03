@@ -6,7 +6,7 @@
   twitter_des: "Solar-powered tele-clinics and renewable energy solutions are transforming healthcare and livelihoods in rural India, bringing light, connectivity, and opportunity to remote communities."
   twitter_tittle: "Making light work: solar’s potential to lift rural Indians out of poverty"
   header_title: "Making light work: solar’s potential to lift rural Indians out of poverty"
-  page_date: "May 30, 2025 12:00"
+  page_date: "May 02, 2025 12:00"
   page_first_p: "Solar-powered tele-clinics and renewable energy solutions are transforming healthcare and livelihoods in rural India, bringing light, connectivity, and opportunity to remote communities."
   figure_author: "FMT"
   figure_author_url: "https://www.freemalaysiatoday.com/category/business/2024/12/05/openai-chief-believes-musk-will-not-abuse-government-power/"
