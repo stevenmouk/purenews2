@@ -6,7 +6,7 @@
   twitter_des: "Looking for the perfect carry-on? We tested top-rated suitcases to find the best carry-on luggage of 2025—whether you're after durability, style, space, or a budget-friendly option under $100."
   twitter_tittle: "The Best Carry-on Luggage of 2025, Tried And Tested By Experts"
   header_title: "The Best Carry-on Luggage of 2025, Tried And Tested By Experts"
-  page_date: "Jun 26, 2025"
+  page_date: "May 23, 2025"
   page_first_p: "Looking for the perfect carry-on? We tested top-rated suitcases to find the best carry-on luggage of 2025—whether you're after durability, style, space, or a budget-friendly option under $100."
   figure_author: "FMT"
   figure_author_url: "https://www.freemalaysiatoday.com/category/business/2024/12/05/openai-chief-believes-musk-will-not-abuse-government-power/"
