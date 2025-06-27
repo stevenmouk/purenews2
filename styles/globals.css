@@ -3222,3 +3222,22 @@ hr {
   top: 1px;
   left: 1px;
 }
+
+.find-on-amazon {
+  font-family: sans-serif;
+  padding: 0.5em;
+  transition: background-color 0.3s, color 0.3s;
+  border: 1px solid black;
+  font-size: large;
+}
+
+.find-on-amazon:hover {
+  background-color: black;
+  color: white;
+}
+
+.outside-amazon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
