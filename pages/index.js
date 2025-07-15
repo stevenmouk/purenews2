@@ -38,10 +38,6 @@ export default function Home({ posts }) {
           name="description"
           content="Stay informed with The Manhattan Times, your trusted source for the latest news. Explore a diverse range of articles covering stocks, markets, tech, personal finance, and more. Our expert analysis and in-depth reporting will keep you up-to-date with the ever-changing world of finance."
         />
-        <script
-          type="text/javascript"
-          src="http://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=319fd5771af9cff8bcb1a96167a40b3de15e3152"
-        ></script>
       </Head>
 
       <Navbar />
@@ -50,6 +46,10 @@ export default function Home({ posts }) {
         <div className=" flex items-center justify-center">
           <div className="xs:max-w-[700px] max-w-[300px]">
             <Bottom articles={posts.slice(16, posts.length)} />
+            <script
+              type="text/javascript"
+              src="http://classic.avantlink.com/affiliate_app_confirm.php?mode=js&authResponse=319fd5771af9cff8bcb1a96167a40b3de15e3152"
+            ></script>
           </div>
         </div>
       </div>
