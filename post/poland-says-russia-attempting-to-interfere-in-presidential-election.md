@@ -1,6 +1,6 @@
 ---
   title: "Poland says Russia attempting to interfere in presidential election"
-  blog_url: "https://mhtntimes.com/articles/poland-says-russia-attempting-to-interfere-in-presidential-election.md"
+  blog_url: "https://mhtntimes.com/articles/poland-says-russia-attempting-to-interfere-in-presidential-election"
   img_alt: "Poland"
   des: "Poland says Russia attempting to interfere in presidential election"
   twitter_des: "Poland's Deputy Prime Minister warns of an unprecedented Russian attempt to interfere in the presidential election through cyberattacks and disinformation targeting critical infrastructure."

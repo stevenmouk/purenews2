@@ -1,6 +1,6 @@
 ---
   title: "South Korean president vows to ‘never give up’ after impeachment vote"
-  blog_url: "https://mhtntimes.com/articles/south-korean-president-vows-to-never-give-up-after-impeachment-vote.md"
+  blog_url: "https://mhtntimes.com/articles/south-korean-president-vows-to-never-give-up-after-impeachment-vote"
   img_alt: "Members of South Korea’s opposition Democratic Party protest against President Yoon Suk-yeol outside the national assembly in Seoul"
   des: "South Korean President Yoon Suk Yeol faces impeachment after a failed bid to impose military rule, sparking political turmoil and a constitutional court review."
   twitter_des:
