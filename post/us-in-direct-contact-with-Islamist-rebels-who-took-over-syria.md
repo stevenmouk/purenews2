@@ -1,6 +1,6 @@
 ---
   title: "US in direct contact with Islamist rebels who took over Syria"
-  blog_url: "https://mhtntimes.com/articles/us-in-direct-contact-with-Islamist-rebels-who-took-over-syria.md"
+  blog_url: "https://mhtntimes.com/articles/us-in-direct-contact-with-Islamist-rebels-who-took-over-syria"
   img_alt: "Syria Rebel"
   des: "Explore the latest on Syria's political transition as the U.S. engages with Hayat Tahrir al-Sham following the fall of Bashar al-Assad. Learn about challenges, sanctions, and efforts for an inclusive future."
   twitter_des:
