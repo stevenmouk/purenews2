@@ -23,11 +23,11 @@ Finding the right pair of wireless earbuds can be overwhelming—there are hundr
 
 ## Summary of best wireless earbuds:
 
-The best overall: <u><a target="_blank" href="https://amzn.to/3GuvGvI">Sony LinkBuds Fit</a></u>, ~~$200~~ $130 at Amazon
+The best overall: <u><a target="_blank" href="https://amzn.to/3GuvGvI">Sony LinkBuds Fit</a></u>, ~~$229~~ $198 at Amazon
 
-Budget pick: <u><a target="_blank" href="https://amzn.to/4nzSwTt">EarFun Free 2S</a></u>, $40 at Amazon
+Budget pick: <u><a target="_blank" href="https://amzn.to/4nzSwTt">EarFun Free 2S</a></u>, ~~$39~~ $35 at Amazon
 
-Best for serious workouts: <u><a target="_blank" href="https://amzn.to/3TmbP4O">JBL Reflect Aero TWS</a></u>, $150 at Amazon
+Best for serious workouts: <u><a target="_blank" href="https://amzn.to/3TmbP4O">JBL Reflect Aero TWS</a></u>, ~~$164~~ $149 at Amazon
 
 <br/>
 <br/>
@@ -37,7 +37,7 @@ Best for serious workouts: <u><a target="_blank" href="https://amzn.to/3TmbP4O">
 <br/>
 <br/>
 
-## 1) The Best Wireless Earbuds: Sony LinkBuds Fit, ~~$200~~ $130
+## 1) The Best Wireless Earbuds: Sony LinkBuds Fit, ~~$229~~ $198
 
 <a  href="https://amzn.to/3GuvGvI" target="_blank">
 <Image loading="lazy" src="/images/posts_img/earbuds-1.webp" alt="GreenPan Valencia Pro Frying Pan " height="100%" width="100%"/>
@@ -64,7 +64,7 @@ Battery life runs about 5 to 6 hours per charge, which is fairly standard for fe
 
 <br/>
 
-## 2) Best Budget Pick: EarFun Free 2S, $40
+## 2) Best Budget Pick: EarFun Free 2S,~~$39~~ $35
 
 <a href="https://amzn.to/4nzSwTt" target="_blank">
 <Image loading="lazy" src="/images/posts_img/earbuds-2.webp" alt="Oxo Professional Ceramic Nonstick pan"  height="100%" width="100%"/>
@@ -87,7 +87,7 @@ There are a few trade-offs. You won’t get extras like active noise cancellatio
 
 <br/>
 
-## 3) Best For Serious Workouts: JBL Reflect Aero TWS, $150
+## 3) Best For Serious Workouts: JBL Reflect Aero TWS, ~~$164~~ $149
 
 <a href="https://amzn.to/3TmbP4O" target="_blank">
 <Image loading="lazy" src="/images/posts_img/earbuds-3.webp" alt="Made In CeramiClad Nonstick Pan" height="100%" width="100%"/>

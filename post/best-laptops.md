@@ -27,9 +27,9 @@ The best overall: <u><a target="_blank" href="https://amzn.to/4lTpfC2">Dell Prec
 
 Best MacBook for Most People: <u><a target="_blank" href="https://amzn.to/3ILRK5J">Apple MacBook Air 13-Inch (2025, M4)</a></u>, ~~$999~~ $799 at Amazon
 
-Best Budget Laptop: <u><a target="_blank" href="https://amzn.to/4lPqUZi">Acer Aspire 3 (A315-24P)</a></u>, $509 at Amazon
+Best Budget Laptop: <u><a target="_blank" href="https://amzn.to/4lPqUZi">Acer Aspire 3 (A315-24P)</a></u>, ~~$519~~ $486 at Amazon
 
-Best Ultraportable Laptop: <u><a target="_blank" href="https://amzn.to/4l5GoHj">Lenovo ThinkPad X9 14 Aura Edition</a></u>, $1,699 at Amazon
+Best Ultraportable Laptop: <u><a target="_blank" href="https://amzn.to/4l5GoHj">Lenovo ThinkPad X9 14 Aura Edition</a></u>, ~~$1,699~~ $1,509 at Amazon
 
 <br/>
 <br/>
@@ -95,7 +95,7 @@ This model is ideal for longtime Apple users who want seamless integration with 
 
 <br/>
 
-## 3) Best Budget Laptop: Acer Aspire 3 (A315-24PT), $509
+## 3) Best Budget Laptop: Acer Aspire 3 (A315-24PT), ~~$519~~ $486
 
 <a href="https://amzn.to/4lPqUZi" target="_blank">
 <Image loading="lazy" src="/images/posts_img/laptop-4.webp" alt="Made In CeramiClad Nonstick Pan" height="100%" width="100%"/>
@@ -124,7 +124,7 @@ Ultimately, the Aspire 3 is best suited for budget-conscious buyers and first-ti
 
 <br/>
 
-## 4) Best Ultraportable Laptop: Lenovo ThinkPad X9 14 Aura Edition, $1,699
+## 4) Best Ultraportable Laptop: Lenovo ThinkPad X9 14 Aura Edition, ~~$1,699~~ $1,509
 
 <a  href="https://amzn.to/3U13FPx" target="_blank">
 <Image loading="lazy"  src="/images/posts_img/laptop-5.5.webp" alt="Lenovo ThinkPad X9 14 Aura Edition" height="100%" width="100%"/>

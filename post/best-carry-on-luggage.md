@@ -23,13 +23,13 @@ Whether you're heading out on a quick weekend getaway or packing for a weeklong 
 
 ## Summary of best carry on luggages:
 
-The best overall: <u><a target="_blank" href="https://amzn.to/44gHHN9"> Samsonite Freeform Carry-on Spinner</a></u>, ~~$200~~ $130 at Amazon
+The best overall: <u><a target="_blank" href="https://amzn.to/44gHHN9"> Samsonite Freeform Carry-on Spinner</a></u>, ~~$199~~ $107 at Amazon
 
-The best overall, runner up: <u><a target="_blank" href="https://amzn.to/4nfRc89">Tumi Alpha International Dual Access Carry-on</a></u>, $779 at Amazon
+The best overall, runner up: <u><a target="_blank" href="https://amzn.to/4nfRc89">Tumi Alpha International Dual Access Carry-on</a></u>, ~~$778~~ $622 at Amazon
 
-Budget pick: <u><a target="_blank" href="https://amzn.to/4loJR4c">Amazon Basics Expandable Hardside 21-inch Spinner</a></u>, $57 at Amazon
+Budget pick: <u><a target="_blank" href="https://amzn.to/4loJR4c">Amazon Basics Expandable Hardside 21-inch Spinner</a></u>, $53 at Amazon
 
-Best for compression: <u><a target="_blank" href="https://amzn.to/4kRrCoe">Briggs & Riley 22 Inch Spinner</a></u>, $649 at Amazon
+Best for compression: <u><a target="_blank" href="https://amzn.to/4kRrCoe">Briggs & Riley 22 Inch Spinner</a></u>, $695 at Amazon
 
 <br/>
 <br/>
@@ -39,7 +39,7 @@ Best for compression: <u><a target="_blank" href="https://amzn.to/4kRrCoe">Brigg
 <br/>
 <br/>
 
-## 1) The Best Overall Carry on Luggage: Samsonite Freeform Carry-on Spinner, ~~$200~~ $130
+## 1) The Best Overall Carry on Luggage: Samsonite Freeform Carry-on Spinner, ~~$199~~ $107
 
 <a  href="https://amzn.to/44dxWiQ" target="_blank">
 <Image loading="lazy" src="/images/posts_img/lug-1.webp" alt="GreenPan Valencia Pro Frying Pan " height="100%" width="100%"/>
@@ -70,7 +70,7 @@ Specs: Hardside | 23 x 15 x 10 inches | 6.5 pounds | Expandable (1 inch) | Polyc
 
 <br/>
 
-## 2) The Best Overall Carry on Luggage, Runner Up: Tumi Alpha International Dual Access Carry-on, $779
+## 2) The Best Overall Carry on Luggage, Runner Up: Tumi Alpha International Dual Access Carry-on, ~~$778~~ $622
 
 <a href="https://amzn.to/4latBE8" target="_blank">
 <Image loading="lazy" src="/images/posts_img/lug-2.webp" alt="Oxo Professional Ceramic Nonstick pan"  height="100%" width="100%"/>
@@ -103,7 +103,7 @@ Specs: Softside | 22 x 14 x 9 inches | 10.7 pounds | 35-liter capacity | Expanda
 
 <br/>
 
-## 3) Best Budget Pick: Amazon Basics Expandable Hardside 21-inch Spinner, $57
+## 3) Best Budget Pick: Amazon Basics Expandable Hardside 21-inch Spinner, $53
 
 <a href="https://amzn.to/441KYRK " target="_blank">
 <Image loading="lazy" src="/images/posts_img/lug-3.webp" alt="Made In CeramiClad Nonstick Pan" height="100%" width="100%"/>
@@ -136,7 +136,7 @@ Specs: Hardside | 21.7 x 14.8 x 10 inches | 6.8 pounds | 34-liter capacity | Exp
 
 <br/>
 
-## 4) Best Compression Carry on Luggage: Briggs & Riley 22 Inch Spinner, $649
+## 4) Best Compression Carry on Luggage: Briggs & Riley 22 Inch Spinner, $695
 
 <a  href="https://amzn.to/3ZL6tUj" target="_blank">
 <Image loading="lazy"  src="/images/posts_img/lug-4.webp" alt="GreenPan Paris Pro" height="100%" width="100%"/>
@@ -169,7 +169,7 @@ Specs: Hardside | 22 x 14 x 9 inches | 8.6 pounds | 41-liter capacity (unexpande
 
 <br/>
 
-## 5) Most Stylish: Delsey Chatelet Air 2.0, ~~$330~~ $255
+## 5) Most Stylish: Delsey Chatelet Air 2.0, ~~$329~~ $210
 
 <a  href="https://amzn.to/4kexwyJ" target="_blank">
 <Image  loading="lazy" src="/images/posts_img/lug-5.webp" alt="GreenPan Venice Pro" height="100%" width="100%"/>

@@ -23,13 +23,13 @@ Finding the right portable air conditioner can completely transform your comfort
 
 ## Summary of Best Portable Air Conditioners:
 
-The best overall: <u><a target="_blank" href="https://amzn.to/4lem7jS">Midea Duo MAP14HS1TBL</a></u>, ~~$680~~ $580 at Amazon
+The best overall: <u><a target="_blank" href="https://amzn.to/4lem7jS">Midea Duo MAP14HS1TBL</a></u>, $679 at Amazon
 
 The best overall, runner up: <u><a target="_blank" href="https://amzn.to/4lem8nW">TMidea Duo MAP12S1TBL</a></u>, ~~$580~~ $480 at Amazon
 
-Best for improved air quality and comfort: <u><a target="_blank" href="https://amzn.to/44qXAAL">Frigidaire FHPH142AA1</a></u>, $599 at Amazon
+Best for improved air quality and comfort: <u><a target="_blank" href="https://amzn.to/44qXAAL">Frigidaire FHPH142AA1</a></u>, ~~$599~~ $389 at Amazon
 
-Best for a cordless option that is truly portable: <u><a target="_blank" href="https://amzn.to/4nrtmGo">EcoFlow Wave 3 Portable Air Conditioner</a></u>, $1,299 at Amazon
+Best for a cordless option that is truly portable: <u><a target="_blank" href="https://amzn.to/4nrtmGo">EcoFlow Wave 3 Portable Air Conditioner</a></u>, ~~$1,299~~ $848 at Amazon
 
 <br/>
 <br/>
@@ -39,7 +39,7 @@ Best for a cordless option that is truly portable: <u><a target="_blank" href="h
 <br/>
 <br/>
 
-## 1) The Best Portable Air Conditioner: Midea Duo MAP14HS1TBL, ~~$680~~ $580
+## 1) The Best Portable Air Conditioner: Midea Duo MAP14HS1TBL, $679
 
 <a  href="https://amzn.to/3GnjgWm" target="_blank">
 <Image loading="lazy" src="/images/posts_img/air-con-1-2.webp" alt="GreenPan Valencia Pro Frying Pan " height="90%" width="90%"/>
@@ -85,7 +85,7 @@ If you don’t need the heating function and want a slightly smaller, more budge
 
 <br/>
 
-## 3) Best for Improved Air quality and Comfort: Frigidaire FHPH142AA1, $599
+## 3) Best for Improved Air quality and Comfort: Frigidaire FHPH142AA1, ~~$599~~ $389
 
 <a href="https://amzn.to/4nywtN1" target="_blank">
 <Image loading="lazy" src="/images/posts_img/air-con-2-2.webp" alt="Made In CeramiClad Nonstick Pan" height="80%" width="80%"/>
@@ -112,7 +112,7 @@ Overall, if you want a multi-season portable unit that cools evenly, operates qu
 
 <br/>
 
-## 4) Best for Basic, Affordable Cooling: Black+Decker BPACT14WT, $486
+## 4) Best for Basic, Affordable Cooling: Black+Decker BPACT14WT, ~~$569~~ $399
 
 <a  href="https://amzn.to/44EkV34" target="_blank">
 <Image  loading="lazy" src="/images/posts_img/air-con-4-3.webp" alt="GreenPan Venice Pro" height="90%" width="90%"/>
@@ -135,7 +135,7 @@ Still, when it comes down to the essentials—cooling a room effectively—this 
 
 <br/>
 
-## 5) Best Cordless Option that is Truly Portable: EcoFlow Wave 3 Portable Air Conditioner, $1,299
+## 5) Best Cordless Option that is Truly Portable: EcoFlow Wave 3 Portable Air Conditioner, ~~$1,299~~ $848
 
 <a  href="https://amzn.to/4l9tZ67" target="_blank">
 <Image  loading="lazy" src="/images/posts_img/air-con-4-2.webp" alt="GreenPan Venice Pro" height="90%" width="90%"/>
