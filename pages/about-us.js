@@ -12,10 +12,10 @@ export default function Aboutus() {
         <link rel="apple-touch-icon" sizes="180x180" href="/fave_pac/apple-touch-icon.png" />
         <link rel="manifest" href="/fave_pac/site.webmanifest" />
         <meta name="google-adsense-account" content="ca-pub-5014630772635761" />
-        <title>The Manhattan Times</title>
+        <title>Pure News</title>
         <meta
           name="description"
-          content="Stay informed with The Manhattan Times, your trusted source for the latest news. Explore a diverse range of articles covering stocks, markets, tech, personal finance, and more. Our expert analysis and in-depth reporting will keep you up-to-date with the ever-changing world of finance. "
+          content="Stay informed with Pure News, your trusted source for the latest news. Explore a diverse range of articles covering stocks, markets, tech, personal finance, and more. Our expert analysis and in-depth reporting will keep you up-to-date with the ever-changing world of finance. "
         />
       </Head>
 
@@ -43,7 +43,7 @@ export default function Aboutus() {
             <div class="w-full max-w-[600px] mt-[40px] min-[700px]:mt-0 px-[30px]">
               <div class="space-y-4">
                 <h2 class="text-xl md:text-2xl text-gray-800 font-[500] font-lora ">
-                  Welcome and thank you for visiting The Manhattan Times.
+                  Welcome and thank you for visiting Pure News.
                 </h2>
                 <p class="font-lora ">
                   We are a New York based news company with a focus on covering the top stories in
@@ -58,8 +58,7 @@ export default function Aboutus() {
                 <p class="font-lora ">
                   What sets us apart is our commitment to fairness. We have no sponsors or political
                   affiliation, which allows us to approach each story with complete independence. At
-                  The Manhattan Times, our goal is to deliver news with the utmost honesty and
-                  impartiality.
+                  Pure News, our goal is to deliver news with the utmost honesty and impartiality.
                 </p>
               </div>
             </div>

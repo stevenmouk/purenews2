@@ -38,12 +38,12 @@ export default function Article({
     dateModified: new Date(page_date).toISOString(), // If you have updates, set actual modified date
     author: {
       "@type": "Organization",
-      name: "The Manhattan Times", // <-- your site's name
+      name: "Pure News", // <-- your site's name
       url: "https://mhtntimes.com", // <-- your site's homepage
     },
     publisher: {
       "@type": "Organization",
-      name: "The Manhattan Times",
+      name: "Pure News",
       logo: {
         "@type": "ImageObject",
         url: "https://mhtntimes.com/fave_pac/favicon.ico", // Replace with your real logo URL

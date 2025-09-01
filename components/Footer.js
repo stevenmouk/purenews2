@@ -8,7 +8,7 @@ export default function Footer() {
         <span className="text-sm text-gray-500 sm:text-center ">
           ©
           <a href="/" className="hover:underline">
-            The Manhattan Times™
+            Pure News™
           </a>
           . All Rights Reserved.
         </span>

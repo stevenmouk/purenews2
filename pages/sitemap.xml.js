@@ -25,7 +25,7 @@ function generateSiteMap(articles) {
              <loc>${`https://mhtntimes.com/articles/${article.slug}`}</loc>
              <news:news>
                <news:publication>
-                 <news:name>The Manhattan Times</news:name>
+                 <news:name>Pure News</news:name>
                  <news:language>en</news:language>
                </news:publication>
                <news:publication_date>${publicationDate}</news:publication_date>
