@@ -1,6 +1,6 @@
 import fs from "fs";
-import path from "path";
 import matter from "gray-matter";
+import path from "path";
 
 function formatDate(timestamp) {
   const date = new Date(timestamp * 1000);
@@ -12,17 +12,19 @@ function generateSiteMap(articles) {
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
        <url>
-         <loc>https://mhtntimes.com</loc>
+         <loc>https://pure.news</loc>
          <lastmod>${formatDate(Date.now() / 1000)}</lastmod>
          <changefreq>daily</changefreq>
          <priority>1.0</priority>
        </url>
        ${articles
          .map((article) => {
-           const publicationDate = new Date(article.frontmatter.page_date).toISOString(); // Ensure ISO format
+           const publicationDate = new Date(
+             article.frontmatter.page_date
+           ).toISOString(); // Ensure ISO format
            return `
          <url>
-             <loc>${`https://mhtntimes.com/articles/${article.slug}`}</loc>
+             <loc>${`https://pure.news/articles/${article.slug}`}</loc>
              <news:news>
                <news:publication>
                  <news:name>Pure News</news:name>
@@ -43,7 +45,10 @@ export async function getServerSideProps({ res }) {
 
   const posts = files.map((filename) => {
     const slug = filename.replace(".md", "");
-    const markdownWithMeta = fs.readFileSync(path.join("post", filename), "utf-8");
+    const markdownWithMeta = fs.readFileSync(
+      path.join("post", filename),
+      "utf-8"
+    );
     const { data: frontmatter } = matter(markdownWithMeta);
 
     return {

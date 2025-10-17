@@ -1,6 +1,6 @@
 ---
   title: "Trump officials vow to stay the course on tariffs despite market turmoil"
-  blog_url: "https://mhtntimes.com/articles/amazon-is-the-latest-big-tech-company-to-donate-$1mn-to-trump-fund"
+  blog_url: "https://pure.news/articles/amazon-is-the-latest-big-tech-company-to-donate-$1mn-to-trump-fund"
   img_alt: "Trump signing tariffs"
   des: "Trump officials double down on global tariffs despite recession fears, dismissing market volatility and warning that trade reforms won't be reversed quickly."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/trump-tarrifs.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/trump-tarrifs.webp"
+  img_url_full: "https://pure.news/images/posts_img/trump-tarrifs.webp"
   figure_p: "Trump announces tariffs"
 ---
 

@@ -1,6 +1,6 @@
 ---
   title: "Alarming rise in AI-powered scams: Microsoft reveals $4 Billion in thwarted fraud"
-  blog_url: "https://mhtntimes.com/articles/alarming-rise-in-ai-powered-scams-microsoft-reveals-4-billion-in-thwarted-fraud"
+  blog_url: "https://pure.news/articles/alarming-rise-in-ai-powered-scams-microsoft-reveals-4-billion-in-thwarted-fraud"
   img_alt: "AI scams on the rise"
   des: "Microsoft's latest Cyber Signals report reveals how AI is fueling a surge in sophisticated scams, and outlines new strategies to fight back against emerging fraud threats."
   twitter_des: "Microsoft's latest Cyber Signals report reveals how AI is fueling a surge in sophisticated scams, and outlines new strategies to fight back against emerging fraud threats."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/ai-scams.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/ai-scams.webp"
+  img_url_full: "https://pure.news/images/posts_img/ai-scams.webp"
   figure_p: "AI scams on the rise"
 ---
 

@@ -1,6 +1,6 @@
 ---
   title: "JD Vance is using a trade deal to get the UK to end its LGBTQ+ hate speech protections"
-  blog_url: "https://mhtntimes.com/articles/jd-vance-is-using-a-trade-deal-to-get-the-uk-to-end-its-LGBTQ-protections"
+  blog_url: "https://pure.news/articles/jd-vance-is-using-a-trade-deal-to-get-the-uk-to-end-its-LGBTQ-protections"
   img_alt: "JD Vance"
   des: "The Trump administration is pressuring the U.K. to scrap hate speech laws as part of a trade deal, pushing American-style free speech standards in ongoing negotiations."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 2.0"
   figure_license_url: "https://creativecommons.org/licenses/by/2.0//"
   page_image_src_rel: "/images/posts_img/jd-vance.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/jd-vance.webp"
+  img_url_full: "https://pure.news/images/posts_img/jd-vance.webp"
   figure_p: "JD Vance"
 ---
 

@@ -1,6 +1,6 @@
 ---
   title: "Trump Executive Order Calls for Artificial Intelligence to Be Taught in Schools"
-  blog_url: "https://mhtntimes.com/articles/trump-executive-order-calls-for-artificial-intelligence-to-be-taught-in-school"
+  blog_url: "https://pure.news/articles/trump-executive-order-calls-for-artificial-intelligence-to-be-taught-in-school"
   img_alt: "Trump signs executive order"
   des: "A new executive order promotes integrating AI into American education, aiming to train students and teachers while addressing both opportunities and risks of the technology."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/trump-tarrifs.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/trump-tarrifs.webp"
+  img_url_full: "https://pure.news/images/posts_img/trump-tarrifs.webp"
   figure_p: "Trump signs executive order"
 ---
 

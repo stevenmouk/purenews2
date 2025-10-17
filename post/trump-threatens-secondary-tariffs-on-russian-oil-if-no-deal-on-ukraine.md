@@ -1,6 +1,6 @@
 ---
   title: "Trump threatens secondary tariffs on Russian oil if no deal on Ukraine"
-  blog_url: "https://mhtntimes.com/articles/trump-threatens-secondary-tariffs-on-russian-oil-if-no-deal-on-ukraine"
+  blog_url: "https://pure.news/articles/trump-threatens-secondary-tariffs-on-russian-oil-if-no-deal-on-ukraine"
   img_alt: "Trump and Putin"
   des: "Donald Trump warns Putin over stalled Ukraine ceasefire talks, threatening secondary tariffs on Russian oil buyers while pushing for a peace deal by April 20."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0/"
   page_image_src_rel: "/images/posts_img/trumpandputin.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/trumpandputin.webp"
+  img_url_full: "https://pure.news/images/posts_img/trumpandputin.webp"
   figure_p: "Trump and Putin"
 ---
 

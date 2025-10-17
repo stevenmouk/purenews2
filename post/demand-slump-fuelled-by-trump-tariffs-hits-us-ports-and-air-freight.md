@@ -1,6 +1,6 @@
 ---
   title: "Demand slump fuelled by Trump tariffs hits US ports and air freight"
-  blog_url: "https://mhtntimes.com/articles/demand-slump-fuelled-by-trump-tariffs-hits-us-ports-and-air-freight"
+  blog_url: "https://pure.news/articles/demand-slump-fuelled-by-trump-tariffs-hits-us-ports-and-air-freight"
   img_alt: "Port in U.S."
   des: "Trump’s China tariffs hit US ports and freight hard, slashing imports, shifting supply chains, and raising costs."
   twitter_des: "Trump’s China tariffs hit US ports and freight hard, slashing imports, shifting supply chains, and raising costs."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 1.0"
   figure_license_url: "https://creativecommons.org/licenses/by/1.0//"
   page_image_src_rel: "/images/posts_img/port_2.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/port_2.webp"
+  img_url_full: "https://pure.news/images/posts_img/port_2.webp"
   figure_p: "Port in U.S."
 ---
 

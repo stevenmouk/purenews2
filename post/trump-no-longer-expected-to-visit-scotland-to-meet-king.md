@@ -1,6 +1,6 @@
 ---
   title: "Trump no longer expected to visit Scotland to meet King"
-  blog_url: "https://mhtntimes.com/articles/trump-no-longer-expected-to-visit-scotland-to-meet-king"
+  blog_url: "https://pure.news/articles/trump-no-longer-expected-to-visit-scotland-to-meet-king"
   img_alt: "Donald Trump"
   des: "Donald Trump says a September meeting with King Charles is being planned, calling it an 'honour' and hinting it could surpass his 2019 UK state visit."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 1.0"
   figure_license_url: "https://creativecommons.org/licenses/by/1.0//"
   page_image_src_rel: "/images/posts_img/trump-new.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/trump-new.webp"
+  img_url_full: "https://pure.news/images/posts_img/trump-new.webp"
   figure_p: "Donald Trump"
 ---
 

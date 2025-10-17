@@ -1,6 +1,6 @@
 ---
   title: "Elon Musk's X lost 11 million users in the EU over the past 5 months"
-  blog_url: "https://mhtntimes.com/articles/elon-musks-x-lost-11-million-users-in-the-eu-over-the-past-5-months"
+  blog_url: "https://pure.news/articles/elon-musks-x-lost-11-million-users-in-the-eu-over-the-past-5-months"
   img_alt: "Elon Musk"
   des: "X (formerly Twitter) has lost over 10% of its EU users since Elon Musk's takeover, according to its latest transparency report under the Digital Services Act."
   twitter_des: "X (formerly Twitter) has lost over 10% of its EU users since Elon Musk's takeover, according to its latest transparency report under the Digital Services Act."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/elon-musk-x.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/elon-musk-x.webp"
+  img_url_full: "https://pure.news/images/posts_img/elon-musk-x.webp"
   figure_p: "Elon Musk"
 ---
 

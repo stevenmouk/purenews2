@@ -1,6 +1,6 @@
 ---
   title: "Elon Musk says xAI has acquired X in deal that values social media site at $33 billion"
-  blog_url: "https://mhtntimes.com/articles/Elon-Musk-says-xAI-has-acquired-x-in-deal-that-values-social-media-site-at-$33-billion"
+  blog_url: "https://pure.news/articles/Elon-Musk-says-xAI-has-acquired-x-in-deal-that-values-social-media-site-at-$33-billion"
   img_alt: "Elon Musk"
   des: "Elon Musk said on Friday that his startup xAI has merged with X, his social network, in an all-stock transaction that values the artificial intelligence company at $80 billion and the social media company at $33 billion."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/elon_musk2.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/elon_musk2.webp"
+  img_url_full: "https://pure.news/images/posts_img/elon_musk2.webp"
   figure_p: "Elon Musk"
 ---
 

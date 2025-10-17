@@ -1,6 +1,6 @@
 ---
   title: "Glacier startup gets $16M to expand its AI robot recycling fleet"
-  blog_url: "https://mhtntimes.com/articles/glacier-startup-gets-16-million-to-expand-robot-recycling-fleet"
+  blog_url: "https://pure.news/articles/glacier-startup-gets-16-million-to-expand-robot-recycling-fleet"
   img_alt: "Glacier startup"
   des: "A startup called Glacier is using AI-powered robots to improve recycling efficiency by automating sorting in waste facilities, helping reduce labor issues and boost recycling rates."
   twitter_des: "A startup called Glacier is using AI-powered robots to improve recycling efficiency by automating sorting in waste facilities, helping reduce labor issues and boost recycling rates."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/glacier.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/glacier.webp"
+  img_url_full: "https://pure.news/images/posts_img/glacier.webp"
   figure_p: "Glacier startup"
 ---
 

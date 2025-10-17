@@ -1,6 +1,6 @@
 ---
   title: "OpenAI’s Sam Altman to donate $1mn to Donald Trump’s inauguration fund"
-  blog_url: "https://mhtntimes.com/articles/openAIs-sam-altman-to-donate-$1mn-to-donald-trumps-inauguration-fund"
+  blog_url: "https://pure.news/articles/openAIs-sam-altman-to-donate-$1mn-to-donald-trumps-inauguration-fund"
   img_alt: "Sam Altman"
   des: "Sam Altman donates $1M to Trump’s inaugural fund, joining Big Tech leaders like Amazon and Meta in building ties with the president-elect. Explore the evolving tech-Trump relationship."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/sam_altman2.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/sam_altman2.webp"
+  img_url_full: "https://pure.news/images/posts_img/sam_altman2.webp"
   figure_p: "Sam Altman"
 ---
 

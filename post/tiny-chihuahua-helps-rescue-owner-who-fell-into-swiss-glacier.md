@@ -1,6 +1,6 @@
 ---
   title: "Tiny Chihuahua Helps Rescue Owner Who Fell into Swiss Glacier"
-  blog_url: "https://mhtntimes.com/articles/tiny-chihuahua-helps-rescue-owner-who-fell-into-swiss-glacier"
+  blog_url: "https://pure.news/articles/tiny-chihuahua-helps-rescue-owner-who-fell-into-swiss-glacier"
   img_alt: "Tiny Chihuahua"
   des: "A brave Chihuahua helped rescuers find his owner who fell into a 26-foot crevasse in the Swiss Alps. Learn how this loyal pup became a true four-legged hero."
   twitter_des: "A brave Chihuahua helped rescuers find his owner who fell into a 26-foot crevasse in the Swiss Alps. Learn how this loyal pup became a true four-legged hero."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/tiny-chihuahua.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/tiny-chihuahua.webp"
+  img_url_full: "https://pure.news/images/posts_img/tiny-chihuahua.webp"
   figure_p: "Chihuahua helps rescue owner on Swiss glacier"
 ---
 

@@ -1,6 +1,6 @@
 ---
   title: "Ukraine struck a key Russian air base used for Tu-95 and Tu-160 bomber attacks"
-  blog_url: "https://mhtntimes.com/articles/ukraine-struck-a-key-russian-air-base"
+  blog_url: "https://pure.news/articles/ukraine-struck-a-key-russian-air-base"
   img_alt: "Ukraine Strike"
   des: "Ukraine launched a major attack on Russia’s Engels-2 air base, igniting explosions and fires. The strike targeted an ammunition depot at the key bomber launch site, prompting evacuations and a state of emergency."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/exp.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/exp.webp"
+  img_url_full: "https://pure.news/images/posts_img/exp.webp"
   figure_p: "Smoke rising from the area around the Engels-2 airbase following a Ukrainian drone attack"
 ---
 

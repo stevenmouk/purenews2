@@ -1,6 +1,6 @@
 ---
   title: "OpenAI seeks to unlock investment by ditching ‘AGI’ clause with Microsoft"
-  blog_url: "https://mhtntimes.com/articles/openai-seeks-to-unlock-investment-by-ditching-agi-clause-with-microsoft"
+  blog_url: "https://pure.news/articles/openai-seeks-to-unlock-investment-by-ditching-agi-clause-with-microsoft"
   img_alt: "Sam Altman"
   des: "OpenAI is considering removing a key clause limiting Microsoft's access to AGI technology, as the AI giant restructures to secure billions in funding and transitions into a public benefit corporation."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 2.0"
   figure_license_url: "https://creativecommons.org/licenses/by/2.0//"
   page_image_src_rel: "/images/posts_img/sam_altman.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/sam_altman.webp"
+  img_url_full: "https://pure.news/images/posts_img/sam_altman.webp"
   figure_p: "Tiktok Company Logo"
 ---
 

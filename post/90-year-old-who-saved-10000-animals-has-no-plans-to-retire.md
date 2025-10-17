@@ -1,6 +1,6 @@
 ---
   title: "90-year-old Who Has Saved Over 10,000 Animals at Sanctuary Has No Plans to Retire"
-  blog_url: "https://mhtntimes.com/articles/90-year-old-who-saved-10000-animals-has-no-plans-to-retire"
+  blog_url: "https://pure.news/articles/90-year-old-who-saved-10000-animals-has-no-plans-to-retire"
   img_alt: "Barby Keel"
   des: "90-year-old Barby Keel has rescued over 10,000 animals at her Sussex sanctuary, dedicating more than five decades to giving abandoned and abused animals a safe, loving home."
   twitter_des: "90-year-old Barby Keel has rescued over 10,000 animals at her Sussex sanctuary, dedicating more than five decades to giving abandoned and abused animals a safe, loving home."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/barby-keel.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/barby-keel.webp"
+  img_url_full: "https://pure.news/images/posts_img/barby-keel.webp"
   figure_p: "Barby Keel"
 ---
 

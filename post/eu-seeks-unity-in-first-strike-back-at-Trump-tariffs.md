@@ -1,6 +1,6 @@
 ---
   title: "EU seeks unity in first strike back at Trump tariffs"
-  blog_url: "https://mhtntimes.com/articles/eu-seeks-unity-in-first-strike-back-at-Trump-tariffs"
+  blog_url: "https://pure.news/articles/eu-seeks-unity-in-first-strike-back-at-Trump-tariffs"
   img_alt: "shipping port"
   des: "The EU prepares to strike back against U.S. tariffs with up to $28B in countermeasures, aiming to maintain unity and pressure Washington into trade talks."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/port.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/port.webp"
+  img_url_full: "https://pure.news/images/posts_img/port.webp"
   figure_p: "Shipping Port"
 ---
 

@@ -1,6 +1,6 @@
 ---
   title: "Ukrainians Declare Victory in Battle of Pokrovsk"
-  blog_url: "https://mhtntimes.com/articles/ukrainians-declare-victory-in-battle-of-pokrovsk"
+  blog_url: "https://pure.news/articles/ukrainians-declare-victory-in-battle-of-pokrovsk"
   img_alt: "A Ukrainian soldier walks past damaged buildings in central Pokrovsk"
   des: "Russia’s assault on Pokrovsk has failed, according to Ukrainian officials, as fierce resistance, heavy Russian losses, and stalled advances disrupt Moscow’s plans for a major summer offensive."
   twitter_des: "Russia’s assault on Pokrovsk has failed, according to Ukrainian officials, as fierce resistance, heavy Russian losses, and stalled advances disrupt Moscow’s plans for a major summer offensive."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 1.0"
   figure_license_url: "https://creativecommons.org/licenses/by/1.0//"
   page_image_src_rel: "/images/posts_img/ukraine_2.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/ukraine_2.webp"
+  img_url_full: "https://pure.news/images/posts_img/ukraine_2.webp"
   figure_p: "War in Ukraine"
 ---
 

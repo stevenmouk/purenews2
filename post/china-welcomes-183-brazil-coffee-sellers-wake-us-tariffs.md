@@ -1,6 +1,6 @@
 ---
   title: "China welcomes 183 Brazil coffee sellers in wake of US tariffs"
-  blog_url: "https://mhtntimes.com/articles/china-welcomes-183-brazil-coffee-sellers-wake-us-tariffs"
+  blog_url: "https://pure.news/articles/china-welcomes-183-brazil-coffee-sellers-wake-us-tariffs"
   img_alt: "Coffee beans"
   des: "China has approved 183 new Brazilian coffee exporters amid U.S. tariff hikes. The move offers relief to Brazil's coffee industry as it seeks new markets."
   twitter_des: "China has approved 183 new Brazilian coffee exporters amid U.S. tariff hikes. The move offers relief to Brazil's coffee industry as it seeks new markets."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 1.0"
   figure_license_url: "https://creativecommons.org/licenses/by/1.0//"
   page_image_src_rel: "/images/posts_img/coffee.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/coffee.webp"
+  img_url_full: "https://pure.news/images/posts_img/coffee.webp"
   figure_p: "Coffee beans"
 ---
 

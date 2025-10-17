@@ -1,6 +1,6 @@
 ---
   title: "EU drops bourbon, wine and dairy products from tariffs list against US"
-  blog_url: "https://mhtntimes.com/articles/eu-drops-bourbon-wine-and-dairy-products-from-tariffs-list-against-us"
+  blog_url: "https://pure.news/articles/eu-drops-bourbon-wine-and-dairy-products-from-tariffs-list-against-us"
   img_alt: "Wine bottles"
   des: "The EU plans 25% tariffs on select US goods in response to American metal duties, sparing bourbon after pressure from key member states. Tensions rise as both sides weigh further trade measures."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 1.0"
   figure_license_url: "https://creativecommons.org/licenses/by/1.0//"
   page_image_src_rel: "/images/posts_img/wine.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/wine.webp"
+  img_url_full: "https://pure.news/images/posts_img/wine.webp"
   figure_p: "Donald Trump threatened 200% tariffs on EU wine and spirits after Brussels said it would include bourbon in its tit-for-tat response "
 ---
 

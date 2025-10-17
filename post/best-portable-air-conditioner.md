@@ -1,6 +1,6 @@
 ---
   title: "The Best Portable Air Conditioner of 2025, Tried And Tested By Experts"
-  blog_url: "https://mhtntimes.com/articles/best-portable-air-conditioner"
+  blog_url: "https://pure.news/articles/best-portable-air-conditioner"
   img_alt: "Best portable air conditioner"
   des: "Discover the best portable air conditioners of 2025 for every budget and space. From powerful, energy-efficient models to true cordless options, find the top ACs to keep your home cool and comfortable all season long."
   twitter_des: "Discover the best portable air conditioners of 2025 for every budget and space. From powerful, energy-efficient models to true cordless options, find the top ACs to keep your home cool and comfortable all season long."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/air-portable.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/air-portable.webp"
+  img_url_full: "https://pure.news/images/posts_img/air-portable.webp"
   figure_p: "Portable Air Conditioner Showcase"
 ---
 

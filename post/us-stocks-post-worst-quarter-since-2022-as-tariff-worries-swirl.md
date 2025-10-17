@@ -1,6 +1,6 @@
 ---
   title: "US stocks post worst quarter since 2022 as tariff worries swirl"
-  blog_url: "https://mhtntimes.com/articles/us-stocks-post-worst-quarter-since-2022-as-tariff-worries-swirl"
+  blog_url: "https://pure.news/articles/us-stocks-post-worst-quarter-since-2022-as-tariff-worries-swirl"
   img_alt: "Wall Street Trader"
   des: "Wall Street suffered its worst quarterly performance in nearly three years as concerns mounted that Donald Trump’s tariffs could trigger a period of stagflation in the world’s largest economy.
 "
@@ -17,7 +17,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/stocks.avif"
-  img_url_full: "https://mhtntimes.com/images/posts_img/stocks.avif"
+  img_url_full: "https://pure.news/images/posts_img/stocks.avif"
   figure_p: "Stock Traders"
 ---
 

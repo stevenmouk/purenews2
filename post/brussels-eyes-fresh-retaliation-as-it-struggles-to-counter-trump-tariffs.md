@@ -1,6 +1,6 @@
 ---
   title: "Brussels eyes fresh retaliation as it struggles to counter Trump tariffs"
-  blog_url: "https://mhtntimes.com/articles/brussels-eyes-fresh-retaliation-as-it-struggles-to-counter-trump-tariffs"
+  blog_url: "https://pure.news/articles/brussels-eyes-fresh-retaliation-as-it-struggles-to-counter-trump-tariffs"
   img_alt: "Steel Factory"
   des: "The European Commission plans to unveil its proposal for retaliatory tariffs against the US early next week, as Brussels grapples with how to respond to the trade dispute ignited by President Donald Trump."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/steel.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/steel.webp"
+  img_url_full: "https://pure.news/images/posts_img/steel.webp"
   figure_p: "A 25% US tariff on steel and aluminium fuelled concerns for Europe’s steel sector, already battling Asian rivals and soaring energy prices."
 ---
 

@@ -1,6 +1,6 @@
 ---
   title: "Harvard Tuition is Now Free for Families Earning Under $200k–Includes Housing and Books for Those Below $100k"
-  blog_url: "https://mhtntimes.com/articles/harvard-tuition-is-now-free-for-families-earning-under-200000-and-includes-housing-and-books-for-those-below-100000"
+  blog_url: "https://pure.news/articles/harvard-tuition-is-now-free-for-families-earning-under-200000-and-includes-housing-and-books-for-those-below-100000"
   img_alt: "Harvard University"
   des: "Harvard College expands financial aid: starting Fall 2025, free tuition and housing for families earning under $100K, and tuition-free for families earning up to $200K."
   twitter_des: "Harvard College expands financial aid: starting Fall 2025, free tuition and housing for families earning under $100K, and tuition-free for families earning up to $200K."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/harvard.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/harvard.webp"
+  img_url_full: "https://pure.news/images/posts_img/harvard.webp"
   figure_p: "Harvard University"
 ---
 

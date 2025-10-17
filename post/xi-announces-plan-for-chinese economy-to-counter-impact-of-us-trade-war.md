@@ -1,6 +1,6 @@
 ---
   title: "Xi announces plan for Chinese economy to counter impact of US trade war"
-  blog_url: "https://mhtntimes.com/articles/xi-announces-plan-for-chinese economy-to-counter-impact-of-us-trade-war"
+  blog_url: "https://pure.news/articles/xi-announces-plan-for-chinese economy-to-counter-impact-of-us-trade-war"
   img_alt: "Xi Jinping Unveils Plan "
   des: "China announces economic plans amid US trade tensions and possible tariff cuts on key American imports."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/china-xi.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/china-xi.webp"
+  img_url_full: "https://pure.news/images/posts_img/china-xi.webp"
   figure_p: "Xi Jinping Unveils Plan "
 ---
 

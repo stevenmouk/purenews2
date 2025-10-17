@@ -1,6 +1,6 @@
 ---
   title: "The Best Laptops of 2025, Tried And Tested By Experts"
-  blog_url: "https://mhtntimes.com/articles/best-laptops"
+  blog_url: "https://pure.news/articles/best-laptops"
   img_alt: "Best Laptops"
   des: "Discover the best laptops of 2025 for every need and budget, including top picks from Dell, Apple, Acer, and Lenovo—perfect for work, school, travel, or everyday use."
   twitter_des: "Discover the best laptops of 2025 for every need and budget, including top picks from Dell, Apple, Acer, and Lenovo—perfect for work, school, travel, or everyday use."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/laptops.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/laptops.webp"
+  img_url_full: "https://pure.news/images/posts_img/laptops.webp"
   figure_p: "Laptop Showcase"
 ---
 

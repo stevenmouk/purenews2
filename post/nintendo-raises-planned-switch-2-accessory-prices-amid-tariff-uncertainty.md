@@ -1,6 +1,6 @@
 ---
   title: "Nintendo raises planned Switch 2 accessory prices amid tariff 'uncertainty'"
-  blog_url: "https://mhtntimes.com/articles/nintendo-raises-planned-switch-2-accessory-prices-amid-tariff-uncertainty"
+  blog_url: "https://pure.news/articles/nintendo-raises-planned-switch-2-accessory-prices-amid-tariff-uncertainty"
   img_alt: "Nintendo Switch 2"
   des: "Nintendo raises Switch 2 accessory prices due to market changes, while console pricing holds steady—for now. Preorders open April 24."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/switch2.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/switch2.webp"
+  img_url_full: "https://pure.news/images/posts_img/switch2.webp"
   figure_p: "Nintendo Switch 2"
 ---
 

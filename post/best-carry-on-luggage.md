@@ -1,6 +1,6 @@
 ---
   title: "The Best Carry-on Luggage of 2025, Tried And Tested By Experts"
-  blog_url: "https://mhtntimes.com/articles/best-carry-on-luggage"
+  blog_url: "https://pure.news/articles/best-carry-on-luggage"
   img_alt: "Best carry on luggage"
   des: "Looking for the perfect carry-on? We tested top-rated suitcases to find the best carry-on luggage of 2025—whether you're after durability, style, space, or a budget-friendly option under $100."
   twitter_des: "Looking for the perfect carry-on? We tested top-rated suitcases to find the best carry-on luggage of 2025—whether you're after durability, style, space, or a budget-friendly option under $100."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/carry-on-luggage.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/carry-on-luggage.webp"
+  img_url_full: "https://pure.news/images/posts_img/carry-on-luggage.webp"
   figure_p: "Carry on Luggage Showcase"
 ---
 

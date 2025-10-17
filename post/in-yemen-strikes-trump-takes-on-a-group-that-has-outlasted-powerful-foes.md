@@ -1,6 +1,6 @@
 ---
   title: "In Yemen Strikes, Trump Takes On a Group That Has Outlasted Powerful Foes"
-  blog_url: "https://mhtntimes.com/articles/in-yemen-strikes-trump-takes-on-a-group-that-has-outlasted-powerful-foes"
+  blog_url: "https://pure.news/articles/in-yemen-strikes-trump-takes-on-a-group-that-has-outlasted-powerful-foes"
   img_alt: "U.S. strikes rebel held capital"
   des: "In ordering a pre-emptive attack on the Houthis in Yemen, President Trump is taking on a group that has outlasted powerful enemies for years."
   twitter_des:
@@ -15,7 +15,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/yemen-strike.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/yemen-strike.webp"
+  img_url_full: "https://pure.news/images/posts_img/yemen-strike.webp"
   figure_p: "Smoke rises from a location reported to be hit by U.S. airstrike in revel held capital."
 ---
 

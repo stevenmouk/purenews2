@@ -1,6 +1,6 @@
 ---
   title: "Shein, Temu prices spike as much as 300% due to US tariffs"
-  blog_url: "https://mhtntimes.com/articles/shein-temu-prices-spike-as-much-as-300-due-to-us-tariffs"
+  blog_url: "https://pure.news/articles/shein-temu-prices-spike-as-much-as-300-due-to-us-tariffs"
   img_alt: "Shein App"
   des: "Shein and Temu hike U.S. prices as new tariffs on Chinese imports take effect, signaling broader increases ahead."
   twitter_des: "Shein and Temu hike U.S. prices as new tariffs on Chinese imports take effect, signaling broader increases ahead."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/shein.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/shein.webp"
+  img_url_full: "https://pure.news/images/posts_img/shein.webp"
   figure_p: "Shein App"
 ---
 

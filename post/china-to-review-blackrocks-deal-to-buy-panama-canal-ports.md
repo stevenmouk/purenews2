@@ -1,6 +1,6 @@
 ---
   title: "China to review BlackRock’s deal to buy Panama Canal ports"
-  blog_url: "https://mhtntimes.com/articles/china-to-review-blackrocks-deal-to-buy-panama-canal-ports"
+  blog_url: "https://pure.news/articles/china-to-review-blackrocks-deal-to-buy-panama-canal-ports"
   img_alt: "Panama Canal"
   des: "China's antitrust regulator is reviewing CK Hutchison's sale of two Panama Canal ports to a BlackRock-led consortium, adding uncertainty to the $22.8B global deal amid geopolitical tensions."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY-SA 3.0"
   figure_license_url: "https://creativecommons.org/licenses/by-sa/3.0/"
   page_image_src_rel: "/images/posts_img/panama.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/panama.webp"
+  img_url_full: "https://pure.news/images/posts_img/panama.webp"
   figure_p: "Panama Canal"
 ---
 

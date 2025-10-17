@@ -1,6 +1,6 @@
 ---
   title: "Trump says Canada would ‘cease to exist’ without the U.S., sparking heated  reactions online"
-  blog_url: "https://mhtntimes.com/articles/donald-trump-says-without-u-s-canada-would-cease-to-exist"
+  blog_url: "https://pure.news/articles/donald-trump-says-without-u-s-canada-would-cease-to-exist"
   img_alt: "Donald Trump"
   des: "U.S. President Donald Trump claims Canada would “cease to exist” without American support, sparking strong reactions online as Canadians push back against his remarks on tariffs, trade, and national dependence."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/trump_3.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/trump_3.webp"
+  img_url_full: "https://pure.news/images/posts_img/trump_3.webp"
   figure_p: "Donald Trump"
 ---
 

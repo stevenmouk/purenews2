@@ -1,6 +1,6 @@
 ---
   title: "Charles Schwab CEO touts 400% surge in crypto interest, teases direct spot trading"
-  blog_url: "https://mhtntimes.com/articles/charles-schwab-ceo-touts-400-surge-in-crypto-interest"
+  blog_url: "https://pure.news/articles/charles-schwab-ceo-touts-400-surge-in-crypto-interest"
   img_alt: "Crypto interest is ramping up"
   des: "Charles Schwab is ramping up its crypto offerings, with plans to launch spot trading by 2026, signaling a major push into digital assets under new CEO Rick Wurster."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/crypto-laptop.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/crypto-laptop.webp"
+  img_url_full: "https://pure.news/images/posts_img/crypto-laptop.webp"
   figure_p: "Crypto interest is ramping up"
 ---
 

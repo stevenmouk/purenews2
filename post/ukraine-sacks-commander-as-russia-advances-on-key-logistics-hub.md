@@ -1,6 +1,6 @@
 ---
   title: "Ukraine sacks commander as Russia advances on key logistics hub"
-  blog_url: "https://mhtntimes.com/articles/ukraine-sacks-commander-as-russia-advances-on-key-logistics-hub"
+  blog_url: "https://pure.news/articles/ukraine-sacks-commander-as-russia-advances-on-key-logistics-hub"
   img_alt: "President Zelensky"
   des: "Ukraine replaces Donetsk region commander as Russian forces advance rapidly, threatening key logistics hubs and highlighting critical manpower shortages on the eastern front."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/mad_zelin.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/mad_zelin.webp"
+  img_url_full: "https://pure.news/images/posts_img/mad_zelin.webp"
   figure_p: "President Zelensky"
 ---
 

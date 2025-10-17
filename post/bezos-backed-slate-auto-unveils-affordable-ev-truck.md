@@ -1,6 +1,6 @@
 ---
   title: "Bezos-backed Slate Auto unveils affordable EV truck"
-  blog_url: "https://mhtntimes.com/articles/bezos-backed-slate-auto-unveils-affordable-ev-truck"
+  blog_url: "https://pure.news/articles/bezos-backed-slate-auto-unveils-affordable-ev-truck"
   img_alt: "Slate Truck"
   des: "Slate Auto unveils a $20K electric truck that transforms into an SUV, backed by Jeff Bezos and set for 2026 delivery."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/truck_web.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/truck_web.webp"
+  img_url_full: "https://pure.news/images/posts_img/truck_web.webp"
   figure_p: "Slate Truck"
 ---
 

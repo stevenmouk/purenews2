@@ -1,6 +1,6 @@
 ---
   title: "The Best Wireless Earbuds of 2025, Tried And Tested By Experts"
-  blog_url: "https://mhtntimes.com/articles/best-wireless-earbuds"
+  blog_url: "https://pure.news/articles/best-wireless-earbuds"
   img_alt: "Best wireless earbuds"
   des: "Best wireless headphones for every budget and lifestyle—whether you want all-around performance, a wallet-friendly pick, or earbuds that can keep up with tough workouts, our expert-tested guide has you covered."
   twitter_des: "Best wireless headphones for every budget and lifestyle—whether you want all-around performance, a wallet-friendly pick, or earbuds that can keep up with tough workouts, our expert-tested guide has you covered."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/wireless-earbuds-thumb.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/wireless-earbuds-thumb.webp"
+  img_url_full: "https://pure.news/images/posts_img/wireless-earbuds-thumb.webp"
   figure_p: "Wireless earbuds"
 ---
 

@@ -1,6 +1,6 @@
 ---
   title: "One of Apples Largest suppliers says to expect 'empty shelves' as tariffs take effect"
-  blog_url: "https://mhtntimes.com/articles/apples-second-biggest-supplier-says-to-expect-empty-shelves-due-to-trump-tariffs"
+  blog_url: "https://pure.news/articles/apples-second-biggest-supplier-says-to-expect-empty-shelves-due-to-trump-tariffs"
   img_alt: "Apple phones"
   des: "Pegatron warns of looming electronics shortages in the U.S. as Trump’s unpredictable China tariffs disrupt global supply chains, leaving companies like Apple scrambling to adapt."
   twitter_des: "Pegatron warns of looming electronics shortages in the U.S. as Trump’s unpredictable China tariffs disrupt global supply chains, leaving companies like Apple scrambling to adapt."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/iphones.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/iphones.webp"
+  img_url_full: "https://pure.news/images/posts_img/iphones.webp"
   figure_p: "Apple iphones"
 ---
 

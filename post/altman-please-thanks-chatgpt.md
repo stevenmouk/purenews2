@@ -1,6 +1,6 @@
 ---
   title: "Sam Altman Admits That Saying 'Please' and 'Thank You' to ChatGPT Is Wasting Millions of Dollars in Computing Power"
-  blog_url: "https://mhtntimes.com/articles/altman-please-thanks-chatgpt"
+  blog_url: "https://pure.news/articles/altman-please-thanks-chatgpt"
   img_alt: "Sam Altman"
   des: "Politeness to AI chatbots may seem harmless, but it’s racking up real energy costs—raising questions about etiquette, environmental impact, and the future of artificial intelligence."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/sam_altman2.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/sam_altman2.webp"
+  img_url_full: "https://pure.news/images/posts_img/sam_altman2.webp"
   figure_p: "Sam Altman"
 ---
 

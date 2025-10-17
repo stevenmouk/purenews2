@@ -1,6 +1,6 @@
 ---
   title: "Russia lost over 62,400 soldiers in Kursk operation, Ukraine says"
-  blog_url: "https://mhtntimes.com/articles/russia-lost-over-62,400-soldiers-in-kursk-operation-ukraine-says"
+  blog_url: "https://pure.news/articles/russia-lost-over-62,400-soldiers-in-kursk-operation-ukraine-says"
   img_alt: "War in Ukraine"
   des: "Ukraine reports 62,400 Russian casualties in Kursk Oblast, denies Russian claims of full control, and highlights North Korean troop losses."
   twitter_des: "Ukraine reports 62,400 Russian casualties in Kursk Oblast, denies Russian claims of full control, and highlights North Korean troop losses."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 1.0"
   figure_license_url: "https://creativecommons.org/licenses/by/1.0//"
   page_image_src_rel: "/images/posts_img/ukraine_2.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/ukraine_2.webp"
+  img_url_full: "https://pure.news/images/posts_img/ukraine_2.webp"
   figure_p: "War in Ukraine"
 ---
 

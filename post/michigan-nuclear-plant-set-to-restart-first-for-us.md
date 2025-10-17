@@ -1,6 +1,6 @@
 ---
   title: "Michigan nuclear plant set to restart, first for U.S."
-  blog_url: "https://mhtntimes.com/articles/michigan-nuclear-plant-set-to-restart-first-for-us"
+  blog_url: "https://pure.news/articles/michigan-nuclear-plant-set-to-restart-first-for-us"
   img_alt: "South Haven, Michigan, The Palisades nuclear power plant on the shore of Lake Michigan"
   des: "Palisades Nuclear Plant in Michigan nears reopening, marking the first U.S. reactor restart under Trump's energy plan."
   twitter_des: "Palisades Nuclear Plant in Michigan nears reopening, marking the first U.S. reactor restart under Trump's energy plan."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/power_plant.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/power_plant.webp"
+  img_url_full: "https://pure.news/images/posts_img/power_plant.webp"
   figure_p: "South Haven, Michigan, The Palisades nuclear power plant on the shore of Lake Michigan"
 ---
 

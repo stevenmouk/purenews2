@@ -1,6 +1,6 @@
 ---
   title: "The Best Home Printer of 2025, Tried And Tested By Experts"
-  blog_url: "https://mhtntimes.com/articles/best-home-printer"
+  blog_url: "https://pure.news/articles/best-home-printer"
   img_alt: "Best home printer"
   des: "Discover the best printers for every need — from affordable home models to powerful office machines and pro-level photo printers. Compare features, costs, and top picks."
   twitter_des: "Discover the best printers for every need — from affordable home models to powerful office machines and pro-level photo printers. Compare features, costs, and top picks."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/printer-1.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/printer-1.webp"
+  img_url_full: "https://pure.news/images/posts_img/printer-1.webp"
   figure_p: "Home Printer Showcase"
 ---
 

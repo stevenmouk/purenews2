@@ -1,6 +1,6 @@
 ---
   title: "Duolingo will replace contract workers with AI"
-  blog_url: "https://mhtntimes.com/articles/duolingo-will-replace-contract-workers-with-ai"
+  blog_url: "https://pure.news/articles/duolingo-will-replace-contract-workers-with-ai"
   img_alt: "Duolingo co-founder and CEO Luis von Ahn"
   des: "Duolingo shifts to an AI-first strategy, reducing contractor use and reshaping workflows to boost scale and creativity."
   twitter_des: "Duolingo shifts to an AI-first strategy, reducing contractor use and reshaping workflows to boost scale and creativity."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 2.0"
   figure_license_url: "https://creativecommons.org/licenses/by/2.0//"
   page_image_src_rel: "/images/posts_img/duilingo.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/duilingo.webp"
+  img_url_full: "https://pure.news/images/posts_img/duilingo.webp"
   figure_p: "Duolingo co-founder and CEO Luis von Ahn"
 ---
 

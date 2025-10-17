@@ -1,6 +1,6 @@
 ---
   title: "Google Bets on Nuclear Energy, Plans Three New Reactor Sites with Elementl"
-  blog_url: "https://mhtntimes.com/articles/google-inks deal-to-develop-1.8-gw-of-advanced-nuclear-power"
+  blog_url: "https://pure.news/articles/google-inks deal-to-develop-1.8-gw-of-advanced-nuclear-power"
   img_alt: "Nuclear Power Plant"
   des: "Google is partnering with Elementl Power to develop three advanced nuclear reactor sites, aiming to meet rising AI-driven energy needs with at least 600 MW of power at each location."
   twitter_des: "Google is partnering with Elementl Power to develop three advanced nuclear reactor sites, aiming to meet rising AI-driven energy needs with at least 600 MW of power at each location."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/nuclear-power.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/nuclear-power.webp"
+  img_url_full: "https://pure.news/images/posts_img/nuclear-power.webp"
   figure_p: "Nuclear Power Plant"
 ---
 

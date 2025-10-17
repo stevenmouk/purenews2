@@ -1,6 +1,6 @@
 ---
   title: "The Best Noise Canceling Earbuds of 2025, Tried And Tested By Experts"
-  blog_url: "https://mhtntimes.com/articles/best-noise-canceling-earbuds"
+  blog_url: "https://pure.news/articles/best-noise-canceling-earbuds"
   img_alt: "Best Noise Canceling Earbuds"
   des: "Best noise canceling earbuds of 2025, reviewed and ranked — from Sony and Apple to budget-friendly picks by Soundcore. Find the perfect pair for travel, work, or workouts."
   twitter_des: "Best noise canceling earbuds of 2025, reviewed and ranked — from Sony and Apple to budget-friendly picks by Soundcore. Find the perfect pair for travel, work, or workouts."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/noise-canceling-headphones.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/noise-canceling-headphones.webp"
+  img_url_full: "https://pure.news/images/posts_img/noise-canceling-headphones.webp"
   figure_p: "Noise Canceling Earbuds"
 ---
 

@@ -1,6 +1,6 @@
 ---
   title: "China launches antitrust probe into Nvidia"
-  blog_url: "https://mhtntimes.com/articles/china-launches-antitrust-probe-into-nvidia"
+  blog_url: "https://pure.news/articles/china-launches-antitrust-probe-into-nvidia"
   img_alt: "Nvidia Logo"
   des: "China launches an antitrust investigation into Nvidia amid escalating US-China tech tensions, focusing on AI chips, export controls, and market dominance."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/nvidia-4.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/nvidia-4.webp"
+  img_url_full: "https://pure.news/images/posts_img/nvidia-4.webp"
   figure_p: "Nvidia Logo"
 ---
 

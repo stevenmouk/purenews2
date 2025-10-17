@@ -1,6 +1,6 @@
 ---
   title: "Manhattan Project 2.0? US eyes AGI breakthrough in escalating China rivalry"
-  blog_url: "https://mhtntimes.com/articles/manhattan-project-2-0-us-eyes-agi-breakthrough-in-escalating-china-rivalry"
+  blog_url: "https://pure.news/articles/manhattan-project-2-0-us-eyes-agi-breakthrough-in-escalating-china-rivalry"
   img_alt: "China flag"
   des: "Explore how the US-China rivalry in Artificial General Intelligence (AGI) may reshape global tech policy, with new U.S. recommendations for a national AGI initiative, investment controls, and trade restrictions."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/china-flag.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/china-flag.webp"
+  img_url_full: "https://pure.news/images/posts_img/china-flag.webp"
   figure_p: "China flag"
 ---
 

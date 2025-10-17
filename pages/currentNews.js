@@ -1,11 +1,10 @@
-import Image from "next/image";
 import { Nunito } from "next/font/google";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 // import Faq from "@/components/Faq";
+import Seohead from "@/components/seoHead";
 import Head from "next/head";
 import { useRouter } from "next/navigation";
-import Seohead from "@/components/seoHead";
 
 const inter = Nunito({ subsets: ["latin"] });
 
@@ -22,7 +21,9 @@ export default function Home({ context }) {
     //   return acc + separator + part;
     // }, "");
     setInput(context.article);
-    setArticle(`https://archive.is/newest/${context.article?.trim()?.split("?")[0]}`);
+    setArticle(
+      `https://archive.is/newest/${context.article?.trim()?.split("?")[0]}`
+    );
   }, [context]);
 
   function handleSubmit(e) {
@@ -49,7 +50,7 @@ export default function Home({ context }) {
         title="Test"
         des="test"
         blogURL="test"
-        imgURL="https://mhtntimes.com/images/posts_img/amazon.webp"
+        imgURL="https://pure.news/images/posts_img/amazon.webp"
         imgAlt="test"
         twitterTittle="test"
         twitterDes="test"
@@ -123,13 +124,19 @@ export default function Home({ context }) {
         <div className=" w-full flex items-center justify-center">
           <button
             onClick={() =>
-              setArticle(`https://archive.is/newest/${context.article?.trim()?.split("?")[0]}`)
+              setArticle(
+                `https://archive.is/newest/${
+                  context.article?.trim()?.split("?")[0]
+                }`
+              )
             }
             class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group   bg-red-500  hover:text-white dark:text-white"
           >
             <span
               class={`relative px-5 py-2.5 transition-all ease-in duration-75  dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 hover:text-white ${
-                article?.includes("archive.is") ? "bg-red-500 text-white" : "bg-white text-black"
+                article?.includes("archive.is")
+                  ? "bg-red-500 text-white"
+                  : "bg-white text-black"
               }`}
             >
               1
@@ -137,25 +144,37 @@ export default function Home({ context }) {
           </button>
           <button
             onClick={() =>
-              setArticle(`https://web.archive.org/${context.article?.trim()?.split("?")[0]}`)
+              setArticle(
+                `https://web.archive.org/${
+                  context.article?.trim()?.split("?")[0]
+                }`
+              )
             }
             class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group   bg-red-500  hover:text-white dark:text-white"
           >
             <span
               class={`relative px-5 py-2.5 transition-all ease-in duration-75  dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 hover:text-white ${
-                article?.includes("archive.org") ? "bg-red-500 text-white" : "bg-white text-black"
+                article?.includes("archive.org")
+                  ? "bg-red-500 text-white"
+                  : "bg-white text-black"
               }`}
             >
               2
             </span>
           </button>
           <button
-            onClick={() => window.open(`https://12ft.io/${context.article?.trim()?.split("?")[0]}`)}
+            onClick={() =>
+              window.open(
+                `https://12ft.io/${context.article?.trim()?.split("?")[0]}`
+              )
+            }
             class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group   bg-red-500  hover:text-white dark:text-white"
           >
             <span
               class={`relative px-5 py-2.5 transition-all ease-in duration-75  dark:bg-gray-900 rounded-md group-hover:bg-opacity-0 hover:text-white ${
-                article?.includes("12ft.io") ? "bg-red-500 text-white" : "bg-white text-black"
+                article?.includes("12ft.io")
+                  ? "bg-red-500 text-white"
+                  : "bg-white text-black"
               }`}
             >
               3
@@ -163,7 +182,11 @@ export default function Home({ context }) {
           </button>
           <button
             onClick={() =>
-              window.open(`https://removepaywall.com/${context.article?.trim()?.split("?")[0]}`)
+              window.open(
+                `https://removepaywall.com/${
+                  context.article?.trim()?.split("?")[0]
+                }`
+              )
             }
             class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group   bg-red-500  hover:text-white dark:text-white"
           >
@@ -188,7 +211,12 @@ export default function Home({ context }) {
         </div>
       </div>
       <div className="w-[100%] h-[100vh] overflow-scroll flex    justify-center">
-        <iframe src={article} width="100%" height="2000px" rel="nofollow"></iframe>
+        <iframe
+          src={article}
+          width="100%"
+          height="2000px"
+          rel="nofollow"
+        ></iframe>
       </div>
       {/* <hr className=" border-gray-200 sm:mx-auto dark:border-gray-700  " />
 

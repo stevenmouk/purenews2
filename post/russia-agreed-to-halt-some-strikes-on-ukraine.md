@@ -1,6 +1,6 @@
 ---
   title: "Russia Agreed to Halt Some Strikes On Ukraine"
-  blog_url: "https://mhtntimes.com/articles/russia-agreed-to-halt-some-strikes-on-ukraine"
+  blog_url: "https://pure.news/articles/russia-agreed-to-halt-some-strikes-on-ukraine"
   img_alt: "Dam in Ukraine"
   des: "President Vladimir Putin of Russia agreed yesterday on a call with President Trump to halt strikes on Ukraine’s energy infrastructure for 30 days, as long as Ukraine does the same, the Kremlin said. Putin declined for now to agree to a broader cease-fire that the U.S. and Ukraine had proposed."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/ukraine_dam.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/ukraine_dam.webp"
+  img_url_full: "https://pure.news/images/posts_img/ukraine_dam.webp"
   figure_p: "Russian attack on Ukrainian power infrastructure in March."
 ---
 

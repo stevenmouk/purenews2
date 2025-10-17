@@ -1,6 +1,6 @@
 ---
   title: "After 9 Months on the Run, Escaped English Tortoise Found 1 Mile from Home Having Hibernated Through Winter"
-  blog_url: "https://mhtntimes.com/articles/after-9-months-on-the-run-escaped-english-tortoise-found"
+  blog_url: "https://pure.news/articles/after-9-months-on-the-run-escaped-english-tortoise-found"
   img_alt: "Tortoise"
   des: "Pet tortoise Leonardo stunned his owner by surviving a 9-month escape through the English winter after wandering off from his garden in Cumbria."
   twitter_des: "Pet tortoise Leonardo stunned his owner by surviving a 9-month escape through the English winter after wandering off from his garden in Cumbria."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/tortoise.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/tortoise.webp"
+  img_url_full: "https://pure.news/images/posts_img/tortoise.webp"
   figure_p: "Tortoise"
 ---
 

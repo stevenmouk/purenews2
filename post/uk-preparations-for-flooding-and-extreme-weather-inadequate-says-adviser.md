@@ -1,6 +1,6 @@
 ---
   title: "UK preparations for flooding and extreme weather ‘inadequate’, says adviser"
-  blog_url: "https://mhtntimes.com/articles/uk-preparations-for-flooding-and-extreme-weather-inadequate-says-adviser"
+  blog_url: "https://pure.news/articles/uk-preparations-for-flooding-and-extreme-weather-inadequate-says-adviser"
   img_alt: "London Bridge during storm"
   des: "The UK is falling behind on climate change adaptation, with growing risks from flooding, heatwaves, and droughts, according to a new report by the Climate Change Committee."
   twitter_des: "The UK is falling behind on climate change adaptation, with growing risks from flooding, heatwaves, and droughts, according to a new report by the Climate Change Committee."
@@ -13,7 +13,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/tower.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/tower.webp"
+  img_url_full: "https://pure.news/images/posts_img/tower.webp"
   figure_p: "London bridge"
 ---
 

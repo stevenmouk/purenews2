@@ -1,6 +1,6 @@
 ---
   title: "Scientific breakthrough gives new hope to building quantum computers"
-  blog_url: "https://mhtntimes.com/articles/scientific-breakthrough-gives-new-hope-to-building-quantum-computers"
+  blog_url: "https://pure.news/articles/scientific-breakthrough-gives-new-hope-to-building-quantum-computers"
   img_alt: "Google Quantum AI founder Hartmut Neven (left) examines a cryostat refrigerator at Google’s Quantum AI lab in Santa Barbara, California."
   des: "Discover Google's breakthrough in quantum computing as it overcomes key challenges in qubit stability and error correction, paving the way for practical quantum systems by 2030."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/quantum_com.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/quantum_com.webp"
+  img_url_full: "https://pure.news/images/posts_img/quantum_com.webp"
   figure_p: "Google Quantum AI founder Hartmut Neven (left) examines a cryostat refrigerator at Google’s Quantum AI lab in Santa Barbara, California."
 ---
 

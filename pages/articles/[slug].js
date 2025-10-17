@@ -5,8 +5,8 @@ import Seohead from "@/components/seoHead";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
-import path from "path";
 import Head from "next/head";
+import path from "path";
 
 export default function Article({
   frontmatter: {
@@ -39,19 +39,19 @@ export default function Article({
     author: {
       "@type": "Organization",
       name: "Pure News", // <-- your site's name
-      url: "https://mhtntimes.com", // <-- your site's homepage
+      url: "https://pure.news", // <-- your site's homepage
     },
     publisher: {
       "@type": "Organization",
       name: "Pure News",
       logo: {
         "@type": "ImageObject",
-        url: "https://mhtntimes.com/fave_pac/favicon.ico", // Replace with your real logo URL
+        url: "https://pure.news/fave_pac/favicon.ico", // Replace with your real logo URL
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": blog_url || `https://mhtntimes.com/${slug}`,
+      "@id": blog_url || `https://pure.news/${slug}`,
     },
   };
 
@@ -160,7 +160,10 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps({ params: { slug } }) {
-  const markdownWithMeta = fs.readFileSync(path.join("post", slug + ".md"), "utf-8");
+  const markdownWithMeta = fs.readFileSync(
+    path.join("post", slug + ".md"),
+    "utf-8"
+  );
 
   const { data: frontmatter, content } = matter(markdownWithMeta);
 

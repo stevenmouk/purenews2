@@ -1,6 +1,6 @@
 ---
   title: "UK in talks with France and Saudi Arabia over recognising a Palestinian state"
-  blog_url: "https://mhtntimes.com/articles/uk-in-talks-with-france-and-saudi-arabia-over-palestinian-state"
+  blog_url: "https://pure.news/articles/uk-in-talks-with-france-and-saudi-arabia-over-palestinian-state"
   img_alt: "UK foreign secretary David Lammy "
   des: "UK in talks with France and Saudi Arabia over recognising a Palestinian state"
   twitter_des: "UK in talks with France and Saudi Arabia over recognising a Palestinian state"
@@ -13,7 +13,7 @@
   figure_license: "CC BY 2.0"
   figure_license_url: "https://creativecommons.org/licenses/by/2.0//"
   page_image_src_rel: "/images/posts_img/david-lammy.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/david-lammy.webp"
+  img_url_full: "https://pure.news/images/posts_img/david-lammy.webp"
   figure_p: "UK foreign secretary David Lammy "
 ---
 

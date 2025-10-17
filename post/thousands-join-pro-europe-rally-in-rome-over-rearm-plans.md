@@ -1,6 +1,6 @@
 ---
   title: "Thousands join pro-Europe rally in Rome  over worries of European Union’s plan to rearm"
-  blog_url: "https://mhtntimes.com/articles/thousands-join-pro-europe-rally-in-rome-over-rearm-plans"
+  blog_url: "https://pure.news/articles/thousands-join-pro-europe-rally-in-rome-over-rearm-plans"
   img_alt: "Italian prime minister Giorgia Meloni "
   des: "Tens of thousands of Italians joined a pro-Europe rally in Rome’s city center Saturday, waving blue European Union’s flag to show support and unity as a European push for rearmament divides the country."
   twitter_des:
@@ -14,7 +14,7 @@
   figure_license: "CC BY 4.0"
   figure_license_url: "https://creativecommons.org/licenses/by/4.0//"
   page_image_src_rel: "/images/posts_img/italy-prime-minister.webp"
-  img_url_full: "https://mhtntimes.com/images/posts_img/italy-prime-minister.webp"
+  img_url_full: "https://pure.news/images/posts_img/italy-prime-minister.webp"
   figure_p: "Italian prime minister Giorgia Meloni"
 ---
 

@@ -3,13 +3,13 @@
 const API_KEY = "d9a070b07c20466082f3abcfc457de38"; // Replace with your actual IndexNow key
 
 const urlsToIndex = [
-  "https://mhtntimes.com/articles/apples-second-biggest-supplier-says-to-expect-empty-shelves-due-to-trump-tariffs",
+  "https://pure.news/articles/apples-second-biggest-supplier-says-to-expect-empty-shelves-due-to-trump-tariffs",
 ];
 
 const payload = {
-  host: "mhtntimes.com",
+  host: "pure.news",
   key: API_KEY,
-  keyLocation: `https://mhtntimes.com/d9a070b07c20466082f3abcfc457de38.txt`,
+  keyLocation: `https://pure.news/d9a070b07c20466082f3abcfc457de38.txt`,
   urlList: urlsToIndex,
 };
 
