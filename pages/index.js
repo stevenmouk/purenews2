@@ -17,10 +17,19 @@ export default function Home({ posts }) {
   return (
     <div>
       <Head>
-        <link rel="icon" type="image/png" href="/fave_pac/favicon-96x96.png" sizes="96x96" />
+        <link
+          rel="icon"
+          type="image/png"
+          href="/fave_pac/favicon-96x96.png"
+          sizes="96x96"
+        />
         <link rel="icon" type="image/svg+xml" href="/fave_pac/favicon.svg" />
         <link rel="shortcut icon" href="/fave_pac/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/fave_pac/apple-touch-icon.png" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/fave_pac/apple-touch-icon.png"
+        />
         <link rel="manifest" href="/fave_pac/site.webmanifest" />
 
         <title>Pure News</title>
@@ -50,18 +59,23 @@ export default function Home({ posts }) {
 export async function getStaticProps() {
   const files = fs.readdirSync(path.join("post"));
 
-  const posts = files.map((filename) => {
-    const slug = filename.replace(".md", "");
+  const posts = files
+    .filter((files) => files !== ".DS_Store")
+    .map((filename) => {
+      const slug = filename.replace(".md", "");
 
-    const markdownWithMeta = fs.readFileSync(path.join("post", filename), "utf-8");
+      const markdownWithMeta = fs.readFileSync(
+        path.join("post", filename),
+        "utf-8"
+      );
 
-    const { data: frontmatter } = matter(markdownWithMeta);
+      const { data: frontmatter } = matter(markdownWithMeta);
 
-    return {
-      slug,
-      frontmatter,
-    };
-  });
+      return {
+        slug,
+        frontmatter,
+      };
+    });
 
   return {
     props: {
