@@ -111,4 +111,4 @@ Pressure Sensor: Visual (Green/Red light)\
 Noise Level: Quiet (~31 dB)\
 Connectivity: Bluetooth app enabled
 
-This completes our list of the best electric toothbrushes. If you want more posts about health and gadgets, check our other <a href="/">home page</a> here.
+This completes our list of the best electric toothbrushes. If you want more posts about health and gadgets, check our other <u><a href="/">home page</a> </u>here.

@@ -103,4 +103,4 @@ Performance: >99.9% smoke reduction\
 Sensors: PM1, PM2.5, PM10\
 Connectivity: App enabled
 
-This completes our list of the best air purifiers. If you want more posts about health and gadgets, check our other <a href="/">home page</a> here.
+This completes our list of the best air purifiers. If you want more posts about health and gadgets, check our other <u><a href="/">home page</a> </u>here.
