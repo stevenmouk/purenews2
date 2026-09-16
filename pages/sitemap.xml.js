@@ -11,13 +11,19 @@ function generateSiteMap(articles) {
   return `<?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
   xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-       <url>
-         <loc>https://pure.news</loc>
-         <lastmod>${formatDate(Date.now() / 1000)}</lastmod>
-         <changefreq>daily</changefreq>
-         <priority>1.0</priority>
-       </url>
-       ${articles
+        <url>
+          <loc>https://pure.news</loc>
+          <lastmod>${formatDate(Date.now() / 1000)}</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>1.0</priority>
+        </url>
+        <url>
+          <loc>https://pure.news/election-countdown</loc>
+          <lastmod>${formatDate(Date.now() / 1000)}</lastmod>
+          <changefreq>hourly</changefreq>
+          <priority>0.9</priority>
+        </url>
+        ${articles
          .map((article) => {
            const publicationDate = new Date(
              article.frontmatter.page_date

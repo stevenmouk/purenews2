@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }) {
       </Script>
 
       <Component {...pageProps} />
-      <Footer />
+      {!Component.noFooter && <Footer />}
     </>
   );
 }

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Embed Test Sandbox - Pure News Election Clocks</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: #f1f5f9;
+      color: #0f172a;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 900;
+      margin-bottom: 8px;
+    }
+    p {
+      color: #64748b;
+      margin: 0;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      border: 1px solid #e2e8f0;
+      margin-bottom: 32px;
+    }
+    .card-title {
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .badge {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 8px;
+      border-radius: 6px;
+      background: #e0f2fe;
+      color: #0369a1;
+      text-transform: uppercase;
+    }
+    .embed-stage {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+      background: #f8fafc;
+      border-radius: 12px;
+      border: 1px dashed #cbd5e1;
+    }
+    textarea {
+      width: 100%;
+      box-sizing: border-box;
+      font-family: monospace;
+      font-size: 13px;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+      background: #f8fafc;
+      resize: vertical;
+      min-height: 100px;
+    }
+    button {
+      background: #1b7340;
+      color: white;
+      border: none;
+      font-weight: 700;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #155b33;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Embed Iframe Test Sandbox</h1>
+      <p>Simulating how the Pure News Election Clock looks when embedded on an external blog or news website.</p>
+    </div>
+
+    <!-- Live Custom Embed Tester -->
+    <div class="card">
+      <div class="card-title">
+        <span>Paste Any Custom Embed Code to Test Live:</span>
+      </div>
+      <textarea id="customCode" placeholder="Paste your <iframe> embed code here..."></textarea>
+      <button onclick="renderCustomEmbed()">Test Custom Code Below</button>
+      <div id="customPreview" style="margin-top: 20px; display: flex; flex-direction: column; align-items: center;"></div>
+    </div>
+
+    <!-- Live Test: Combined Widget (Light) -->
+    <div class="card">
+      <div class="card-title">
+        <span>1. Combined Clocks (Light Theme)</span>
+        <span class="badge">500 &times; 380 px</span>
+      </div>
+      <div class="embed-stage">
+        <div>
+          <iframe src="/election-countdown-widget?type=combined&theme=light" width="500" height="380" style="border:0;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.08);" title="U.S. Election Countdown Clock"></iframe>
+          <div style="text-align:center;font-size:12px;font-family:system-ui,-apple-system,sans-serif;color:#64748b;margin-top:6px;">
+            Live Election Countdown by <a href="/election-countdown" target="_blank" rel="noopener" style="color:#1b7340;text-decoration:none;font-weight:600;">Pure News</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Live Test: Combined Widget (Dark) -->
+    <div class="card">
+      <div class="card-title">
+        <span>2. Combined Clocks (Dark Theme)</span>
+        <span class="badge">500 &times; 380 px</span>
+      </div>
+      <div class="embed-stage" style="background: #0b0f19;">
+        <div>
+          <iframe src="/election-countdown-widget?type=combined&theme=dark" width="500" height="380" style="border:0;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.4);" title="U.S. Election Countdown Clock"></iframe>
+          <div style="text-align:center;font-size:12px;font-family:system-ui,-apple-system,sans-serif;color:#94a3b8;margin-top:6px;">
+            Live Election Countdown by <a href="/election-countdown" target="_blank" rel="noopener" style="color:#34d399;text-decoration:none;font-weight:600;">Pure News</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Live Test: Sidebar / Compact Widget -->
+    <div class="card">
+      <div class="card-title">
+        <span>3. Sidebar / Compact Widget</span>
+        <span class="badge">180 &times; 260 px</span>
+      </div>
+      <div class="embed-stage">
+        <div>
+          <iframe src="/election-countdown-widget?type=compact&theme=light" width="180" height="260" style="border:0;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.08);" title="U.S. Election Countdown Clock"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Live Test: Presidential Focus -->
+    <div class="card">
+      <div class="card-title">
+        <span>4. Presidential Focus Widget</span>
+        <span class="badge">420 &times; 300 px</span>
+      </div>
+      <div class="embed-stage">
+        <div>
+          <iframe src="/election-countdown-widget?type=presidential&theme=light" width="420" height="300" style="border:0;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.08);" title="U.S. Election Countdown Clock"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function renderCustomEmbed() {
+      const code = document.getElementById('customCode').value;
+      document.getElementById('customPreview').innerHTML = code;
+    }
+  </script>
+</body>
+</html>

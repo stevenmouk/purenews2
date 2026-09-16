@@ -730,6 +730,14 @@ export default function Navbar({ inArticle }) {
       <div class="HomepageNav_rightContainer__0KhBi">
         <ul class="NavAccountLinks_root__8VKLM" data-event-element="account links">
           <li class="NavAccountLinks_navListItem__Lxooj">
+            <Link
+              href="/election-countdown"
+              class="NavAccountLinks_navLink__ctd7M font-bold text-red-600 hover:text-red-700"
+            >
+              Election Clocks
+            </Link>
+          </li>
+          <li class="NavAccountLinks_navListItem__Lxooj">
             <a
               data-action="Sign In"
               href="/about-us"
