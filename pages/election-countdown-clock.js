@@ -57,13 +57,13 @@ export default function ElectionCountdownPage() {
 
   const currentDims = widgetDimensions[selectedType];
   const effectiveBaseUrl = useLocalUrl && isLocal ? localOrigin : "https://pure.news";
-  const widgetUrl = `${effectiveBaseUrl}/election-countdown-widget?type=${selectedType}&theme=${selectedTheme}`;
-  const localPreviewUrl = `/election-countdown-widget?type=${selectedType}&theme=${selectedTheme}`;
+  const widgetUrl = `${effectiveBaseUrl}/election-countdown-clock-widget?type=${selectedType}&theme=${selectedTheme}`;
+  const localPreviewUrl = `/election-countdown-clock-widget?type=${selectedType}&theme=${selectedTheme}`;
 
   const embedCode = `<!-- Begin Pure News Election Countdown Widget -->
 <iframe src="${widgetUrl}" width="${currentDims.width}" height="${currentDims.height}" style="border:0;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.08);" title="U.S. Election Countdown Clock"></iframe>
 <div style="text-align:center;font-size:12px;font-family:system-ui,-apple-system,sans-serif;color:#64748b;margin-top:6px;">
-  Live <a href="https://pure.news/election-countdown" target="_blank" rel="noopener" style="color:#1b7340;text-decoration:none;font-weight:600;">Election Countdown Clock</a> by Pure News
+  Live <a href="https://pure.news/election-countdown-clock" target="_blank" rel="noopener" style="color:#1b7340;text-decoration:none;font-weight:600;">Election Countdown Clock</a> by Pure News
 </div>
 <!-- End Pure News Election Countdown Widget -->`;
 
@@ -87,7 +87,7 @@ export default function ElectionCountdownPage() {
           name="keywords"
           content="election countdown clock, presidential election countdown clock, midterm election countdown clock, us election countdown clock, live election countdown clock, election timer, embed election countdown clock, election clock widget"
         />
-        <link rel="canonical" href="https://pure.news/election-countdown" />
+        <link rel="canonical" href="https://pure.news/election-countdown-clock" />
 
         {/* OpenGraph */}
         <meta
@@ -98,7 +98,7 @@ export default function ElectionCountdownPage() {
           property="og:description"
           content="Live election countdown clock tracking the days, hours, and minutes until the next U.S. Midterms and Presidential election. Free embeddable election widgets."
         />
-        <meta property="og:url" content="https://pure.news/election-countdown" />
+        <meta property="og:url" content="https://pure.news/election-countdown-clock" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Pure News" />
 
@@ -129,8 +129,8 @@ export default function ElectionCountdownPage() {
               "@graph": [
                 {
                   "@type": "WebPage",
-                  "@id": "https://pure.news/election-countdown#webpage",
-                  "url": "https://pure.news/election-countdown",
+                  "@id": "https://pure.news/election-countdown-clock#webpage",
+                  "url": "https://pure.news/election-countdown-clock",
                   "name": "Election Countdown Clock",
                   "description":
                     "Official live election countdown clock to the next U.S. Midterm and Presidential elections.",
@@ -142,9 +142,9 @@ export default function ElectionCountdownPage() {
                 },
                 {
                   "@type": "WebApplication",
-                  "@id": "https://pure.news/election-countdown#app",
+                  "@id": "https://pure.news/election-countdown-clock#app",
                   "name": "Election Countdown Clock",
-                  "url": "https://pure.news/election-countdown",
+                  "url": "https://pure.news/election-countdown-clock",
                   "applicationCategory": "UtilityApplication",
                   "operatingSystem": "All",
                   "description":

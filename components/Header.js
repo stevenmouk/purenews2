@@ -60,7 +60,7 @@ export default function Header() {
               onClick={() => setToolsOpen((prev) => !prev)}
               onMouseEnter={() => setToolsOpen(true)}
               aria-expanded={toolsOpen}
-              className={`flex items-center space-x-1.5 text-sm font-bold transition-colors py-2 ${toolsOpen || router.pathname.startsWith("/election-countdown")
+              className={`flex items-center space-x-1.5 text-sm font-bold transition-colors py-2 ${toolsOpen || router.pathname.startsWith("/election-countdown-clock")
                 ? "text-[#1b7340]"
                 : "text-gray-800 hover:text-[#1b7340]"
                 }`}
@@ -84,7 +84,7 @@ export default function Header() {
                 className="absolute left-0 mt-2 w-60 bg-white rounded-lg shadow-lg border border-gray-100 py-1.5 z-50 animate-fadeIn"
               >
                 <Link
-                  href="/election-countdown"
+                  href="/election-countdown-clock"
                   onClick={() => setToolsOpen(false)}
                   className="block px-4 py-2.5 text-sm font-medium text-gray-800 hover:text-[#1b7340] hover:bg-gray-50 transition-colors"
                 >
@@ -172,7 +172,7 @@ export default function Header() {
             {mobileToolsOpen && (
               <div className="pl-4 py-1 flex flex-col space-y-2">
                 <Link
-                  href="/election-countdown"
+                  href="/election-countdown-clock"
                   onClick={() => setMobileMenuOpen(false)}
                   className="text-sm font-medium text-gray-600 hover:text-[#1b7340] py-1 transition-colors"
                 >

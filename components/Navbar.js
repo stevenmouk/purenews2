@@ -731,7 +731,7 @@ export default function Navbar({ inArticle }) {
         <ul class="NavAccountLinks_root__8VKLM" data-event-element="account links">
           <li class="NavAccountLinks_navListItem__Lxooj">
             <Link
-              href="/election-countdown"
+              href="/election-countdown-clock"
               class="NavAccountLinks_navLink__ctd7M font-bold text-red-600 hover:text-red-700"
             >
               Election Clocks

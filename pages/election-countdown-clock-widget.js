@@ -38,13 +38,12 @@ export default function ElectionCountdownWidget() {
   const isDark = theme === "dark";
 
   // Shared Pure News Brand Header / Footer Backlink
-  const pureNewsBacklink = "https://pure.news/election-countdown";
+  const pureNewsBacklink = "https://pure.news/election-countdown-clock";
 
   return (
     <div
-      className={`w-full h-screen select-none flex flex-col justify-between font-sans overflow-hidden ${
-        isDark ? "bg-[#090D16] text-white" : "bg-white text-slate-900"
-      }`}
+      className={`w-full h-screen select-none flex flex-col justify-between font-sans overflow-hidden ${isDark ? "bg-[#090D16] text-white" : "bg-white text-slate-900"
+        }`}
     >
       <Head>
         <title>Pure News | Election Countdown Clock Widget</title>
@@ -54,11 +53,10 @@ export default function ElectionCountdownWidget() {
       {/* COMPACT SIDEBAR WIDGET (180x260 or narrow columns) */}
       {type === "compact" && (
         <div
-          className={`w-full h-full flex flex-col justify-between p-3 text-center border ${
-            isDark
+          className={`w-full h-full flex flex-col justify-between p-3 text-center border ${isDark
               ? "border-slate-800 bg-[#0B1120]"
               : "border-slate-200 bg-white"
-          } rounded-xl shadow-sm`}
+            } rounded-xl shadow-sm`}
         >
           {/* Top Patriotic Header */}
           <div>
@@ -68,9 +66,8 @@ export default function ElectionCountdownWidget() {
               <span className="w-1.5 h-1.5 rounded-full bg-blue-600"></span>
             </div>
             <div
-              className={`text-[10px] font-black uppercase tracking-widest ${
-                isDark ? "text-slate-400" : "text-slate-500"
-              }`}
+              className={`text-[10px] font-black uppercase tracking-widest ${isDark ? "text-slate-400" : "text-slate-500"
+                }`}
             >
               Election Clock
             </div>
@@ -78,18 +75,16 @@ export default function ElectionCountdownWidget() {
 
           {/* Section 1: Midterm */}
           <div
-            className={`my-1 py-1.5 border-t border-b ${
-              isDark ? "border-slate-800" : "border-slate-100"
-            }`}
+            className={`my-1 py-1.5 border-t border-b ${isDark ? "border-slate-800" : "border-slate-100"
+              }`}
           >
             <div className="text-[11px] font-extrabold text-red-600 leading-tight">
               {elections.midterm.year} Midterm
             </div>
             <div
               suppressHydrationWarning
-              className={`text-2xl font-black tracking-tight leading-none my-1 font-mono ${
-                isDark ? "text-red-400" : "text-red-600"
-              }`}
+              className={`text-2xl font-black tracking-tight leading-none my-1 font-mono ${isDark ? "text-red-400" : "text-red-600"
+                }`}
             >
               {midCountdown.days}
             </div>
@@ -105,9 +100,8 @@ export default function ElectionCountdownWidget() {
             </div>
             <div
               suppressHydrationWarning
-              className={`text-2xl font-black tracking-tight leading-none my-1 font-mono ${
-                isDark ? "text-blue-400" : "text-blue-600"
-              }`}
+              className={`text-2xl font-black tracking-tight leading-none my-1 font-mono ${isDark ? "text-blue-400" : "text-blue-600"
+                }`}
             >
               {presCountdown.days}
             </div>
@@ -118,9 +112,8 @@ export default function ElectionCountdownWidget() {
 
           {/* Backlink Branding Footer */}
           <div
-            className={`pt-2 border-t flex items-center justify-between text-[10px] ${
-              isDark ? "border-slate-800" : "border-slate-200"
-            }`}
+            className={`pt-2 border-t flex items-center justify-between text-[10px] ${isDark ? "border-slate-800" : "border-slate-200"
+              }`}
           >
             <a
               href={pureNewsBacklink}
@@ -134,9 +127,8 @@ export default function ElectionCountdownWidget() {
               href="https://pure.news"
               target="_blank"
               rel="noopener noreferrer"
-              className={`font-black tracking-tighter uppercase ${
-                isDark ? "text-slate-300 hover:text-white" : "text-slate-700 hover:text-black"
-              }`}
+              className={`font-black tracking-tighter uppercase ${isDark ? "text-slate-300 hover:text-white" : "text-slate-700 hover:text-black"
+                }`}
             >
               PURE NEWS
             </a>
@@ -147,17 +139,15 @@ export default function ElectionCountdownWidget() {
       {/* PRESIDENTIAL ONLY FOCUS WIDGET (420x300) */}
       {type === "presidential" && (
         <div
-          className={`w-full h-full flex flex-col justify-between p-4 sm:p-5 border ${
-            isDark
+          className={`w-full h-full flex flex-col justify-between p-4 sm:p-5 border ${isDark
               ? "border-slate-800 bg-[#0B1120]"
               : "border-slate-200 bg-white"
-          } rounded-xl shadow-sm`}
+            } rounded-xl shadow-sm`}
         >
           {/* Header Banner */}
           <div
-            className={`flex items-center justify-between pb-3 border-b ${
-              isDark ? "border-slate-800" : "border-slate-200"
-            }`}
+            className={`flex items-center justify-between pb-3 border-b ${isDark ? "border-slate-800" : "border-slate-200"
+              }`}
           >
             <div className="flex items-center space-x-2">
               <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-extrabold uppercase tracking-wider bg-blue-100 text-blue-800">
@@ -175,16 +165,14 @@ export default function ElectionCountdownWidget() {
           {/* Main Counter Body */}
           <div className="text-center py-2">
             <h2
-              className={`text-xl sm:text-2xl font-black tracking-tight ${
-                isDark ? "text-white" : "text-slate-900"
-              }`}
+              className={`text-xl sm:text-2xl font-black tracking-tight ${isDark ? "text-white" : "text-slate-900"
+                }`}
             >
               {elections.presidential.name}
             </h2>
             <p
-              className={`text-xs sm:text-sm font-medium mt-1 ${
-                isDark ? "text-slate-400" : "text-slate-500"
-              }`}
+              className={`text-xs sm:text-sm font-medium mt-1 ${isDark ? "text-slate-400" : "text-slate-500"
+                }`}
             >
               {elections.presidential.formattedDate}
             </p>
@@ -206,17 +194,15 @@ export default function ElectionCountdownWidget() {
       {/* MIDTERM ONLY FOCUS WIDGET (420x300) */}
       {type === "midterm" && (
         <div
-          className={`w-full h-full flex flex-col justify-between p-4 sm:p-5 border ${
-            isDark
+          className={`w-full h-full flex flex-col justify-between p-4 sm:p-5 border ${isDark
               ? "border-slate-800 bg-[#0B1120]"
               : "border-slate-200 bg-white"
-          } rounded-xl shadow-sm`}
+            } rounded-xl shadow-sm`}
         >
           {/* Header Banner */}
           <div
-            className={`flex items-center justify-between pb-3 border-b ${
-              isDark ? "border-slate-800" : "border-slate-200"
-            }`}
+            className={`flex items-center justify-between pb-3 border-b ${isDark ? "border-slate-800" : "border-slate-200"
+              }`}
           >
             <div className="flex items-center space-x-2">
               <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-extrabold uppercase tracking-wider bg-red-100 text-red-800">
@@ -234,16 +220,14 @@ export default function ElectionCountdownWidget() {
           {/* Main Counter Body */}
           <div className="text-center py-2">
             <h2
-              className={`text-xl sm:text-2xl font-black tracking-tight ${
-                isDark ? "text-white" : "text-slate-900"
-              }`}
+              className={`text-xl sm:text-2xl font-black tracking-tight ${isDark ? "text-white" : "text-slate-900"
+                }`}
             >
               {elections.midterm.name}
             </h2>
             <p
-              className={`text-xs sm:text-sm font-medium mt-1 ${
-                isDark ? "text-slate-400" : "text-slate-500"
-              }`}
+              className={`text-xs sm:text-sm font-medium mt-1 ${isDark ? "text-slate-400" : "text-slate-500"
+                }`}
             >
               {elections.midterm.formattedDate}
             </p>
@@ -265,11 +249,10 @@ export default function ElectionCountdownWidget() {
       {/* COMBINED HERO WIDGET (DEFAULT - 500x380) */}
       {type === "combined" && (
         <div
-          className={`w-full h-full flex flex-col justify-between border overflow-hidden ${
-            isDark
+          className={`w-full h-full flex flex-col justify-between border overflow-hidden ${isDark
               ? "border-slate-800 bg-[#0B1120]"
               : "border-slate-200 bg-white"
-          } rounded-xl shadow-sm`}
+            } rounded-xl shadow-sm`}
         >
           {/* Top Navy/Patriotic Banner */}
           <div className="bg-[#0F1E36] text-white px-4 py-2.5 flex items-center justify-between border-b-2 border-red-600 shrink-0">
@@ -290,27 +273,24 @@ export default function ElectionCountdownWidget() {
           <div className="p-3 sm:p-4 grid grid-cols-2 gap-3 flex-1 items-center">
             {/* Card 1: Next Midterm */}
             <div
-              className={`p-3 rounded-lg border text-center relative overflow-hidden flex flex-col justify-between h-full ${
-                isDark
+              className={`p-3 rounded-lg border text-center relative overflow-hidden flex flex-col justify-between h-full ${isDark
                   ? "bg-slate-900/70 border-slate-800"
                   : "bg-slate-50 border-slate-200"
-              }`}
+                }`}
             >
               <div>
                 <div className="inline-block px-2 py-0.5 rounded text-[10px] font-extrabold uppercase tracking-wider bg-red-100 text-red-700 mb-1">
                   Next Up
                 </div>
                 <h3
-                  className={`text-sm sm:text-base font-extrabold leading-tight ${
-                    isDark ? "text-white" : "text-slate-900"
-                  }`}
+                  className={`text-sm sm:text-base font-extrabold leading-tight ${isDark ? "text-white" : "text-slate-900"
+                    }`}
                 >
                   {elections.midterm.year} Midterm
                 </h3>
                 <p
-                  className={`text-[10px] sm:text-[11px] font-semibold mt-0.5 ${
-                    isDark ? "text-slate-400" : "text-slate-500"
-                  }`}
+                  className={`text-[10px] sm:text-[11px] font-semibold mt-0.5 ${isDark ? "text-slate-400" : "text-slate-500"
+                    }`}
                 >
                   {elections.midterm.formattedDate}
                 </p>
@@ -318,17 +298,15 @@ export default function ElectionCountdownWidget() {
 
               {/* Big Days Display */}
               <div
-                className={`my-2 py-2 px-3 rounded-lg text-center ${
-                  isDark
+                className={`my-2 py-2 px-3 rounded-lg text-center ${isDark
                     ? "bg-[#0B1120] border border-slate-800"
                     : "bg-white border border-red-100 shadow-sm"
-                }`}
+                  }`}
               >
                 <div
                   suppressHydrationWarning
-                  className={`text-3xl sm:text-4xl font-black font-mono tracking-tight leading-none ${
-                    isDark ? "text-red-400" : "text-red-600"
-                  }`}
+                  className={`text-3xl sm:text-4xl font-black font-mono tracking-tight leading-none ${isDark ? "text-red-400" : "text-red-600"
+                    }`}
                 >
                   {midCountdown.days}
                 </div>
@@ -339,11 +317,10 @@ export default function ElectionCountdownWidget() {
 
               {/* Ticking sub-units */}
               <div
-                className={`flex justify-center items-center space-x-1.5 text-[11px] font-mono font-bold pt-1.5 border-t ${
-                  isDark
+                className={`flex justify-center items-center space-x-1.5 text-[11px] font-mono font-bold pt-1.5 border-t ${isDark
                     ? "border-slate-800 text-slate-300"
                     : "border-slate-200 text-slate-700"
-                }`}
+                  }`}
               >
                 <span suppressHydrationWarning>{String(midCountdown.hours).padStart(2, "0")}h</span>
                 <span>:</span>
@@ -360,27 +337,24 @@ export default function ElectionCountdownWidget() {
 
             {/* Card 2: Next Presidential */}
             <div
-              className={`p-3 rounded-lg border text-center relative overflow-hidden flex flex-col justify-between h-full ${
-                isDark
+              className={`p-3 rounded-lg border text-center relative overflow-hidden flex flex-col justify-between h-full ${isDark
                   ? "bg-slate-900/70 border-slate-800"
                   : "bg-slate-50 border-slate-200"
-              }`}
+                }`}
             >
               <div>
                 <div className="inline-block px-2 py-0.5 rounded text-[10px] font-extrabold uppercase tracking-wider bg-blue-100 text-blue-700 mb-1">
                   White House
                 </div>
                 <h3
-                  className={`text-sm sm:text-base font-extrabold leading-tight ${
-                    isDark ? "text-white" : "text-slate-900"
-                  }`}
+                  className={`text-sm sm:text-base font-extrabold leading-tight ${isDark ? "text-white" : "text-slate-900"
+                    }`}
                 >
                   {elections.presidential.year} Presidential
                 </h3>
                 <p
-                  className={`text-[10px] sm:text-[11px] font-semibold mt-0.5 ${
-                    isDark ? "text-slate-400" : "text-slate-500"
-                  }`}
+                  className={`text-[10px] sm:text-[11px] font-semibold mt-0.5 ${isDark ? "text-slate-400" : "text-slate-500"
+                    }`}
                 >
                   {elections.presidential.formattedDate}
                 </p>
@@ -388,17 +362,15 @@ export default function ElectionCountdownWidget() {
 
               {/* Big Days Display */}
               <div
-                className={`my-2 py-2 px-3 rounded-lg text-center ${
-                  isDark
+                className={`my-2 py-2 px-3 rounded-lg text-center ${isDark
                     ? "bg-[#0B1120] border border-slate-800"
                     : "bg-white border border-blue-100 shadow-sm"
-                }`}
+                  }`}
               >
                 <div
                   suppressHydrationWarning
-                  className={`text-3xl sm:text-4xl font-black font-mono tracking-tight leading-none ${
-                    isDark ? "text-blue-400" : "text-blue-600"
-                  }`}
+                  className={`text-3xl sm:text-4xl font-black font-mono tracking-tight leading-none ${isDark ? "text-blue-400" : "text-blue-600"
+                    }`}
                 >
                   {presCountdown.days}
                 </div>
@@ -409,11 +381,10 @@ export default function ElectionCountdownWidget() {
 
               {/* Ticking sub-units */}
               <div
-                className={`flex justify-center items-center space-x-1.5 text-[11px] font-mono font-bold pt-1.5 border-t ${
-                  isDark
+                className={`flex justify-center items-center space-x-1.5 text-[11px] font-mono font-bold pt-1.5 border-t ${isDark
                     ? "border-slate-800 text-slate-300"
                     : "border-slate-200 text-slate-700"
-                }`}
+                  }`}
               >
                 <span suppressHydrationWarning>{String(presCountdown.hours).padStart(2, "0")}h</span>
                 <span>:</span>
@@ -452,11 +423,10 @@ function TimeUnit({ value, label, isDark, color }) {
 
   return (
     <div
-      className={`flex flex-col items-center justify-center p-2.5 rounded-lg border ${
-        isDark
+      className={`flex flex-col items-center justify-center p-2.5 rounded-lg border ${isDark
           ? "bg-slate-900/80 border-slate-800"
           : "bg-slate-50 border-slate-200 shadow-sm"
-      }`}
+        }`}
     >
       <span
         suppressHydrationWarning
@@ -477,9 +447,8 @@ function TimeUnit({ value, label, isDark, color }) {
 function WidgetFooter({ isDark, backlink }) {
   return (
     <div
-      className={`px-4 py-2 border-t flex items-center justify-between text-xs shrink-0 ${
-        isDark ? "border-slate-800 bg-[#080D1A]" : "border-slate-200 bg-slate-50"
-      }`}
+      className={`px-4 py-2 border-t flex items-center justify-between text-xs shrink-0 ${isDark ? "border-slate-800 bg-[#080D1A]" : "border-slate-200 bg-slate-50"
+        }`}
     >
       <a
         href={backlink}
@@ -507,9 +476,8 @@ function WidgetFooter({ isDark, backlink }) {
         href="https://pure.news"
         target="_blank"
         rel="noopener noreferrer"
-        className={`flex items-center space-x-1 font-black tracking-tighter uppercase ${
-          isDark ? "text-slate-300 hover:text-white" : "text-slate-700 hover:text-black"
-        }`}
+        className={`flex items-center space-x-1 font-black tracking-tighter uppercase ${isDark ? "text-slate-300 hover:text-white" : "text-slate-700 hover:text-black"
+          }`}
         title="Pure News"
       >
         <span className="text-[11px]">PURE NEWS</span>

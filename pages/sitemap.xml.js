@@ -18,17 +18,17 @@ function generateSiteMap(articles) {
           <priority>1.0</priority>
         </url>
         <url>
-          <loc>https://pure.news/election-countdown</loc>
+          <loc>https://pure.news/election-countdown-clock</loc>
           <lastmod>${formatDate(Date.now() / 1000)}</lastmod>
           <changefreq>hourly</changefreq>
           <priority>0.9</priority>
         </url>
         ${articles
-         .map((article) => {
-           const publicationDate = new Date(
-             article.frontmatter.page_date
-           ).toISOString(); // Ensure ISO format
-           return `
+      .map((article) => {
+        const publicationDate = new Date(
+          article.frontmatter.page_date
+        ).toISOString(); // Ensure ISO format
+        return `
          <url>
              <loc>${`https://pure.news/articles/${article.slug}`}</loc>
              <news:news>
@@ -40,8 +40,8 @@ function generateSiteMap(articles) {
                <news:title>${article.frontmatter.title}</news:title>
              </news:news>
            </url>`;
-         })
-         .join("")}
+      })
+      .join("")}
      </urlset>`;
 }
 
