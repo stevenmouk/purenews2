@@ -40,12 +40,12 @@ const Hero = () => {
       </h1>
 
       <p className="max-w-[600px] text-gray-600 mb-12 mx-auto text-base sm:text-lg font-medium leading-relaxed">
-        Pure News watches global markets, tech trends, and personal finance, and shows you the breaking stories you need to know, directly in your inbox. <span className="font-bold text-black">Launching Q4 2026.</span>
+        Pure News watches global markets, tech trends, and personal finance, delivering the critical breaking stories you need to know, directly to your inbox daily.
       </p>
 
       <div className="w-full max-w-md mx-auto">
         <p className="text-xs font-mono text-black font-bold uppercase tracking-wider mb-4">
-          Join the exclusive beta waitlist
+          Sign up now for our free daily newsletter
         </p>
 
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 justify-center items-center">
@@ -58,9 +58,9 @@ const Hero = () => {
           />
           <button
             type="submit"
-            className="w-full sm:w-auto px-6 py-3 bg-[#1b7340] text-white font-bold rounded-md hover:bg-[#155b33] transition-colors whitespace-nowrap text-sm"
+            className="w-full sm:w-auto px-6 py-3 bg-[#1b7340] text-white font-bold rounded-md hover:bg-[#155b33] transition-colors whitespace-nowrap text-sm shadow-sm"
           >
-            Get Updates
+            Sign Up Now
           </button>
         </form>
 
@@ -72,7 +72,7 @@ const Hero = () => {
         )}
 
         <p className="mt-6 text-xs text-gray-500 font-mono">
-          Be first to know when Pure News launches.
+          Get the top stories delivered to your inbox every morning. Unsubscribe anytime.
         </p>
       </div>
     </div>

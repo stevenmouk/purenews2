@@ -1,6 +1,6 @@
+import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Head from "next/head";
-import Link from "next/link";
 import Parser from "rss-parser";
 
 export default function Home({ newsItems }) {
@@ -17,23 +17,7 @@ export default function Home({ newsItems }) {
       </Head>
 
       <main className="w-full min-h-screen flex flex-col">
-        <header className="w-full px-6 py-6 flex justify-between items-center max-w-7xl mx-auto">
-          <div className="font-extrabold text-2xl tracking-tighter text-black uppercase">
-            PURE NEWS
-          </div>
-          <div className="flex items-center space-x-6">
-            <Link
-              href="/election-countdown"
-              className="text-sm font-bold text-gray-800 hover:text-[#1b7340] transition-colors flex items-center space-x-1.5"
-            >
-              <span className="w-2 h-2 rounded-full bg-red-600 animate-pulse"></span>
-              <span>Election Clocks</span>
-            </Link>
-            <a href="mailto:stevenmouk@gmail.com" className="text-sm font-bold text-gray-900 hover:text-[#1b7340] transition-colors">
-              Contact Us
-            </a>
-          </div>
-        </header>
+        <Header />
 
         <div className="flex-1 flex flex-col items-center justify-center -mt-10 py-12">
           <Hero />

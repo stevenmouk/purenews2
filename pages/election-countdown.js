@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Header from "@/components/Header";
 import {
   getNextElections,
   getTimeRemaining,
@@ -62,7 +63,7 @@ export default function ElectionCountdownPage() {
   const embedCode = `<!-- Begin Pure News Election Countdown Widget -->
 <iframe src="${widgetUrl}" width="${currentDims.width}" height="${currentDims.height}" style="border:0;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.08);" title="U.S. Election Countdown Clock"></iframe>
 <div style="text-align:center;font-size:12px;font-family:system-ui,-apple-system,sans-serif;color:#64748b;margin-top:6px;">
-  Live Election Countdown by <a href="https://pure.news/election-countdown" target="_blank" rel="noopener" style="color:#1b7340;text-decoration:none;font-weight:600;">Pure News</a>
+  Live <a href="https://pure.news/election-countdown" target="_blank" rel="noopener" style="color:#1b7340;text-decoration:none;font-weight:600;">Election Countdown Clock</a> by Pure News
 </div>
 <!-- End Pure News Election Countdown Widget -->`;
 
@@ -77,27 +78,40 @@ export default function ElectionCountdownPage() {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans">
       <Head>
-        <title>
-          U.S. Election Countdown Clocks | {elections.midterm.year} Midterms &amp; {elections.presidential.year} Presidential | Pure News
-        </title>
+        <title>{`Election Countdown Clock | ${elections.midterm.year} Midterms & ${elections.presidential.year} Presidential | Pure News`}</title>
         <meta
           name="description"
-          content={`Live countdown clocks to the upcoming ${elections.midterm.year} Midterm Elections and ${elections.presidential.year} Presidential Election. Real-time updates, official dates, and free embeddable election widgets for your website.`}
+          content={`Live election countdown clock tracking the next U.S. Midterms and Presidential election. Embed a free real-time election countdown clock widget on your website with automatic cycle updates.`}
+        />
+        <meta
+          name="keywords"
+          content="election countdown clock, presidential election countdown clock, midterm election countdown clock, us election countdown clock, live election countdown clock, election timer, embed election countdown clock, election clock widget"
         />
         <link rel="canonical" href="https://pure.news/election-countdown" />
 
         {/* OpenGraph */}
         <meta
           property="og:title"
-          content={`U.S. Election Countdown Clocks | ${elections.midterm.year} Midterms & ${elections.presidential.year} Presidential | Pure News`}
+          content={`Election Countdown Clock | ${elections.midterm.year} Midterms & ${elections.presidential.year} Presidential`}
         />
         <meta
           property="og:description"
-          content={`Count down the days, hours, and minutes until the ${elections.midterm.year} Midterm and ${elections.presidential.year} Presidential elections. Embed live countdown widgets with real-time updates.`}
+          content="Live election countdown clock tracking the days, hours, and minutes until the next U.S. Midterms and Presidential election. Free embeddable election widgets."
         />
         <meta property="og:url" content="https://pure.news/election-countdown" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Pure News" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content={`Election Countdown Clock | ${elections.midterm.year} Midterms & ${elections.presidential.year} Presidential`}
+        />
+        <meta
+          name="twitter:description"
+          content="Track the exact days, hours, and seconds until the next U.S. elections with our live election countdown clock."
+        />
 
         {/* Favicons */}
         <link rel="icon" type="image/png" href="/fave_pac/favicon-96x96.png" sizes="96x96" />
@@ -112,45 +126,112 @@ export default function ElectionCountdownPage() {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "WebPage",
-              name: "U.S. Election Countdown Clocks",
-              description:
-                "Official countdown clocks to the next U.S. Midterm and Presidential elections.",
-              publisher: {
-                "@type": "Organization",
-                name: "Pure News",
-                url: "https://pure.news",
-              },
-              mainEntity: [
+              "@graph": [
+                {
+                  "@type": "WebPage",
+                  "@id": "https://pure.news/election-countdown#webpage",
+                  "url": "https://pure.news/election-countdown",
+                  "name": "Election Countdown Clock",
+                  "description":
+                    "Official live election countdown clock to the next U.S. Midterm and Presidential elections.",
+                  "publisher": {
+                    "@type": "Organization",
+                    "name": "Pure News",
+                    "url": "https://pure.news",
+                  },
+                },
+                {
+                  "@type": "WebApplication",
+                  "@id": "https://pure.news/election-countdown#app",
+                  "name": "Election Countdown Clock",
+                  "url": "https://pure.news/election-countdown",
+                  "applicationCategory": "UtilityApplication",
+                  "operatingSystem": "All",
+                  "description":
+                    "Live, embeddable election countdown clock tracking the exact time remaining until the next U.S. elections.",
+                  "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD",
+                  },
+                },
                 {
                   "@type": "Event",
-                  name: elections.midterm.name,
-                  startDate: elections.midterm.date.toISOString(),
-                  eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-                  eventStatus: "https://schema.org/EventScheduled",
-                  location: {
+                  "name": elections.midterm.name,
+                  "startDate": elections.midterm.date.toISOString(),
+                  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "location": {
                     "@type": "Place",
-                    name: "United States",
-                    address: {
+                    "name": "United States",
+                    "address": {
                       "@type": "PostalAddress",
-                      addressCountry: "US",
+                      "addressCountry": "US",
                     },
                   },
                 },
                 {
                   "@type": "Event",
-                  name: elections.presidential.name,
-                  startDate: elections.presidential.date.toISOString(),
-                  eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-                  eventStatus: "https://schema.org/EventScheduled",
-                  location: {
+                  "name": elections.presidential.name,
+                  "startDate": elections.presidential.date.toISOString(),
+                  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+                  "eventStatus": "https://schema.org/EventScheduled",
+                  "location": {
                     "@type": "Place",
-                    name: "United States",
-                    address: {
+                    "name": "United States",
+                    "address": {
                       "@type": "PostalAddress",
-                      addressCountry: "US",
+                      "addressCountry": "US",
                     },
                   },
+                },
+                {
+                  "@type": "FAQPage",
+                  "mainEntity": [
+                    {
+                      "@type": "Question",
+                      "name": "What is the Election Countdown Clock?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text":
+                          "The Election Countdown Clock is a real-time ticker that tracks the exact days, hours, minutes, and seconds remaining until the next U.S. federal elections, including the Midterm and Presidential elections.",
+                      },
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "When are the next U.S. Midterm Elections?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": `The next U.S. Midterm Elections will take place on ${elections.midterm.formattedDate}.`,
+                      },
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "When is the next U.S. Presidential Election?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": `The next U.S. Presidential Election will take place on ${elections.presidential.formattedDate}.`,
+                      },
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Can I embed this election countdown clock on my website for free?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text":
+                          "Yes! The Pure News election countdown clock widget is completely free to embed on WordPress, Squarespace, Wix, Ghost, Substack, or any custom website.",
+                      },
+                    },
+                    {
+                      "@type": "Question",
+                      "name": "Does the election countdown clock automatically update after an election?",
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text":
+                          "Yes. Our election countdown clock uses an automated rollover formula under 2 U.S. Code § 7 that instantly advances to the next election cycle once Election Day passes.",
+                      },
+                    },
+                  ],
                 },
               ],
             }),
@@ -159,33 +240,7 @@ export default function ElectionCountdownPage() {
       </Head>
 
       {/* Main Header / Nav */}
-      <header className="w-full px-6 py-6 flex justify-between items-center max-w-7xl mx-auto border-b border-gray-100">
-        <div className="flex items-center space-x-6">
-          <Link
-            href="/"
-            className="font-extrabold text-2xl tracking-tighter text-black uppercase hover:opacity-80 transition-opacity"
-          >
-            PURE NEWS
-          </Link>
-          <span className="hidden sm:inline-block text-xs font-mono px-2 py-0.5 rounded bg-gray-100 text-gray-600 uppercase font-semibold">
-            Election Hub
-          </span>
-        </div>
-        <div className="flex items-center space-x-6">
-          <Link
-            href="/about-us"
-            className="text-sm font-bold text-gray-600 hover:text-black transition-colors"
-          >
-            About Us
-          </Link>
-          <a
-            href="mailto:stevenmouk@gmail.com"
-            className="text-sm font-bold text-gray-900 hover:text-[#1b7340] transition-colors"
-          >
-            Contact
-          </a>
-        </div>
-      </header>
+      <Header />
 
       {/* Hero Headline Section */}
       <section className="pt-12 pb-16 px-6 max-w-6xl mx-auto text-center">
@@ -200,13 +255,13 @@ export default function ElectionCountdownPage() {
         </div>
 
         <h1 className="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight text-gray-950 leading-[1.08] max-w-4xl mx-auto">
-          Count Down to the <span className="text-[#1b7340]">Next U.S. Elections</span>
+          U.S. <span className="text-[#1b7340]">Election Countdown Clock</span>
         </h1>
 
         <p className="mt-6 text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto font-medium leading-relaxed">
-          Track the remaining time until the {elections.midterm.year} Midterm Elections and{" "}
-          {elections.presidential.year} Presidential Election. Real-time tickers automatically update
-          as each cycle passes.
+          Track the exact days, hours, minutes, and seconds until the next U.S. elections with our live
+          election countdown clock. Real-time tickers automatically update for the {elections.midterm.year} Midterm
+          Elections and {elections.presidential.year} Presidential Election as each cycle passes.
         </p>
 
         {/* DUAL LIVE COUNTDOWN HERO CARDS */}
@@ -353,10 +408,10 @@ export default function ElectionCountdownPage() {
               Free Webmaster Tool
             </span>
             <h2 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight">
-              Embed a Countdown Clock on Your Website or Blog
+              Embed an Election Countdown Clock on Your Website or Blog
             </h2>
             <p className="mt-4 text-slate-300 text-base sm:text-lg leading-relaxed">
-              Copy the iframe code below to easily display a live election clock on your site. The
+              Copy the iframe code below to easily display a live election countdown clock on your site. The
               widget runs completely automatically and rolls over as upcoming election dates pass.
             </p>
           </div>
@@ -375,11 +430,10 @@ export default function ElectionCountdownPage() {
                     <button
                       key={key}
                       onClick={() => setSelectedType(key)}
-                      className={`px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
-                        selectedType === key
-                          ? "bg-[#1b7340] text-white shadow-md"
-                          : "bg-slate-700 text-slate-300 hover:bg-slate-600"
-                      }`}
+                      className={`px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${selectedType === key
+                        ? "bg-[#1b7340] text-white shadow-md"
+                        : "bg-slate-700 text-slate-300 hover:bg-slate-600"
+                        }`}
                     >
                       {item.label}
                     </button>
@@ -395,21 +449,19 @@ export default function ElectionCountdownPage() {
                 <div className="inline-flex rounded-lg bg-slate-700 p-1">
                   <button
                     onClick={() => setSelectedTheme("light")}
-                    className={`px-4 py-1.5 rounded-md text-xs font-bold transition-all ${
-                      selectedTheme === "light"
-                        ? "bg-white text-slate-900 shadow-sm"
-                        : "text-slate-300 hover:text-white"
-                    }`}
+                    className={`px-4 py-1.5 rounded-md text-xs font-bold transition-all ${selectedTheme === "light"
+                      ? "bg-white text-slate-900 shadow-sm"
+                      : "text-slate-300 hover:text-white"
+                      }`}
                   >
                     Light
                   </button>
                   <button
                     onClick={() => setSelectedTheme("dark")}
-                    className={`px-4 py-1.5 rounded-md text-xs font-bold transition-all ${
-                      selectedTheme === "dark"
-                        ? "bg-slate-900 text-white shadow-sm"
-                        : "text-slate-300 hover:text-white"
-                    }`}
+                    className={`px-4 py-1.5 rounded-md text-xs font-bold transition-all ${selectedTheme === "dark"
+                      ? "bg-slate-900 text-white shadow-sm"
+                      : "text-slate-300 hover:text-white"
+                      }`}
                   >
                     Dark
                   </button>
@@ -458,36 +510,7 @@ export default function ElectionCountdownPage() {
               {/* Code Snippet & Copy Action */}
               <div className="lg:col-span-6 flex flex-col justify-between h-full">
                 <div>
-                  <div className="flex flex-col sm:flex-row sm:items-center justify-between text-xs font-bold text-slate-400 mb-3 gap-2">
-                    <span>Embed HTML Code</span>
-                    {isLocal && (
-                      <div className="flex items-center space-x-1.5 bg-slate-900 px-2 py-1 rounded-md border border-slate-700">
-                        <span className="text-[10px] uppercase text-slate-400">Target:</span>
-                        <button
-                          type="button"
-                          onClick={() => setUseLocalUrl(false)}
-                          className={`px-2 py-0.5 rounded text-[11px] font-bold transition-all ${
-                            !useLocalUrl
-                              ? "bg-[#1b7340] text-white"
-                              : "text-slate-400 hover:text-white"
-                          }`}
-                        >
-                          pure.news (Live)
-                        </button>
-                        <button
-                          type="button"
-                          onClick={() => setUseLocalUrl(true)}
-                          className={`px-2 py-0.5 rounded text-[11px] font-bold transition-all ${
-                            useLocalUrl
-                              ? "bg-[#1b7340] text-white"
-                              : "text-slate-400 hover:text-white"
-                          }`}
-                        >
-                          Localhost ({localOrigin ? new URL(localOrigin).port : "3001"})
-                        </button>
-                      </div>
-                    )}
-                  </div>
+
 
                   <div className="relative">
                     <textarea
@@ -502,11 +525,10 @@ export default function ElectionCountdownPage() {
                 <div className="mt-4">
                   <button
                     onClick={handleCopy}
-                    className={`w-full py-3.5 px-6 rounded-xl font-extrabold text-sm flex items-center justify-center space-x-2 transition-all ${
-                      copied
-                        ? "bg-emerald-600 text-white shadow-lg shadow-emerald-900/30"
-                        : "bg-[#1b7340] text-white hover:bg-[#155b33] shadow-lg shadow-green-950/40"
-                    }`}
+                    className={`w-full py-3.5 px-6 rounded-xl font-extrabold text-sm flex items-center justify-center space-x-2 transition-all ${copied
+                      ? "bg-emerald-600 text-white shadow-lg shadow-emerald-900/30"
+                      : "bg-[#1b7340] text-white hover:bg-[#155b33] shadow-lg shadow-green-950/40"
+                      }`}
                   >
                     {copied ? (
                       <>
@@ -551,7 +573,7 @@ export default function ElectionCountdownPage() {
                   </p>
 
                   <div className="flex items-center justify-center space-x-2 mt-4 pt-3 border-t border-slate-700/60 text-xs">
-                    <a
+                    {/* <a
                       href="/test-embed.html"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -561,10 +583,81 @@ export default function ElectionCountdownPage() {
                       <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                       </svg>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* WHAT / WHY / HOW DOES IT WORK (PRIMARY SEO CONTENT SECTION) */}
+      <section className="py-16 px-6 max-w-4xl mx-auto border-b border-gray-100">
+        <div className="space-y-10">
+          {/* What? */}
+          <div className="bg-slate-50/80 rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm">
+            <h2 className="text-2xl sm:text-3xl font-black text-gray-950 tracking-tight mb-4">
+              What?
+            </h2>
+            <div className="text-gray-700 leading-relaxed space-y-4 text-base sm:text-lg">
+              <p>
+                This election countdown clock helps you if you want to know the exact time remaining
+                until the next United States elections. Check the live election countdown clock anytime
+                to see the days, hours, minutes, and seconds remaining until Election Day. If you run a
+                political blog, news site, or campaign page and want to display the clock for your
+                readers, click on any widget style you like, customize the theme, and copy the free
+                embed code to feature a live election countdown clock directly on your website.
+              </p>
+              <p>
+                Whether you&apos;re tracking the upcoming {elections.midterm.year} midterm elections or
+                counting down to the {elections.presidential.year} presidential election, this election
+                countdown clock will be perfect for you. All you have to do is check the timer above to
+                see the time remaining or copy the widget snippet to share real-time election updates
+                with your audience.
+              </p>
+            </div>
+          </div>
+
+          {/* Why? */}
+          <div className="bg-slate-50/80 rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm">
+            <h2 className="text-2xl sm:text-3xl font-black text-gray-950 tracking-tight mb-4">
+              Why?
+            </h2>
+            <div className="text-gray-700 leading-relaxed space-y-4 text-base sm:text-lg">
+              <p>
+                Ever struggle to remember when the next major elections are happening? We have. Between
+                midterm cycles, presidential races, voter registration deadlines, and shifting campaign
+                calendars, keeping track of federal election dates can be frustrating. To prevent this,
+                we calculated the official election dates under federal law and put them into one simple,
+                live election countdown clock. We tried to make it as simple as possible for voters,
+                journalists, and educators by displaying real-time days, hours, and seconds with zero
+                clutter. This allows people to see exact election timelines at a glance and plan ahead
+                for when they cast their ballot.
+              </p>
+              <p>
+                This tool allows you to track deadlines across any federal election cycle. We support
+                presidential election countdown clocks, midterm election countdown clocks, or combined
+                views that track both races simultaneously. This election countdown clock allows you to
+                stay updated with live second-by-second accuracy and never miss an election milestone.
+              </p>
+            </div>
+          </div>
+
+          {/* How does it work? */}
+          <div className="bg-slate-50/80 rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm">
+            <h2 className="text-2xl sm:text-3xl font-black text-gray-950 tracking-tight mb-4">
+              How does it work?
+            </h2>
+            <div className="text-gray-700 leading-relaxed space-y-4 text-base sm:text-lg">
+              <p>
+                The idea is pretty simple, we calculated the legally mandated dates for every upcoming
+                federal election under 2 U.S. Code § 7 and made it easy to follow in real time. All the
+                user has to do is visit this page to view the live election countdown clock, or copy the
+                responsive widget snippet to embed it on WordPress, Wix, Squarespace, or Substack. From
+                helping you follow congressional races to watching the clock tick down to the next
+                presidential election, we have it all.
+              </p>
             </div>
           </div>
         </div>
@@ -644,7 +737,7 @@ export default function ElectionCountdownPage() {
                     key={item.year}
                     className={
                       item.year === elections.midterm.year ||
-                      item.year === elections.presidential.year
+                        item.year === elections.presidential.year
                         ? "bg-green-50/60 font-semibold"
                         : "hover:bg-gray-50 transition-colors"
                     }
@@ -653,18 +746,17 @@ export default function ElectionCountdownPage() {
                       {item.year}
                       {(item.year === elections.midterm.year ||
                         item.year === elections.presidential.year) && (
-                        <span className="ml-2 inline-block px-2 py-0.5 text-[10px] rounded bg-[#1b7340] text-white font-sans uppercase">
-                          Active Clock
-                        </span>
-                      )}
+                          <span className="ml-2 inline-block px-2 py-0.5 text-[10px] rounded bg-[#1b7340] text-white font-sans uppercase">
+                            Active Clock
+                          </span>
+                        )}
                     </td>
                     <td className="py-3.5 px-4">
                       <span
-                        className={`inline-block px-2.5 py-0.5 rounded-full text-xs font-bold ${
-                          item.type === "Presidential"
-                            ? "bg-blue-100 text-blue-800"
-                            : "bg-red-100 text-red-800"
-                        }`}
+                        className={`inline-block px-2.5 py-0.5 rounded-full text-xs font-bold ${item.type === "Presidential"
+                          ? "bg-blue-100 text-blue-800"
+                          : "bg-red-100 text-red-800"
+                          }`}
                       >
                         {item.type}
                       </span>
@@ -685,6 +777,17 @@ export default function ElectionCountdownPage() {
           </h2>
 
           <div className="space-y-6">
+            <div className="border border-gray-200 rounded-xl p-6 bg-white">
+              <h3 className="font-extrabold text-lg text-gray-900 mb-2">
+                What is an election countdown clock?
+              </h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                An election countdown clock is a real-time digital timer that calculates the exact days,
+                hours, minutes, and seconds remaining until an upcoming election. The Pure News election
+                countdown clock automatically counts down to the next U.S. Midterms and Presidential election.
+              </p>
+            </div>
+
             <div className="border border-gray-200 rounded-xl p-6 bg-white">
               <h3 className="font-extrabold text-lg text-gray-900 mb-2">
                 When are the next U.S. Midterm Elections?
@@ -717,6 +820,17 @@ export default function ElectionCountdownPage() {
                 Yes! The Pure News countdown widgets are completely free for journalists, bloggers,
                 educators, and political organizations. Simply copy the embed code above and paste it
                 into your site's HTML. The backlink credit helps support our independent journalism.
+              </p>
+            </div>
+
+            <div className="border border-gray-200 rounded-xl p-6 bg-white">
+              <h3 className="font-extrabold text-lg text-gray-900 mb-2">
+                Does the election countdown clock automatically update after an election?
+              </h3>
+              <p className="text-gray-600 leading-relaxed text-sm">
+                Yes. Our election countdown clock is engineered with an automated rollover algorithm
+                based on 2 U.S. Code § 7. The moment an election passes, the clock automatically updates
+                to count down to the next election cycle without requiring any manual changes.
               </p>
             </div>
           </div>
